@@ -10,16 +10,16 @@
 %% =======================
 %% Benchmark configuration
 
-mode() -> {ok, {rate, 5}}.
+mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 5}.
+concurrent_workers() -> {ok, 3}.
 %% Test duration (minutes)
 duration() -> {ok, 5}.
 %% Operations (and associated mix)
 operations() ->
-    {ok, [{get_version, 1},
+    {ok, [{get_version, 5},
       {update, 5},
-      {commit, 2}
+      {commit, 5}
     ]}.
 
 %% Base test output directory
@@ -52,18 +52,18 @@ new(Id) ->
 run(get_version, KeyGen, _ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
   Key = KeyGen(),
   Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn]),
-  io:format("RPC Result: ~p ~n",[Result]),
+  %io:format("RPC Result: ~p ~n",[Result]),
   {ok, State};
 
 run(update, KeyGen, ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
   Key = KeyGen(),
   Result = rpc:call(Node,Mod,update,[Key, antidote_crdt_counter_pn,txnId, 1]),
-  io:format("RPC Result: ~p ~n",[Result]),
+  %io:format("RPC Result: ~p ~n",[Result]),
   {ok, State};
 run(commit, KeyGen, ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
   Key = KeyGen(),
   Result = rpc:call(Node,Mod,commit,[[Key],txnId,{1, 1234}]),
-  io:format("RPC Result: ~p ~n",[Result]),
+  %io:format("RPC Result: ~p ~n",[Result]),
   {ok, State}.
 
 terminate(_, _) -> ok.

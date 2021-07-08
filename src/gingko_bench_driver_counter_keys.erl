@@ -10,11 +10,11 @@
 %% =======================
 %% Benchmark configuration
 
-mode() -> {ok, {rate, 5}}.
+mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 5}.
+concurrent_workers() -> {ok, 2}.
 %% Test duration (minutes)
-duration() -> {ok, 30}.
+duration() -> {ok, 1}.
 %% Operations (and associated mix)
 operations() ->
     {ok, [{get_version, 1}
@@ -52,17 +52,17 @@ run(get_version, KeyGen, _ValueGen, State = #state{node =Node,id = Id, module =M
   UpdatedClock = Clock+1,
   Key = Clock,
   Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn, vectorclock:set(mydc,Clock,vectorclock:new()), vectorclock:set(mydc,UpdatedClock,vectorclock:new())]),
-  io:format("Worker: ~p Clock: ~p RPC Result: ~p ~n",[Id, Clock, Result]),
+  %io:format("Worker: ~p Clock: ~p RPC Result: ~p ~n",[Id, Clock, Result]),
   {ok, State#state{clock = UpdatedClock}};
 
 run(update, KeyGen, ValueGen, State = #state{node =Node, id = Id, module =Mod, clock = Clock}) ->
-  io:format("Worker: ~p Clock: ~p Update ~n",[Id, Clock]),
+  %io:format("Worker: ~p Clock: ~p Update ~n",[Id, Clock]),
   Key = counter_key,
   Result = rpc:call(Node,Mod,update,[Key, antidote_crdt_counter_pn,txnId, 1]),
 
   {ok, State};
 run(commit, KeyGen, ValueGen, State = #state{node =Node,id = Id,  module =Mod, clock = Clock}) ->
-  io:format("Worker: ~p Clock: ~p Commit ~n",[Id, Clock]),
+  %io:format("Worker: ~p Clock: ~p Commit ~n",[Id, Clock]),
   UpdatedClock = Clock,
   Key = counter_key,
   Result = rpc:call(Node,Mod,commit,[[Key],txnId,{1, 1234}, vectorclock:set(mydc,Clock, vectorclock:new())]),
