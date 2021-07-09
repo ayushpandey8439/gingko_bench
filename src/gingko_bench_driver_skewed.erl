@@ -10,16 +10,16 @@
 %% =======================
 %% Benchmark configuration
 
-mode() -> {ok, {rate, 5}}.
+mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 5}.
+concurrent_workers() -> {ok, 2}.
 %% Test duration (minutes)
 duration() -> {ok, 5}.
 %% Operations (and associated mix)
 operations() ->
     {ok, [{get_version, 1},
-      {update, 5},
-      {commit, 2}
+      {update, 1},
+      {commit, 1}
     ]}.
 
 %% Base test output directory
