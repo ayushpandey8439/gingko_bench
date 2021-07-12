@@ -1,0 +1,9225 @@
+events: Time
+summary: 15776643
+fl=group
+fn={group,server_loop,3}
+1 130
+cfl=group
+cfn={group,io_request,6}
+calls=8 1
+1 15755114
+cfl=pseudo
+cfn=suspend
+calls=15 1
+1 21251
+cfl=group
+cfn={group,io_reply,3}
+calls=2 1
+1 9
+cfl=group
+cfn={group,server_loop,3}
+calls=12 1
+1 0
+fl=group
+fn={group,io_request,6}
+1 56
+cfl=group
+cfn={group,io_request,5}
+calls=8 1
+1 15755026
+cfl=group
+cfn={group,io_reply,3}
+calls=6 1
+1 32
+fl=group
+fn={group,io_request,5}
+1 50
+cfl=group
+cfn={group,get_chars_line,8}
+calls=2 1
+1 15754644
+cfl=group
+cfn={group,get_tty_geometry,1}
+calls=2 1
+1 199
+cfl=group
+cfn={group,getopts,2}
+calls=2 1
+1 98
+cfl=group
+cfn={group,io_requests,5}
+calls=2 1
+1 60
+cfl=group
+cfn={group,send_drv,2}
+calls=4 1
+1 10
+cfl=unicode
+cfn={unicode,characters_to_binary,2}
+calls=4 1
+1 8
+fl=group
+fn={group,get_chars_line,8}
+1 10
+cfl=group
+cfn={group,get_chars_loop,9}
+calls=2 1
+1 15754235
+cfl=group
+cfn={group,prompt_bytes,2}
+calls=2 1
+1 399
+fl=group
+fn={group,get_chars_loop,9}
+1 19
+cfl=group
+cfn={group,get_line,5}
+calls=2 1
+1 15752423
+cfl=group
+cfn={group,get_chars_apply,10}
+calls=2 1
+1 1793
+fl=group
+fn={group,get_line,5}
+1 27
+cfl=group
+cfn={group,get_line1,5}
+calls=2 1
+1 15752349
+cfl=edlin
+cfn={edlin,edit_line,2}
+calls=2 1
+1 23
+cfl=group
+cfn={group,send_drv_reqs,2}
+calls=2 1
+1 13
+cfl=edlin
+cfn={edlin,start,1}
+calls=2 1
+1 7
+cfl=group
+cfn={group,new_stack,1}
+calls=2 1
+1 4
+fl=group
+fn={group,get_line1,5}
+1 376
+cfl=group
+cfn={group,more_data,6}
+calls=36 1
+1 15752337
+cfl=group
+cfn={group,'-server/3-fun-0-',1}
+calls=3 1
+1 24592
+cfl=lists
+cfn={lists,sublist,3}
+calls=3 1
+1 660
+cfl=group
+cfn={group,save_line_buffer,2}
+calls=2 1
+1 500
+cfl=edlin
+cfn={edlin,erase_line,1}
+calls=3 1
+1 442
+cfl=edlin
+cfn={edlin,edit_line1,2}
+calls=3 1
+1 373
+cfl=group
+cfn={group,send_drv_reqs,2}
+calls=50 1
+1 312
+cfl=edlin
+cfn={edlin,edit_line,2}
+calls=3 1
+1 112
+cfl=edlin
+cfn={edlin,current_line,1}
+calls=3 1
+1 83
+cfl=group
+cfn={group,append,3}
+calls=3 1
+1 21
+cfl=edlin
+cfn={edlin,start,1}
+calls=3 1
+1 16
+cfl=group
+cfn={group,get_lines,1}
+calls=2 1
+1 14
+cfl=group
+cfn={group,up_stack,1}
+calls=3 1
+1 12
+cfl=edlin
+cfn={edlin,prompt,1}
+calls=3 1
+1 10
+cfl=group
+cfn={group,save_line,2}
+calls=3 1
+1 8
+cfl=group
+cfn={group,send_drv,2}
+calls=1 1
+1 2
+cfl=group
+cfn={group,get_line1,5}
+calls=6 1
+1 0
+fl=group
+fn={group,more_data,6}
+1 574
+cfl=pseudo
+cfn=suspend
+calls=36 1
+1 15722334
+cfl=edlin
+cfn={edlin,edit_line,2}
+calls=36 1
+1 1838
+cfl=group
+cfn={group,get_line_timeout,1}
+calls=36 1
+1 70
+cfl=group
+cfn={group,get_line1,5}
+calls=36 1
+1 0
+fl=pseudo
+fn=suspend
+1 15744209
+fl=group
+fn={group,'-server/3-fun-0-',1}
+1 23
+cfl=edlin_expand
+cfn={edlin_expand,expand,1}
+calls=3 1
+1 24569
+fl=edlin_expand
+fn={edlin_expand,expand,1}
+1 36
+cfl=edlin_expand
+cfn={edlin_expand,expand_function_name,3}
+calls=2 1
+1 24096
+cfl=edlin
+cfn={edlin,over_word,3}
+calls=5 1
+1 353
+cfl=edlin_expand
+cfn={edlin_expand,expand_function,1}
+calls=1 1
+1 74
+cfl=edlin_expand
+cfn={edlin_expand,over_white,3}
+calls=5 1
+1 9
+cfl=edlin_expand
+cfn={edlin_expand,expand_module_name,2}
+calls=1 1
+1 1
+fl=edlin_expand
+fn={edlin_expand,expand_function_name,3}
+1 24
+cfl=edlin_expand
+cfn={edlin_expand,match,3}
+calls=2 1
+1 23505
+cfl=edlin_expand
+cfn={edlin_expand,to_atom,1}
+calls=2 1
+1 296
+cfl=fprof
+cfn={fprof,module_info,1}
+calls=2 1
+1 264
+cfl=erlang
+cfn={erlang,module_loaded,1}
+calls=2 1
+1 7
+fl=edlin_expand
+fn={edlin_expand,match,3}
+1 52
+cfl=edlin_expand
+cfn={edlin_expand,'-match/3-lc$^0/1-0-',2}
+calls=2 1
+1 22705
+cfl=edlin_expand
+cfn={edlin_expand,longest_common_head,1}
+calls=2 1
+1 500
+cfl=lists
+cfn={lists,sort,1}
+calls=2 1
+1 76
+cfl=string
+cfn={string,slice,2}
+calls=2 1
+1 58
+cfl=string
+cfn={string,length,1}
+calls=2 1
+1 56
+cfl=edlin_expand
+cfn={edlin_expand,'-match/3-lc$^1/1-1-',1}
+calls=2 1
+1 55
+cfl=erlang
+cfn={erlang,'++',2}
+calls=1 1
+1 3
+fl=edlin_expand
+fn={edlin_expand,'-match/3-lc$^0/1-0-',2}
+1 578
+cfl=edlin_expand
+cfn={edlin_expand,flat_write,1}
+calls=76 1
+1 21878
+cfl=lists
+cfn={lists,prefix,2}
+calls=76 1
+1 249
+cfl=edlin_expand
+cfn={edlin_expand,'-match/3-lc$^0/1-0-',2}
+calls=76 1
+1 0
+fl=edlin_expand
+fn={edlin_expand,flat_write,1}
+1 411
+cfl=io_lib
+cfn={io_lib,fwrite,2}
+calls=76 1
+1 17942
+cfl=lists
+cfn={lists,flatten,1}
+calls=76 1
+1 3525
+fl=io_lib
+fn={io_lib,format,2}
+1 351
+cfl=io_lib_format
+cfn={io_lib_format,fwrite,2}
+calls=78 1
+1 17645
+fl=io_lib
+fn={io_lib,fwrite,2}
+1 232
+cfl=io_lib
+cfn={io_lib,format,2}
+calls=76 1
+1 17710
+fl=io_lib_format
+fn={io_lib_format,fwrite,2}
+1 368
+cfl=io_lib_format
+cfn={io_lib_format,build,1}
+calls=78 1
+1 13662
+cfl=io_lib_format
+cfn={io_lib_format,scan,2}
+calls=78 1
+1 3615
+fl=io_lib_format
+fn={io_lib_format,build,1}
+1 188
+cfl=io_lib_format
+cfn={io_lib_format,build,2}
+calls=78 1
+1 13474
+fl=io_lib_format
+fn={io_lib_format,build,2}
+1 943
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=78 1
+1 10487
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=78 1
+1 833
+cfl=io_lib_format
+cfn={io_lib_format,count_small,1}
+calls=78 1
+1 553
+cfl=io_lib_format
+cfn={io_lib_format,get_option,3}
+calls=78 1
+1 507
+cfl=io_lib_format
+cfn={io_lib_format,sub,2}
+calls=78 1
+1 151
+fl=io_lib_format
+fn={io_lib_format,build_limited,5}
+1 812
+cfl=io_lib_format
+cfn={io_lib_format,control_limited,10}
+calls=78 1
+1 9502
+cfl=io_lib_format
+cfn={io_lib_format,decr_pc,2}
+calls=78 1
+1 173
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=78 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,control_limited,10}
+1 503
+cfl=io_lib
+cfn={io_lib,write,2}
+calls=76 1
+1 8764
+cfl=io_lib_format
+cfn={io_lib_format,term,5}
+calls=76 1
+1 182
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,3}
+calls=2 1
+1 44
+cfl=io_lib_format
+cfn={io_lib_format,uniconv,1}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,string,6}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,limit_field,2}
+calls=2 1
+1 3
+fl=io_lib
+fn={io_lib,write,2}
+1 954
+cfl=io_lib
+cfn={io_lib,write1,3}
+calls=76 1
+1 6099
+cfl=io_lib
+cfn={io_lib,get_option,3}
+calls=228 1
+1 1537
+cfl=epp
+cfn={epp,default_encoding,0}
+calls=76 1
+1 174
+fl=io_lib
+fn={io_lib,write1,3}
+1 219
+cfl=io_lib
+cfn={io_lib,write_atom,1}
+calls=76 1
+1 5880
+fl=io_lib
+fn={io_lib,write_atom,1}
+1 418
+cfl=io_lib
+cfn={io_lib,write_possibly_quoted_atom,2}
+calls=76 1
+1 5462
+fl=io_lib
+fn={io_lib,write_possibly_quoted_atom,2}
+1 517
+cfl=io_lib
+cfn={io_lib,quote_atom,2}
+calls=76 1
+1 4358
+cfl=io_lib
+cfn={io_lib,'-fun.write_string/2-',2}
+calls=2 1
+1 371
+cfl=erlang
+cfn={erlang,atom_to_list,1}
+calls=76 1
+1 216
+fl=io_lib
+fn={io_lib,quote_atom,2}
+1 534
+cfl=io_lib
+cfn={io_lib,name_chars,1}
+calls=74 1
+1 3646
+cfl=erl_scan
+cfn={erl_scan,reserved_word,1}
+calls=76 1
+1 178
+fl=io_lib
+fn={io_lib,name_chars,1}
+1 2621
+cfl=io_lib
+cfn={io_lib,name_char,1}
+calls=548 1
+1 1025
+cfl=io_lib
+cfn={io_lib,name_chars,1}
+calls=548 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,scan,2}
+1 205
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=78 1
+1 3410
+fl=lists
+fn={lists,flatten,1}
+1 225
+cfl=lists
+cfn={lists,do_flatten,2}
+calls=78 1
+1 3375
+fl=io_lib_format
+fn={io_lib_format,collect,2}
+1 663
+cfl=io_lib_format
+cfn={io_lib_format,collect_cseq,2}
+calls=78 1
+1 2747
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=78 1
+1 0
+fl=lists
+fn={lists,do_flatten,2}
+1 3345
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 30
+cfl=lists
+cfn={lists,do_flatten,2}
+calls=816 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,collect_cseq,2}
+1 1140
+cfl=io_lib_format
+cfn={io_lib_format,field_width,2}
+calls=78 1
+1 748
+cfl=io_lib_format
+cfn={io_lib_format,modifiers,2}
+calls=78 1
+1 379
+cfl=io_lib_format
+cfn={io_lib_format,precision,2}
+calls=78 1
+1 189
+cfl=io_lib_format
+cfn={io_lib_format,pad_char,2}
+calls=78 1
+1 146
+cfl=io_lib_format
+cfn={io_lib_format,collect_cc,2}
+calls=78 1
+1 145
+fl=edlin
+fn={edlin,edit_line,2}
+1 182
+cfl=edlin
+cfn={edlin,edit,5}
+calls=41 1
+1 1791
+fl=group
+fn={group,get_chars_apply,10}
+1 17
+cfl=io_lib
+cfn={io_lib,get_until,4}
+calls=2 1
+1 1760
+cfl=group
+cfn={group,append,3}
+calls=2 1
+1 12
+cfl=group
+cfn={group,cast,3}
+calls=2 1
+1 4
+fl=edlin
+fn={edlin,edit,5}
+1 605
+cfl=edlin
+cfn={edlin,do_op,4}
+calls=30 1
+1 889
+cfl=edlin
+cfn={edlin,key_map,2}
+calls=44 1
+1 139
+cfl=lists
+cfn={lists,reverse,1}
+calls=39 1
+1 99
+cfl=edlin
+cfn={edlin,get_line,2}
+calls=2 1
+1 43
+cfl=edlin
+cfn={edlin,cp_len,1}
+calls=2 1
+1 7
+cfl=erlang
+cfn={erlang,'++',2}
+calls=2 1
+1 5
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 4
+cfl=edlin
+cfn={edlin,edit,5}
+calls=36 1
+1 0
+fl=io_lib
+fn={io_lib,get_until,4}
+1 15
+cfl=erl_scan
+cfn={erl_scan,tokens,4}
+calls=2 1
+1 1745
+cfl=io_lib
+cfn={io_lib,get_until,4}
+calls=2 1
+1 0
+fl=erl_scan
+fn={erl_scan,tokens,4}
+1 8
+cfl=erl_scan
+cfn={erl_scan,tokens1,7}
+calls=2 1
+1 1647
+cfl=erl_scan
+cfn={erl_scan,options,1}
+calls=2 1
+1 90
+fl=erl_scan
+fn={erl_scan,scan_atom,6}
+1 111
+cfl=erl_scan
+cfn={erl_scan,tok3,8}
+calls=11 1
+1 1574
+cfl=erl_scan
+cfn={erl_scan,scan_name,2}
+calls=13 1
+1 403
+cfl=erl_scan
+cfn={erl_scan,'-fun.reserved_word/1-',1}
+calls=11 1
+1 42
+cfl=erlang
+cfn={erlang,list_to_atom,1}
+calls=11 1
+1 36
+fl=erl_scan
+fn={erl_scan,scan1,5}
+1 82
+cfl=erl_scan
+cfn={erl_scan,scan_atom,6}
+calls=11 1
+1 1646
+cfl=erl_scan
+cfn={erl_scan,tok2,8}
+calls=17 1
+1 1443
+cfl=erl_scan
+cfn={erl_scan,skip_white_space,6}
+calls=5 1
+1 1206
+cfl=erl_scan
+cfn={erl_scan,scan_number,7}
+calls=1 1
+1 269
+cfl=erl_scan
+cfn={erl_scan,scan_dot,6}
+calls=2 1
+1 70
+fl=erl_scan
+fn={erl_scan,tokens1,7}
+1 14
+cfl=erl_scan
+cfn={erl_scan,'-fun.scan/6-',6}
+calls=2 1
+1 1621
+cfl=lists
+cfn={lists,reverse,1}
+calls=2 1
+1 9
+cfl=erl_scan
+cfn={erl_scan,location,2}
+calls=2 1
+1 3
+fl=erl_scan
+fn={erl_scan,'-fun.scan/6-',6}
+1 4
+cfl=erl_scan
+cfn={erl_scan,scan,6}
+calls=2 1
+1 1617
+fl=erl_scan
+fn={erl_scan,scan,6}
+1 4
+cfl=erl_scan
+cfn={erl_scan,scan1,5}
+calls=2 1
+1 1613
+fl=erl_scan
+fn={erl_scan,tok3,8}
+1 72
+cfl=erl_anno
+cfn={erl_anno,set_text,2}
+calls=10 1
+1 271
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=12 1
+1 60
+cfl=erl_scan
+cfn={erl_scan,scan1,5}
+calls=12 1
+1 4
+fl=io_lib
+fn={io_lib,get_option,3}
+1 952
+cfl=lists
+cfn={lists,keyfind,3}
+calls=228 1
+1 585
+fl=erl_scan
+fn={erl_scan,tok2,8}
+1 103
+cfl=erl_anno
+cfn={erl_anno,set_text,2}
+calls=17 1
+1 403
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=17 1
+1 62
+cfl=erl_scan
+cfn={erl_scan,scan1,5}
+calls=17 1
+1 0
+fl=erl_scan
+fn={erl_scan,skip_white_space,6}
+1 8
+cfl=erl_scan
+cfn={erl_scan,scan1,5}
+calls=5 1
+1 0
+fl=io_lib
+fn={io_lib,name_char,1}
+1 1025
+fl=edlin
+fn={edlin,do_op,4}
+1 172
+cfl=string
+cfn={string,to_graphemes,1}
+calls=22 1
+1 641
+cfl=edlin
+cfn={edlin,over_paren,3}
+calls=2 1
+1 68
+cfl=edlin
+cfn={edlin,gc_len,1}
+calls=5 1
+1 8
+fl=io_lib_format
+fn={io_lib_format,build_small,1}
+1 685
+cfl=io_lib_format
+cfn={io_lib_format,control_small,7}
+calls=78 1
+1 148
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=78 1
+1 0
+fl=lists
+fn={lists,keyfind,3}
+1 801
+fl=io_lib_format
+fn={io_lib_format,field_width,2}
+1 454
+cfl=io_lib_format
+cfn={io_lib_format,field_width,3}
+calls=78 1
+1 158
+cfl=io_lib_format
+cfn={io_lib_format,field_value,2}
+calls=78 1
+1 136
+fl=erl_anno
+fn={erl_anno,set_text,2}
+1 60
+cfl=erl_anno
+cfn={erl_anno,set,3}
+calls=29 1
+1 663
+fl=erl_anno
+fn={erl_anno,set,3}
+1 123
+cfl=erl_anno
+cfn={erl_anno,set_anno,3}
+calls=29 1
+1 430
+cfl=erl_anno
+cfn={erl_anno,is_settable,2}
+calls=29 1
+1 110
+fl=lists
+fn={lists,sublist,3}
+1 9
+cfl=lists
+cfn={lists,sublist,2}
+calls=3 1
+1 651
+fl=lists
+fn={lists,sublist,2}
+1 9
+cfl=lists
+cfn={lists,sublist_2,2}
+calls=3 1
+1 642
+fl=lists
+fn={lists,sublist_2,2}
+1 642
+cfl=lists
+cfn={lists,sublist_2,2}
+calls=142 1
+1 0
+fl=string
+fn={string,to_graphemes,1}
+1 473
+cfl=unicode_util
+cfn={unicode_util,gc,1}
+calls=66 1
+1 168
+cfl=string
+cfn={string,to_graphemes,1}
+calls=44 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,count_small,1}
+1 187
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=78 1
+1 366
+fl=io_lib_format
+fn={io_lib_format,get_option,3}
+1 340
+cfl=lists
+cfn={lists,keyfind,3}
+calls=78 1
+1 167
+fl=group
+fn={group,save_line_buffer,2}
+1 10
+cfl=group_history
+cfn={group_history,add,1}
+calls=2 1
+1 479
+cfl=group
+cfn={group,save_line_buffer,1}
+calls=2 1
+1 11
+fl=edlin_expand
+fn={edlin_expand,longest_common_head,1}
+1 8
+cfl=edlin_expand
+cfn={edlin_expand,longest_common_head,2}
+calls=2 1
+1 492
+fl=edlin_expand
+fn={edlin_expand,longest_common_head,2}
+1 116
+cfl=edlin_expand
+cfn={edlin_expand,all_tails,1}
+calls=9 1
+1 184
+cfl=edlin_expand
+cfn={edlin_expand,same_head,1}
+calls=10 1
+1 141
+cfl=edlin_expand
+cfn={edlin_expand,all_nil,1}
+calls=9 1
+1 27
+cfl=lists
+cfn={lists,reverse,1}
+calls=2 1
+1 24
+cfl=edlin_expand
+cfn={edlin_expand,longest_common_head,2}
+calls=8 1
+1 0
+fl=group_history
+fn={group_history,add,1}
+1 18
+cfl=group_history
+cfn={group_history,history_status,0}
+calls=2 1
+1 417
+cfl=group_history
+cfn={group_history,to_drop,0}
+calls=2 1
+1 38
+cfl=group_history
+cfn={group_history,add,2}
+calls=2 1
+1 4
+cfl=lists
+cfn={lists,member,2}
+calls=2 1
+1 2
+fl=edlin
+fn={edlin,erase_line,1}
+1 18
+cfl=edlin
+cfn={edlin,erase,4}
+calls=3 1
+1 418
+cfl=lists
+cfn={lists,reverse,1}
+calls=3 1
+1 6
+fl=erl_anno
+fn={erl_anno,set_anno,3}
+1 155
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=29 1
+1 128
+cfl=erl_anno
+cfn={erl_anno,reset_simplify,1}
+calls=29 1
+1 101
+cfl=erl_anno
+cfn={erl_anno,default,2}
+calls=29 1
+1 46
+fl=edlin
+fn={edlin,over_word,3}
+1 29
+cfl=edlin
+cfn={edlin,over_word1,3}
+calls=6 1
+1 268
+cfl=edlin
+cfn={edlin,'-over_word/3-lc$^0/1-0-',1}
+calls=6 1
+1 127
+fl=edlin
+fn={edlin,erase,4}
+1 25
+cfl=edlin
+cfn={edlin,cp_len,1}
+calls=9 1
+1 393
+fl=group_history
+fn={group_history,history_status,0}
+1 13
+cfl=group_history
+cfn={group_history,init_running,0}
+calls=2 1
+1 360
+cfl=application
+cfn={application,get_env,2}
+calls=2 1
+1 31
+cfl=group_history
+cfn={group_history,is_user,0}
+calls=2 1
+1 13
+fl=erl_scan
+fn={erl_scan,scan_name,2}
+1 303
+cfl=lists
+cfn={lists,reverse,1}
+calls=11 1
+1 100
+cfl=erl_scan
+cfn={erl_scan,scan_name,2}
+calls=85 1
+1 0
+fl=edlin
+fn={edlin,cp_len,1}
+1 32
+cfl=edlin
+cfn={edlin,cp_len,2}
+calls=11 1
+1 368
+fl=group
+fn={group,prompt_bytes,2}
+1 12
+cfl=io_lib
+cfn={io_lib,format_prompt,2}
+calls=2 1
+1 312
+cfl=lists
+cfn={lists,flatten,1}
+calls=2 1
+1 75
+fl=io_lib_format
+fn={io_lib_format,modifiers,2}
+1 379
+cfl=io_lib_format
+cfn={io_lib_format,modifiers,2}
+calls=78 1
+1 0
+fl=edlin
+fn={edlin,edit_line1,2}
+1 14
+cfl=string
+cfn={string,reverse,1}
+calls=3 1
+1 359
+fl=io_lib
+fn={io_lib,'-fun.write_string/2-',2}
+1 7
+cfl=io_lib
+cfn={io_lib,write_string,2}
+calls=2 1
+1 364
+fl=edlin
+fn={edlin,cp_len,2}
+1 273
+cfl=edlin
+cfn={edlin,gc_len,1}
+calls=57 1
+1 95
+cfl=edlin
+cfn={edlin,cp_len,2}
+calls=57 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,count_small,2}
+1 366
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=78 1
+1 0
+fl=io_lib
+fn={io_lib,write_string,2}
+1 11
+cfl=io_lib
+cfn={io_lib,write_string1,3}
+calls=2 1
+1 353
+fl=group_history
+fn={group_history,init_running,0}
+1 9
+cfl=init
+cfn={init,get_status,0}
+calls=2 1
+1 351
+fl=string
+fn={string,reverse,1}
+1 8
+cfl=string
+cfn={string,reverse_1,2}
+calls=3 1
+1 351
+fl=io_lib
+fn={io_lib,write_string1,3}
+1 202
+cfl=io_lib
+cfn={io_lib,string_char,4}
+calls=24 1
+1 151
+cfl=io_lib
+cfn={io_lib,write_string1,3}
+calls=24 1
+1 0
+fl=string
+fn={string,reverse_1,2}
+1 339
+cfl=unicode_util
+cfn={unicode_util,gc,1}
+calls=6 1
+1 12
+cfl=string
+cfn={string,reverse_1,2}
+calls=142 1
+1 0
+fl=init
+fn={init,get_status,0}
+1 4
+cfl=init
+cfn={init,request,1}
+calls=2 1
+1 347
+fl=init
+fn={init,request,1}
+1 12
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 335
+fl=group
+fn={group,send_drv_reqs,2}
+1 149
+cfl=group
+cfn={group,send_drv,2}
+calls=43 1
+1 176
+fl=io_lib
+fn={io_lib,format_prompt,2}
+1 13
+cfl=io_lib
+cfn={io_lib,do_format_prompt,2}
+calls=2 1
+1 295
+cfl=io_lib
+cfn={io_lib,add_modifier,2}
+calls=2 1
+1 4
+fl=edlin_expand
+fn={edlin_expand,to_atom,1}
+1 10
+cfl=erl_scan
+cfn={erl_scan,string,1}
+calls=2 1
+1 286
+fl=io_lib
+fn={io_lib,do_format_prompt,2}
+1 9
+cfl=io_lib
+cfn={io_lib,format,2}
+calls=2 1
+1 286
+fl=erl_scan
+fn={erl_scan,string,1}
+1 5
+cfl=erl_scan
+cfn={erl_scan,string,3}
+calls=2 1
+1 281
+fl=erl_scan
+fn={erl_scan,string,3}
+1 11
+cfl=erl_scan
+cfn={erl_scan,string1,5}
+calls=2 1
+1 182
+cfl=erl_scan
+cfn={erl_scan,options,1}
+calls=2 1
+1 88
+fl=erl_scan
+fn={erl_scan,scan_number,7}
+1 13
+cfl=lists
+cfn={lists,reverse,1}
+calls=1 1
+1 4
+cfl=erl_scan
+cfn={erl_scan,remove_digit_separators,2}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,list_to_integer,1}
+calls=1 1
+1 2
+cfl=erl_scan
+cfn={erl_scan,tok3,8}
+calls=1 1
+1 0
+cfl=erl_scan
+cfn={erl_scan,scan_number,7}
+calls=3 1
+1 0
+fl=edlin
+fn={edlin,over_word1,3}
+1 15
+cfl=edlin
+cfn={edlin,over_word2,3}
+calls=6 1
+1 253
+fl=fprof
+fn={fprof,module_info,1}
+1 15
+cfl=erlang
+cfn={erlang,get_module_info,2}
+calls=2 1
+1 249
+fl=edlin
+fn={edlin,over_word2,3}
+1 170
+cfl=edlin
+cfn={edlin,word_char,1}
+calls=26 1
+1 46
+cfl=edlin
+cfn={edlin,gc_len,1}
+calls=22 1
+1 37
+cfl=edlin
+cfn={edlin,over_word2,3}
+calls=22 1
+1 0
+fl=lists
+fn={lists,reverse,1}
+1 212
+cfl=lists
+cfn={lists,reverse,2}
+calls=17 1
+1 40
+fl=lists
+fn={lists,prefix,2}
+1 249
+cfl=lists
+cfn={lists,prefix,2}
+calls=34 1
+1 0
+fl=erlang
+fn={erlang,get_module_info,2}
+1 249
+fl=erlang
+fn={erlang,atom_to_list,1}
+1 216
+fl=group
+fn={group,get_tty_geometry,1}
+1 17
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 182
+fl=unicode_util
+fn={unicode_util,gc,1}
+1 195
+fl=erl_scan
+fn={erl_scan,reserved_word,1}
+1 195
+fl=io_lib_format
+fn={io_lib_format,precision,2}
+1 189
+fl=group
+fn={group,send_drv,2}
+1 188
+fl=edlin_expand
+fn={edlin_expand,all_tails,1}
+1 31
+cfl=edlin_expand
+cfn={edlin_expand,all_tails,2}
+calls=9 1
+1 153
+fl=io_lib_format
+fn={io_lib_format,term,5}
+1 182
+fl=erl_scan
+fn={erl_scan,string1,5}
+1 30
+cfl=erl_scan
+cfn={erl_scan,'-fun.scan_atom/6-',6}
+calls=2 1
+1 92
+cfl=erl_scan
+cfn={erl_scan,scan1,5}
+calls=2 1
+1 47
+cfl=erlang
+cfn={erlang,'++',2}
+calls=2 1
+1 5
+cfl=lists
+cfn={lists,reverse,1}
+calls=2 1
+1 4
+cfl=erl_scan
+cfn={erl_scan,location,2}
+calls=2 1
+1 4
+fl=erl_scan
+fn={erl_scan,options,1}
+1 58
+cfl=erl_scan
+cfn={erl_scan,opts,3}
+calls=4 1
+1 56
+cfl=proplists
+cfn={proplists,get_bool,2}
+calls=12 1
+1 39
+cfl=lists
+cfn={lists,foldr,3}
+calls=4 1
+1 25
+fl=epp
+fn={epp,default_encoding,0}
+1 174
+fl=io_lib_format
+fn={io_lib_format,decr_pc,2}
+1 173
+fl=io_lib_format
+fn={io_lib_format,field_width,3}
+1 158
+fl=edlin
+fn={edlin,gc_len,1}
+1 155
+fl=edlin_expand
+fn={edlin_expand,all_tails,2}
+1 153
+cfl=edlin_expand
+cfn={edlin_expand,all_tails,2}
+calls=33 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,sub,2}
+1 151
+fl=io_lib
+fn={io_lib,string_char,4}
+1 151
+fl=io_lib_format
+fn={io_lib_format,control_small,7}
+1 148
+fl=io_lib_format
+fn={io_lib_format,pad_char,2}
+1 146
+fl=io_lib_format
+fn={io_lib_format,collect_cc,2}
+1 145
+fl=edlin_expand
+fn={edlin_expand,same_head,1}
+1 27
+cfl=edlin_expand
+cfn={edlin_expand,same_head,2}
+calls=10 1
+1 114
+fl=edlin
+fn={edlin,key_map,2}
+1 139
+fl=io_lib_format
+fn={io_lib_format,field_value,2}
+1 136
+fl=erl_anno
+fn={erl_anno,new,1}
+1 65
+cfl=erl_anno
+cfn={erl_anno,new_location,1}
+calls=31 1
+1 63
+fl=erl_anno
+fn={erl_anno,anno_info,2}
+1 87
+cfl=lists
+cfn={lists,keyfind,3}
+calls=29 1
+1 41
+fl=edlin
+fn={edlin,'-over_word/3-lc$^0/1-0-',1}
+1 127
+cfl=edlin
+cfn={edlin,'-over_word/3-lc$^0/1-0-',1}
+calls=51 1
+1 0
+fl=edlin_expand
+fn={edlin_expand,same_head,2}
+1 114
+cfl=edlin_expand
+cfn={edlin_expand,same_head,2}
+calls=26 1
+1 0
+fl=erl_anno
+fn={erl_anno,is_settable,2}
+1 54
+cfl=erl_anno
+cfn={erl_anno,is_string,1}
+calls=29 1
+1 56
+fl=erl_anno
+fn={erl_anno,reset_simplify,1}
+1 58
+cfl=erl_anno
+cfn={erl_anno,simplify,1}
+calls=29 1
+1 43
+fl=edlin
+fn={edlin,get_line,2}
+1 30
+cfl=unicode
+cfn={unicode,characters_to_list,1}
+calls=5 1
+1 43
+cfl=lists
+cfn={lists,reverse,2}
+calls=5 1
+1 27
+fl=group
+fn={group,getopts,2}
+1 9
+cfl=group
+cfn={group,get_unicode_state,1}
+calls=2 1
+1 89
+fl=erl_scan
+fn={erl_scan,'-fun.scan_atom/6-',6}
+1 6
+cfl=erl_scan
+cfn={erl_scan,scan_atom,6}
+calls=2 1
+1 86
+fl=group
+fn={group,get_unicode_state,1}
+1 12
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 77
+fl=lists
+fn={lists,reverse,2}
+1 85
+fl=edlin
+fn={edlin,current_line,1}
+1 18
+cfl=edlin
+cfn={edlin,get_line,2}
+calls=3 1
+1 57
+cfl=erlang
+cfn={erlang,'++',2}
+calls=3 1
+1 8
+fl=lists
+fn={lists,sort,1}
+1 10
+cfl=lists
+cfn={lists,split_2,5}
+calls=1 1
+1 66
+fl=edlin_expand
+fn={edlin_expand,expand_function,1}
+1 3
+cfl=edlin
+cfn={edlin,over_word,3}
+calls=1 1
+1 71
+fl=group
+fn={group,get_line_timeout,1}
+1 70
+fl=erl_scan
+fn={erl_scan,scan_dot,6}
+1 12
+cfl=erl_anno
+cfn={erl_anno,set_text,2}
+calls=2 1
+1 49
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=2 1
+1 6
+cfl=erlang
+cfn={erlang,'++',2}
+calls=2 1
+1 3
+fl=edlin
+fn={edlin,over_paren,3}
+1 6
+cfl=edlin
+cfn={edlin,over_paren,6}
+calls=2 1
+1 62
+fl=lists
+fn={lists,split_2,5}
+1 13
+cfl=lists
+cfn={lists,split_2_1,6}
+calls=1 1
+1 56
+cfl=lists
+cfn={lists,mergel,2}
+calls=1 1
+1 49
+cfl=lists
+cfn={lists,split_2,5}
+calls=1 1
+1 0
+fl=erl_anno
+fn={erl_anno,new_location,1}
+1 63
+fl=edlin
+fn={edlin,over_paren,6}
+1 47
+cfl=edlin
+cfn={edlin,gc_len,1}
+calls=8 1
+1 15
+cfl=edlin
+cfn={edlin,over_paren,6}
+calls=10 1
+1 0
+fl=group
+fn={group,io_requests,5}
+1 17
+cfl=group
+cfn={group,io_requests,5}
+calls=4 1
+1 0
+cfl=group
+cfn={group,io_request,5}
+calls=4 1
+1 0
+fl=string
+fn={string,slice,2}
+1 16
+cfl=string
+cfn={string,slice_l0,2}
+calls=2 1
+1 42
+fl=string
+fn={string,length,1}
+1 6
+cfl=string
+cfn={string,length_1,2}
+calls=2 1
+1 50
+fl=lists
+fn={lists,split_2_1,6}
+1 4
+cfl=lists
+cfn={lists,split_2,5}
+calls=1 1
+1 0
+fl=erl_scan
+fn={erl_scan,opts,3}
+1 35
+cfl=lists
+cfn={lists,keyfind,3}
+calls=4 1
+1 8
+cfl=erl_scan
+cfn={erl_scan,default_option,1}
+calls=4 1
+1 7
+cfl=lists
+cfn={lists,reverse,1}
+calls=4 1
+1 6
+cfl=erl_scan
+cfn={erl_scan,opts,3}
+calls=4 1
+1 0
+fl=erl_anno
+fn={erl_anno,is_string,1}
+1 56
+fl=application
+fn={application,get_env,2}
+1 9
+cfl=application_controller
+cfn={application_controller,get_env,2}
+calls=4 1
+1 47
+fl=edlin_expand
+fn={edlin_expand,'-match/3-lc$^1/1-1-',1}
+1 55
+cfl=edlin_expand
+cfn={edlin_expand,'-match/3-lc$^1/1-1-',1}
+calls=7 1
+1 0
+fl=string
+fn={string,length_1,2}
+1 38
+cfl=unicode_util
+cfn={unicode_util,gc,1}
+calls=4 1
+1 12
+cfl=string
+cfn={string,length_1,2}
+calls=8 1
+1 0
+fl=lists
+fn={lists,mergel,2}
+1 9
+cfl=lists
+cfn={lists,merge2_1,4}
+calls=1 1
+1 24
+cfl=lists
+cfn={lists,rmergel,2}
+calls=1 1
+1 19
+fl=application_controller
+fn={application_controller,get_env,2}
+1 17
+cfl=ets
+cfn={ets,lookup,2}
+calls=4 1
+1 30
+fl=erl_anno
+fn={erl_anno,default,2}
+1 46
+fl=edlin
+fn={edlin,word_char,1}
+1 46
+fl=io_lib_format
+fn={io_lib_format,cdata_to_chars,3}
+1 5
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,1}
+calls=2 1
+1 39
+fl=unicode
+fn={unicode,characters_to_list,1}
+1 24
+cfl=unicode
+cfn={unicode,characters_to_list,2}
+calls=5 1
+1 19
+fl=erl_anno
+fn={erl_anno,simplify,1}
+1 43
+fl=string
+fn={string,slice_l0,2}
+1 7
+cfl=string
+cfn={string,slice_l,2}
+calls=2 1
+1 35
+fl=erl_scan
+fn={erl_scan,'-fun.reserved_word/1-',1}
+1 25
+cfl=erl_scan
+cfn={erl_scan,reserved_word,1}
+calls=11 1
+1 17
+fl=group
+fn={group,io_reply,3}
+1 41
+fl=proplists
+fn={proplists,get_bool,2}
+1 39
+cfl=proplists
+cfn={proplists,get_bool,2}
+calls=4 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,cdata_to_chars,1}
+1 39
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,1}
+calls=10 1
+1 0
+fl=group_history
+fn={group_history,to_drop,0}
+1 9
+cfl=application
+cfn={application,get_env,2}
+calls=2 1
+1 25
+cfl=group_history
+cfn={group_history,'-to_drop/0-lc$^0/1-0-',1}
+calls=2 1
+1 4
+fl=erlang
+fn={erlang,list_to_atom,1}
+1 36
+fl=erlang
+fn={erlang,'++',2}
+1 36
+fl=string
+fn={string,slice_l,2}
+1 32
+cfl=unicode_util
+cfn={unicode_util,gc,1}
+calls=1 1
+1 3
+cfl=string
+cfn={string,slice_l,2}
+calls=8 1
+1 0
+fl=group
+fn={group,append,3}
+1 21
+cfl=erlang
+cfn={erlang,'++',2}
+calls=5 1
+1 12
+fl=ets
+fn={ets,lookup,2}
+1 30
+fl=edlin_expand
+fn={edlin_expand,all_nil,1}
+1 27
+cfl=edlin_expand
+cfn={edlin_expand,all_nil,1}
+calls=2 1
+1 0
+fl=lists
+fn={lists,foldr,3}
+1 17
+cfl=erl_scan
+cfn={erl_scan,'-fun.expand_opt/2-',2}
+calls=2 1
+1 8
+cfl=lists
+cfn={lists,foldr,3}
+calls=2 1
+1 0
+fl=lists
+fn={lists,merge2_1,4}
+1 8
+cfl=lists
+cfn={lists,merge2_2,5}
+calls=2 1
+1 20
+fl=edlin
+fn={edlin,start,1}
+1 13
+cfl=edlin
+cfn={edlin,start,2}
+calls=5 1
+1 10
+fl=lists
+fn={lists,merge2_2,5}
+1 12
+cfl=lists
+cfn={lists,reverse,2}
+calls=1 1
+1 4
+cfl=lists
+cfn={lists,merge2_2,5}
+calls=1 1
+1 0
+cfl=lists
+cfn={lists,merge2_1,4}
+calls=1 1
+1 0
+fl=unicode
+fn={unicode,characters_to_list,2}
+1 19
+fl=lists
+fn={lists,rmergel,2}
+1 8
+cfl=lists
+cfn={lists,reverse,2}
+calls=1 1
+1 8
+cfl=lists
+cfn={lists,mergel,2}
+calls=1 1
+1 0
+fl=group
+fn={group,get_lines,1}
+1 4
+cfl=group
+cfn={group,get_all_lines,1}
+calls=2 1
+1 10
+fl=group_history
+fn={group_history,is_user,0}
+1 7
+cfl=erlang
+cfn={erlang,process_info,2}
+calls=2 1
+1 6
+fl=group
+fn={group,up_stack,1}
+1 12
+cfl=group
+cfn={group,up_stack,1}
+calls=2 1
+1 0
+fl=group
+fn={group,save_line_buffer,1}
+1 7
+cfl=erlang
+cfn={erlang,put,2}
+calls=2 1
+1 4
+fl=group
+fn={group,get_all_lines,1}
+1 8
+cfl=lists
+cfn={lists,reverse,2}
+calls=1 1
+1 2
+cfl=group
+cfn={group,get_all_lines,1}
+calls=1 1
+1 0
+fl=edlin
+fn={edlin,start,2}
+1 10
+fl=edlin
+fn={edlin,prompt,1}
+1 10
+fl=edlin_expand
+fn={edlin_expand,over_white,3}
+1 9
+fl=unicode
+fn={unicode,characters_to_binary,2}
+1 8
+fl=group
+fn={group,save_line,2}
+1 8
+fl=erl_scan
+fn={erl_scan,'-fun.expand_opt/2-',2}
+1 5
+cfl=erl_scan
+cfn={erl_scan,expand_opt,2}
+calls=2 1
+1 3
+fl=erlang
+fn={erlang,module_loaded,1}
+1 7
+fl=erl_scan
+fn={erl_scan,location,2}
+1 7
+fl=erl_scan
+fn={erl_scan,default_option,1}
+1 7
+fl=erlang
+fn={erlang,process_info,2}
+1 6
+fl=io_lib
+fn={io_lib,add_modifier,2}
+1 4
+fl=group_history
+fn={group_history,add,2}
+1 4
+fl=group_history
+fn={group_history,'-to_drop/0-lc$^0/1-0-',1}
+1 4
+fl=group
+fn={group,new_stack,1}
+1 4
+fl=group
+fn={group,cast,3}
+1 4
+fl=erlang
+fn={erlang,put,2}
+1 4
+fl=erl_scan
+fn={erl_scan,remove_digit_separators,2}
+1 4
+fl=io_lib_format
+fn={io_lib_format,uniconv,1}
+1 3
+fl=io_lib_format
+fn={io_lib_format,string,6}
+1 3
+fl=io_lib_format
+fn={io_lib_format,limit_field,2}
+1 3
+fl=erl_scan
+fn={erl_scan,expand_opt,2}
+1 3
+fl=lists
+fn={lists,member,2}
+1 2
+fl=erlang
+fn={erlang,list_to_integer,1}
+1 2
+fl=edlin_expand
+fn={edlin_expand,expand_module_name,2}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=group
+cfn={group,server_loop,3}
+calls=0 1
+1 15776504
+fl=shell
+fn={shell,exprs,7}
+1 63
+cfl=shell
+cfn={shell,eval_loop,3}
+calls=1 1
+1 15775505
+cfl=shell
+cfn={shell,expr,4}
+calls=2 1
+1 5425
+cfl=shell
+cfn={shell,check_command,2}
+calls=2 1
+1 3209
+cfl=shell
+cfn={shell,prep_check,1}
+calls=2 1
+1 2081
+cfl=shell
+cfn={shell,used_record_defs,2}
+calls=2 1
+1 1752
+cfl=shell
+cfn={shell,pp,3}
+calls=2 1
+1 1246
+cfl=io
+cfn={io,requests,1}
+calls=2 1
+1 679
+cfl=shell
+cfn={shell,result_will_be_saved,0}
+calls=2 1
+1 123
+cfl=erl_eval
+cfn={erl_eval,bindings,1}
+calls=2 1
+1 9
+cfl=fprof
+cfn={fprof,just_call,2}
+calls=0 1
+1 6
+cfl=shell
+cfn={shell,record_bindings,2}
+calls=2 1
+1 4
+cfl=shell
+cfn={shell,expand_records,2}
+calls=2 1
+1 4
+cfl=erlang
+cfn={erlang,get,0}
+calls=2 1
+1 4
+cfl=shell
+cfn={shell,'-exprs/7-lc$^0/1-0-',1}
+calls=2 1
+1 3
+cfl=orddict
+cfn={orddict,from_list,1}
+calls=2 1
+1 3
+fl=shell
+fn={shell,eval_loop,3}
+1 22
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 15761920
+cfl=shell
+cfn={shell,eval_exprs,7}
+calls=2 1
+1 13543
+cfl=shell
+cfn={shell,local_func_handler,3}
+calls=2 1
+1 20
+cfl=shell
+cfn={shell,eval_loop,3}
+calls=1 1
+1 0
+fl=pseudo
+fn=suspend
+1 15766301
+fl=shell
+fn={shell,eval_exprs,7}
+1 10
+cfl=shell
+cfn={shell,exprs,6}
+calls=2 1
+1 13533
+fl=shell
+fn={shell,exprs,6}
+1 5
+cfl=shell
+cfn={shell,exprs,7}
+calls=2 1
+1 0
+fl=shell
+fn={shell,expr,4}
+1 4
+cfl=erl_eval
+cfn={erl_eval,expr,4}
+calls=2 1
+1 5421
+fl=erl_eval
+fn={erl_eval,expr,4}
+1 4
+cfl=erl_eval
+cfn={erl_eval,expr,5}
+calls=2 1
+1 5417
+fl=erl_eval
+fn={erl_eval,expr,5}
+1 63
+cfl=erl_eval
+cfn={erl_eval,do_apply,6}
+calls=2 1
+1 5179
+cfl=erl_eval
+cfn={erl_eval,expr_list,4}
+calls=3 1
+1 182
+cfl=erl_eval
+cfn={erl_eval,merge_bindings,2}
+calls=3 1
+1 21
+cfl=erl_eval
+cfn={erl_eval,ret_expr,3}
+calls=14 1
+1 18
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=1 1
+1 2
+cfl=erl_internal
+cfn={erl_internal,bif,3}
+calls=2 1
+1 2
+cfl=erl_eval
+cfn={erl_eval,expr,5}
+calls=6 1
+1 0
+fl=erl_eval
+fn={erl_eval,do_apply,6}
+1 11
+cfl=shell
+cfn={shell,'-eval_loop/3-fun-0-',3}
+calls=2 1
+1 5165
+cfl=erl_eval
+cfn={erl_eval,ret_expr,3}
+calls=1 1
+1 3
+fl=shell
+fn={shell,'-eval_loop/3-fun-0-',3}
+1 4
+cfl=shell
+cfn={shell,apply_fun,3}
+calls=2 1
+1 5161
+fl=shell
+fn={shell,apply_fun,3}
+1 7
+cfl=gingko
+cfn={gingko,update,4}
+calls=1 1
+1 4889
+cfl=fprof
+cfn={fprof,trace,1}
+calls=1 1
+1 265
+fl=gingko
+fn={gingko,update,4}
+1 7
+cfl=gingko_op_log
+cfn={gingko_op_log,append,2}
+calls=1 1
+1 2860
+cfl=logger
+cfn={logger,notice,1}
+calls=1 1
+1 2007
+cfl=logger
+cfn={logger,debug,1}
+calls=1 1
+1 15
+fl=shell
+fn={shell,check_command,2}
+1 8
+cfl=erl_eval
+cfn={erl_eval,check_command,2}
+calls=2 1
+1 3201
+fl=erl_eval
+fn={erl_eval,check_command,2}
+1 19
+cfl=erl_lint
+cfn={erl_lint,exprs_opt,3}
+calls=2 1
+1 3170
+cfl=erl_eval
+cfn={erl_eval,bindings,1}
+calls=2 1
+1 12
+fl=erl_lint
+fn={erl_lint,exprs_opt,3}
+1 29
+cfl=erl_lint
+cfn={erl_lint,start,2}
+calls=2 1
+1 2019
+cfl=erl_lint
+cfn={erl_lint,set_file,2}
+calls=2 1
+1 712
+cfl=erl_lint
+cfn={erl_lint,exprs,3}
+calls=2 1
+1 334
+cfl=erl_lint
+cfn={erl_lint,return_status,1}
+calls=2 1
+1 69
+cfl=lists
+cfn={lists,foldl,3}
+calls=2 1
+1 4
+cfl=orddict
+cfn={orddict,from_list,1}
+calls=2 1
+1 3
+fl=gingko_op_log
+fn={gingko_op_log,append,2}
+1 6
+cfl=gen_server
+cfn={gen_server,call,2}
+calls=1 1
+1 2854
+fl=gen_server
+fn={gen_server,call,2}
+1 3
+cfl=gen
+cfn={gen,call,3}
+calls=1 1
+1 2851
+fl=gen
+fn={gen,call,3}
+1 2
+cfl=gen
+cfn={gen,call,4}
+calls=1 1
+1 2849
+fl=gen
+fn={gen,call,4}
+1 2
+cfl=gen
+cfn={gen,do_for_proc,2}
+calls=1 1
+1 2847
+fl=gen
+fn={gen,do_for_proc,2}
+1 5
+cfl=gen
+cfn={gen,'-call/4-fun-0-',4}
+calls=1 1
+1 2840
+cfl=erlang
+cfn={erlang,whereis,1}
+calls=1 1
+1 2
+fl=gen
+fn={gen,'-call/4-fun-0-',4}
+1 2
+cfl=gen
+cfn={gen,do_call,4}
+calls=1 1
+1 2838
+fl=gen
+fn={gen,do_call,4}
+1 14
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 2812
+cfl=erlang
+cfn={erlang,monitor,3}
+calls=1 1
+1 6
+cfl=erlang
+cfn={erlang,send,3}
+calls=1 1
+1 3
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 3
+fl=shell
+fn={shell,prep_check,1}
+1 1758
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=36 1
+1 181
+cfl=erlang
+cfn={erlang,tuple_to_list,1}
+calls=36 1
+1 82
+cfl=pseudo
+cfn=garbage_collect
+calls=3 1
+1 60
+cfl=shell
+cfn={shell,prep_check,1}
+calls=242 1
+1 0
+fl=erl_lint
+fn={erl_lint,start,2}
+1 202
+cfl=erl_lint
+cfn={erl_lint,bool_option,4}
+calls=36 1
+1 1059
+cfl=ordsets
+cfn={ordsets,from_list,1}
+calls=2 1
+1 281
+cfl=erl_lint
+cfn={erl_lint,'-start/2-lc$^0/1-0-',1}
+calls=2 1
+1 219
+cfl=gb_sets
+cfn={gb_sets,from_list,1}
+calls=4 1
+1 90
+cfl=ordsets
+cfn={ordsets,is_element,2}
+calls=2 1
+1 49
+cfl=erl_lint
+cfn={erl_lint,nowarn_function,2}
+calls=2 1
+1 29
+cfl=erl_lint
+cfn={erl_lint,value_option,7}
+calls=2 1
+1 24
+cfl=erl_lint
+cfn={erl_lint,'-start/2-lc$^1/1-1-',1}
+calls=2 1
+1 19
+cfl=gb_sets
+cfn={gb_sets,empty,0}
+calls=8 1
+1 11
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 11
+cfl=erl_lint
+cfn={erl_lint,pseudolocals,0}
+calls=6 1
+1 9
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=2 1
+1 7
+cfl=gb_sets
+cfn={gb_sets,new,0}
+calls=2 1
+1 5
+cfl=maps
+cfn={maps,from_list,1}
+calls=2 1
+1 4
+fl=logger
+fn={logger,log,2}
+1 4
+cfl=logger
+cfn={logger,do_log,3}
+calls=2 1
+1 2013
+fl=logger
+fn={logger,do_log,3}
+1 8
+cfl=logger
+cfn={logger,log_allowed,4}
+calls=1 1
+1 1987
+cfl=logger_config
+cfn={logger_config,allow,1}
+calls=2 1
+1 19
+fl=logger
+fn={logger,notice,1}
+1 2
+cfl=logger
+cfn={logger,log,2}
+calls=1 1
+1 2005
+fl=logger
+fn={logger,log_allowed,4}
+1 15
+cfl=logger
+cfn={logger,do_log_allowed,5}
+calls=1 1
+1 1904
+cfl=logger
+cfn={logger,add_default_metadata,1}
+calls=1 1
+1 41
+cfl=logger_config
+cfn={logger_config,get,2}
+calls=1 1
+1 9
+cfl=maps
+cfn={maps,merge,2}
+calls=3 1
+1 7
+cfl=logger
+cfn={logger,tid,0}
+calls=1 1
+1 6
+cfl=logger
+cfn={logger,proc_meta,0}
+calls=1 1
+1 5
+fl=logger
+fn={logger,do_log_allowed,5}
+1 3
+cfl=logger_backend
+cfn={logger_backend,log_allowed,3}
+calls=1 1
+1 1901
+fl=logger_backend
+fn={logger_backend,log_allowed,3}
+1 9
+cfl=logger_backend
+cfn={logger_backend,call_handlers,3}
+calls=1 1
+1 1885
+cfl=logger_backend
+cfn={logger_backend,apply_filters,4}
+calls=1 1
+1 4
+cfl=maps
+cfn={maps,get,3}
+calls=2 1
+1 3
+fl=logger_backend
+fn={logger_backend,call_handlers,3}
+1 16
+cfl=logger_std_h
+cfn={logger_std_h,log,2}
+calls=1 1
+1 1742
+cfl=logger_backend
+cfn={logger_backend,apply_filters,4}
+calls=2 1
+1 50
+cfl=logger_config
+cfn={logger_config,get,3}
+calls=2 1
+1 44
+cfl=maps
+cfn={maps,without,2}
+calls=1 1
+1 27
+cfl=maps
+cfn={maps,get,3}
+calls=2 1
+1 6
+cfl=logger_backend
+cfn={logger_backend,call_handlers,3}
+calls=2 1
+1 0
+fl=shell
+fn={shell,used_record_defs,2}
+1 14
+cfl=shell
+cfn={shell,used_records,4}
+calls=2 1
+1 1723
+cfl=shell
+cfn={shell,record_defs,2}
+calls=2 1
+1 15
+fl=logger_std_h
+fn={logger_std_h,log,2}
+1 2
+cfl=logger_h_common
+cfn={logger_h_common,log,2}
+calls=1 1
+1 1740
+fl=logger_h_common
+fn={logger_h_common,log,2}
+1 8
+cfl=logger_h_common
+cfn={logger_h_common,log_to_binary,2}
+calls=1 1
+1 1691
+cfl=logger_olp
+cfn={logger_olp,load,2}
+calls=1 1
+1 28
+cfl=erlang
+cfn={erlang,is_process_alive,1}
+calls=1 1
+1 11
+cfl=logger_olp
+cfn={logger_olp,get_pid,1}
+calls=1 1
+1 2
+fl=shell
+fn={shell,used_records,4}
+1 1180
+cfl=shell
+cfn={shell,used_records,1}
+calls=204 1
+1 535
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+cfl=shell
+cfn={shell,used_records,4}
+calls=202 1
+1 0
+fl=logger_h_common
+fn={logger_h_common,log_to_binary,2}
+1 2
+cfl=logger_h_common
+cfn={logger_h_common,do_log_to_binary,2}
+calls=1 1
+1 1689
+fl=logger_h_common
+fn={logger_h_common,do_log_to_binary,2}
+1 7
+cfl=logger_h_common
+cfn={logger_h_common,try_format,3}
+calls=1 1
+1 1669
+cfl=logger_h_common
+cfn={logger_h_common,string_to_binary,1}
+calls=1 1
+1 12
+cfl=maps
+cfn={maps,get,3}
+calls=1 1
+1 1
+fl=logger_h_common
+fn={logger_h_common,try_format,3}
+1 3
+cfl=logger_formatter
+cfn={logger_formatter,format,2}
+calls=1 1
+1 1666
+fl=logger_formatter
+fn={logger_formatter,format,2}
+1 14
+cfl=logger_formatter
+cfn={logger_formatter,maybe_add_legacy_header,3}
+calls=1 1
+1 1086
+cfl=logger_formatter
+cfn={logger_formatter,do_format,4}
+calls=2 1
+1 340
+cfl=logger_formatter
+cfn={logger_formatter,format_msg,3}
+calls=1 1
+1 136
+cfl=logger_formatter
+cfn={logger_formatter,add_default_config,1}
+calls=1 1
+1 69
+cfl=lists
+cfn={lists,splitwith,2}
+calls=1 1
+1 20
+cfl=logger_formatter
+cfn={logger_formatter,truncate,4}
+calls=1 1
+1 1
+fl=io
+fn={io,execute_request,2}
+1 76
+cfl=pseudo
+cfn=suspend
+calls=6 1
+1 1329
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=6 1
+1 19
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=6 1
+1 14
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 9
+fl=shell
+fn={shell,pp,3}
+1 4
+cfl=shell
+cfn={shell,pp,4}
+calls=2 1
+1 1242
+fl=shell
+fn={shell,pp,4}
+1 29
+cfl=shell
+cfn={shell,enc,0}
+calls=2 1
+1 590
+cfl=shell
+cfn={shell,columns,0}
+calls=2 1
+1 399
+cfl=io_lib_pretty
+cfn={io_lib_pretty,print,2}
+calls=2 1
+1 197
+cfl=application
+cfn={application,get_env,2}
+calls=2 1
+1 21
+cfl=shell
+cfn={shell,record_print_fun,1}
+calls=2 1
+1 6
+fl=lists
+fn={lists,foldl,3}
+1 738
+cfl=erl_lint
+cfn={erl_lint,'-bool_option/4-fun-0-',4}
+calls=72 1
+1 228
+cfl=erl_lint
+cfn={erl_lint,'-expr_list/3-fun-0-',3}
+calls=10 1
+1 157
+cfl=maps
+cfn={maps,remove,2}
+calls=4 1
+1 8
+cfl=erl_lint
+cfn={erl_lint,'-value_option/7-fun-0-',7}
+calls=4 1
+1 6
+cfl=lists
+cfn={lists,foldl,3}
+calls=90 1
+1 0
+fl=logger_formatter
+fn={logger_formatter,maybe_add_legacy_header,3}
+1 9
+cfl=io_lib
+cfn={io_lib,format,2}
+calls=1 1
+1 1004
+cfl=logger_formatter
+cfn={logger_formatter,add_legacy_title,3}
+calls=1 1
+1 55
+cfl=logger_formatter
+cfn={logger_formatter,timestamp_to_datetimemicro,2}
+calls=1 1
+1 16
+cfl=logger_formatter
+cfn={logger_formatter,month,1}
+calls=1 1
+1 1
+fl=erl_lint
+fn={erl_lint,bool_option,4}
+1 165
+cfl=lists
+cfn={lists,foldl,3}
+calls=36 1
+1 870
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 24
+fl=io_lib
+fn={io_lib,format,2}
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,fwrite,2}
+calls=1 1
+1 1002
+fl=io_lib_format
+fn={io_lib_format,fwrite,2}
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,build,1}
+calls=1 1
+1 664
+cfl=io_lib_format
+cfn={io_lib_format,scan,2}
+calls=1 1
+1 334
+fl=io
+fn={io,request,2}
+1 18
+cfl=io
+cfn={io,execute_request,2}
+calls=4 1
+1 884
+cfl=io
+cfn={io,io_request,2}
+calls=4 1
+1 8
+fl=io_lib_format
+fn={io_lib_format,build,2}
+1 15
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=2 1
+1 520
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=2 1
+1 123
+cfl=io_lib_format
+cfn={io_lib_format,count_small,1}
+calls=2 1
+1 62
+cfl=io_lib_format
+cfn={io_lib_format,get_option,3}
+calls=2 1
+1 8
+cfl=io_lib_format
+cfn={io_lib_format,sub,2}
+calls=2 1
+1 3
+fl=erl_lint
+fn={erl_lint,set_file,2}
+1 4
+cfl=erl_lint
+cfn={erl_lint,'-set_file/2-lc$^0/1-0-',2}
+calls=2 1
+1 708
+fl=erl_lint
+fn={erl_lint,'-set_file/2-lc$^0/1-0-',2}
+1 15
+cfl=erl_lint
+cfn={erl_lint,anno_set_file,2}
+calls=2 1
+1 693
+cfl=erl_lint
+cfn={erl_lint,'-set_file/2-lc$^0/1-0-',2}
+calls=2 1
+1 0
+fl=erl_lint
+fn={erl_lint,anno_set_file,2}
+1 5
+cfl=erl_parse
+cfn={erl_parse,map_anno,2}
+calls=2 1
+1 688
+fl=erl_parse
+fn={erl_parse,map_anno,2}
+1 8
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=2 1
+1 680
+fl=erl_parse
+fn={erl_parse,modify_anno1,3}
+1 140
+cfl=erl_parse
+cfn={erl_parse,'-map_anno/2-fun-0-',3}
+calls=18 1
+1 540
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=37 1
+1 0
+fl=io
+fn={io,requests,1}
+1 7
+cfl=io
+cfn={io,requests,2}
+calls=2 1
+1 656
+cfl=io
+cfn={io,default_output,0}
+calls=2 1
+1 16
+fl=io_lib_format
+fn={io_lib_format,build,1}
+1 2
+cfl=io_lib_format
+cfn={io_lib_format,build,2}
+calls=1 1
+1 662
+fl=io
+fn={io,requests,2}
+1 8
+cfl=io
+cfn={io,execute_request,2}
+calls=2 1
+1 563
+cfl=io
+cfn={io,io_requests,2}
+calls=2 1
+1 85
+fl=shell
+fn={shell,enc,0}
+1 13
+cfl=io
+cfn={io,getopts,0}
+calls=2 1
+1 572
+cfl=lists
+cfn={lists,keyfind,3}
+calls=2 1
+1 5
+fl=io
+fn={io,getopts,0}
+1 9
+cfl=io
+cfn={io,getopts,1}
+calls=2 1
+1 554
+cfl=io
+cfn={io,default_input,0}
+calls=2 1
+1 9
+fl=io
+fn={io,getopts,1}
+1 5
+cfl=io
+cfn={io,request,2}
+calls=2 1
+1 549
+fl=erl_parse
+fn={erl_parse,'-map_anno/2-fun-0-',3}
+1 50
+cfl=erl_lint
+cfn={erl_lint,'-anno_set_file/2-fun-0-',2}
+calls=18 1
+1 490
+fl=shell
+fn={shell,used_records,1}
+1 464
+cfl=erlang
+cfn={erlang,tuple_to_list,1}
+calls=36 1
+1 71
+fl=io_lib_format
+fn={io_lib_format,build_limited,5}
+1 112
+cfl=io_lib_format
+cfn={io_lib_format,control_limited,10}
+calls=10 1
+1 395
+cfl=io_lib_format
+cfn={io_lib_format,decr_pc,2}
+calls=10 1
+1 13
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=27 1
+1 0
+fl=erl_lint
+fn={erl_lint,'-anno_set_file/2-fun-0-',2}
+1 32
+cfl=erl_anno
+cfn={erl_anno,set_file,2}
+calls=18 1
+1 458
+fl=erl_anno
+fn={erl_anno,set_file,2}
+1 33
+cfl=erl_anno
+cfn={erl_anno,set,3}
+calls=18 1
+1 425
+fl=erl_anno
+fn={erl_anno,set,3}
+1 60
+cfl=erl_anno
+cfn={erl_anno,set_anno,3}
+calls=18 1
+1 306
+cfl=erl_anno
+cfn={erl_anno,is_settable,2}
+calls=18 1
+1 59
+fl=shell
+fn={shell,columns,0}
+1 9
+cfl=io
+cfn={io,columns,0}
+calls=2 1
+1 390
+fl=io_lib_format
+fn={io_lib_format,control_limited,10}
+1 42
+cfl=io_lib
+cfn={io_lib,write,2}
+calls=6 1
+1 171
+cfl=io_lib_format
+cfn={io_lib_format,term,5}
+calls=6 1
+1 85
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,3}
+calls=2 1
+1 64
+cfl=io_lib_format
+cfn={io_lib_format,iolist_to_chars,3}
+calls=2 1
+1 16
+cfl=io_lib_format
+cfn={io_lib_format,string,6}
+calls=4 1
+1 10
+cfl=io_lib_format
+cfn={io_lib_format,limit_field,2}
+calls=4 1
+1 5
+cfl=io_lib_format
+cfn={io_lib_format,uniconv,1}
+calls=2 1
+1 2
+fl=io
+fn={io,columns,0}
+1 10
+cfl=io
+cfn={io,columns,1}
+calls=2 1
+1 369
+cfl=io
+cfn={io,default_output,0}
+calls=2 1
+1 11
+fl=io_lib_format
+fn={io_lib_format,scan,2}
+1 6
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=2 1
+1 371
+fl=io_lib_format
+fn={io_lib_format,collect,2}
+1 101
+cfl=io_lib_format
+cfn={io_lib_format,collect_cseq,2}
+calls=10 1
+1 264
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 6
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=27 1
+1 0
+fl=io
+fn={io,columns,1}
+1 8
+cfl=io
+cfn={io,request,2}
+calls=2 1
+1 361
+fl=logger_formatter
+fn={logger_formatter,do_format,4}
+1 17
+cfl=logger_formatter
+cfn={logger_formatter,to_string,3}
+calls=1 1
+1 318
+cfl=logger_formatter
+cfn={logger_formatter,value,2}
+calls=1 1
+1 5
+cfl=logger_formatter
+cfn={logger_formatter,do_format,4}
+calls=3 1
+1 0
+fl=erl_lint
+fn={erl_lint,exprs,3}
+1 18
+cfl=erl_lint
+cfn={erl_lint,expr,3}
+calls=2 1
+1 285
+cfl=erl_lint
+cfn={erl_lint,vtupdate,2}
+calls=4 1
+1 31
+cfl=erl_lint
+cfn={erl_lint,exprs,3}
+calls=2 1
+1 0
+fl=logger_formatter
+fn={logger_formatter,to_string,3}
+1 1
+cfl=logger_formatter
+cfn={logger_formatter,to_string,2}
+calls=1 1
+1 317
+fl=logger_formatter
+fn={logger_formatter,to_string,2}
+1 4
+cfl=lists
+cfn={lists,flatten,1}
+calls=1 1
+1 213
+cfl=logger_formatter
+cfn={logger_formatter,printable_list,1}
+calls=1 1
+1 100
+fl=erl_anno
+fn={erl_anno,set_anno,3}
+1 93
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=18 1
+1 114
+cfl=erl_anno
+cfn={erl_anno,reset_simplify,1}
+calls=18 1
+1 61
+cfl=erl_anno
+cfn={erl_anno,default,2}
+calls=18 1
+1 38
+fl=ordsets
+fn={ordsets,from_list,1}
+1 18
+cfl=lists
+cfn={lists,usort,1}
+calls=8 1
+1 284
+fl=lists
+fn={lists,usort,1}
+1 25
+cfl=lists
+cfn={lists,usplit_2,5}
+calls=2 1
+1 265
+fl=erl_lint
+fn={erl_lint,expr,3}
+1 36
+cfl=erl_lint
+cfn={erl_lint,expr_list,3}
+calls=4 1
+1 183
+cfl=erl_lint
+cfn={erl_lint,check_module_name,3}
+calls=2 1
+1 47
+cfl=erl_lint
+cfn={erl_lint,check_remote_function,5}
+calls=2 1
+1 37
+cfl=erl_lint
+cfn={erl_lint,keyword_warning,3}
+calls=7 1
+1 10
+fl=fprof
+fn={fprof,just_call,2}
+1 18
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 240
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 3
+cfl=erlang
+cfn={erlang,demonitor,1}
+calls=1 1
+1 3
+cfl=erl_eval
+cfn={erl_eval,ret_expr,3}
+calls=1 1
+1 2
+fl=lists
+fn={lists,usplit_2,5}
+1 31
+cfl=lists
+cfn={lists,usplit_2_1,6}
+calls=6 1
+1 251
+cfl=lists
+cfn={lists,usplit_2,5}
+calls=8 1
+1 0
+fl=fprof
+fn={fprof,trace,1}
+1 2
+cfl=fprof
+cfn={fprof,call,1}
+calls=1 1
+1 263
+fl=io_lib_format
+fn={io_lib_format,collect_cseq,2}
+1 108
+cfl=io_lib_format
+cfn={io_lib_format,field_width,2}
+calls=10 1
+1 91
+cfl=io_lib_format
+cfn={io_lib_format,precision,2}
+calls=10 1
+1 20
+cfl=io_lib_format
+cfn={io_lib_format,modifiers,2}
+calls=10 1
+1 15
+cfl=io_lib_format
+cfn={io_lib_format,pad_char,2}
+calls=10 1
+1 12
+cfl=io_lib_format
+cfn={io_lib_format,collect_cc,2}
+calls=10 1
+1 11
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 7
+fl=fprof
+fn={fprof,call,1}
+1 5
+cfl=fprof
+cfn={fprof,just_call,2}
+calls=1 1
+1 253
+cfl=erlang
+cfn={erlang,whereis,1}
+calls=1 1
+1 5
+fl=lists
+fn={lists,usplit_2_1,6}
+1 52
+cfl=lists
+cfn={lists,umergel,3}
+calls=2 1
+1 182
+cfl=lists
+cfn={lists,usplit_2_1,6}
+calls=4 1
+1 0
+cfl=lists
+cfn={lists,usplit_2,5}
+calls=4 1
+1 0
+fl=pseudo
+fn=garbage_collect
+1 230
+fl=erl_lint
+fn={erl_lint,'-bool_option/4-fun-0-',4}
+1 228
+fl=erl_lint
+fn={erl_lint,'-start/2-lc$^0/1-0-',1}
+1 219
+cfl=erl_lint
+cfn={erl_lint,'-start/2-lc$^0/1-0-',1}
+calls=36 1
+1 0
+fl=lists
+fn={lists,flatten,1}
+1 2
+cfl=lists
+cfn={lists,do_flatten,2}
+calls=1 1
+1 211
+fl=lists
+fn={lists,do_flatten,2}
+1 200
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 11
+cfl=lists
+cfn={lists,do_flatten,2}
+calls=69 1
+1 0
+fl=io_lib_pretty
+fn={io_lib_pretty,print,2}
+1 40
+cfl=io_lib_pretty
+cfn={io_lib_pretty,get_option,3}
+calls=16 1
+1 92
+cfl=io_lib_pretty
+cfn={io_lib_pretty,print,9}
+calls=2 1
+1 62
+cfl=epp
+cfn={epp,default_encoding,0}
+calls=2 1
+1 3
+fl=erlang
+fn={erlang,list_to_tuple,1}
+1 149
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 34
+fl=erl_lint
+fn={erl_lint,expr_list,3}
+1 8
+cfl=lists
+cfn={lists,foldl,3}
+calls=4 1
+1 178
+fl=lists
+fn={lists,umergel,3}
+1 21
+cfl=lists
+cfn={lists,rumergel,3}
+calls=2 1
+1 84
+cfl=lists
+cfn={lists,umerge3_1,7}
+calls=2 1
+1 77
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 3
+cfl=lists
+cfn={lists,umergel,3}
+calls=2 1
+1 0
+fl=erl_eval
+fn={erl_eval,expr_list,4}
+1 6
+cfl=erl_eval
+cfn={erl_eval,expr_list,6}
+calls=3 1
+1 178
+fl=erl_eval
+fn={erl_eval,expr_list,6}
+1 55
+cfl=erl_eval
+cfn={erl_eval,merge_bindings,2}
+calls=8 1
+1 49
+cfl=lists
+cfn={lists,reverse,1}
+calls=3 1
+1 22
+cfl=erl_eval
+cfn={erl_eval,expr_list,6}
+calls=8 1
+1 0
+cfl=erl_eval
+cfn={erl_eval,expr,5}
+calls=8 1
+1 0
+fl=io_lib
+fn={io_lib,write,2}
+1 48
+cfl=io_lib
+cfn={io_lib,get_option,3}
+calls=18 1
+1 82
+cfl=io_lib
+cfn={io_lib,write1,3}
+calls=6 1
+1 29
+cfl=epp
+cfn={epp,default_encoding,0}
+calls=6 1
+1 12
+fl=erl_lint
+fn={erl_lint,'-expr_list/3-fun-0-',3}
+1 33
+cfl=erl_lint
+cfn={erl_lint,vtmerge_pat,3}
+calls=10 1
+1 72
+cfl=erl_lint
+cfn={erl_lint,expr,3}
+calls=10 1
+1 0
+fl=erlang
+fn={erlang,tuple_to_list,1}
+1 153
+fl=logger_formatter
+fn={logger_formatter,format_msg,3}
+1 6
+cfl=logger_formatter
+cfn={logger_formatter,format_msg,4}
+calls=1 1
+1 127
+cfl=logger_formatter
+cfn={logger_formatter,chars_limit_to_opts,1}
+calls=1 1
+1 3
+cfl=logger_formatter
+cfn={logger_formatter,format_msg,3}
+calls=1 1
+1 0
+fl=logger_formatter
+fn={logger_formatter,format_msg,4}
+1 6
+cfl=io_lib
+cfn={io_lib,build_text,2}
+calls=1 1
+1 74
+cfl=io_lib
+cfn={io_lib,scan_format,2}
+calls=1 1
+1 46
+cfl=logger_formatter
+cfn={logger_formatter,reformat,3}
+calls=1 1
+1 1
+fl=shell
+fn={shell,result_will_be_saved,0}
+1 17
+cfl=shell
+cfn={shell,get_history_and_results,0}
+calls=2 1
+1 106
+fl=io_lib_format
+fn={io_lib_format,build_small,1}
+1 100
+cfl=io_lib_format
+cfn={io_lib_format,control_small,7}
+calls=10 1
+1 23
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=27 1
+1 0
+fl=erl_anno
+fn={erl_anno,anno_info,2}
+1 68
+cfl=lists
+cfn={lists,keyfind,3}
+calls=18 1
+1 28
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 18
+fl=shell
+fn={shell,get_history_and_results,0}
+1 23
+cfl=shell
+cfn={shell,get_env,2}
+calls=4 1
+1 79
+cfl=erlang
+cfn={erlang,min,2}
+calls=2 1
+1 4
+fl=application
+fn={application,get_env,2}
+1 32
+cfl=application_controller
+cfn={application_controller,get_env,2}
+calls=9 1
+1 69
+fl=logger_formatter
+fn={logger_formatter,printable_list,1}
+1 3
+cfl=io_lib
+cfn={io_lib,printable_list,1}
+calls=1 1
+1 97
+fl=io_lib
+fn={io_lib,printable_list,1}
+1 3
+cfl=io_lib
+cfn={io_lib,printable_latin1_list,1}
+calls=1 1
+1 92
+cfl=io
+cfn={io,printable_range,0}
+calls=1 1
+1 2
+fl=io_lib_pretty
+fn={io_lib_pretty,get_option,3}
+1 62
+cfl=lists
+cfn={lists,keyfind,3}
+calls=16 1
+1 30
+fl=io_lib
+fn={io_lib,printable_latin1_list,1}
+1 92
+cfl=io_lib
+cfn={io_lib,printable_latin1_list,1}
+calls=51 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,field_width,2}
+1 38
+cfl=io_lib_format
+cfn={io_lib_format,field_value,2}
+calls=10 1
+1 39
+cfl=io_lib_format
+cfn={io_lib_format,field_width,3}
+calls=10 1
+1 14
+fl=gb_sets
+fn={gb_sets,from_list,1}
+1 13
+cfl=gb_sets
+cfn={gb_sets,from_ordset,1}
+calls=4 1
+1 62
+cfl=ordsets
+cfn={ordsets,from_list,1}
+calls=4 1
+1 15
+fl=lists
+fn={lists,keyfind,3}
+1 86
+fl=io_lib_format
+fn={io_lib_format,term,5}
+1 36
+cfl=io_lib
+cfn={io_lib,chars_length,1}
+calls=5 1
+1 23
+cfl=io_lib_format
+cfn={io_lib_format,chars,2}
+calls=5 1
+1 10
+cfl=io_lib_format
+cfn={io_lib_format,adjust,3}
+calls=5 1
+1 9
+cfl=erlang
+cfn={erlang,min,2}
+calls=5 1
+1 7
+fl=io
+fn={io,io_requests,2}
+1 4
+cfl=io
+cfn={io,io_requests,4}
+calls=2 1
+1 81
+fl=lists
+fn={lists,rumergel,3}
+1 31
+cfl=lists
+cfn={lists,rumerge2_1,4}
+calls=2 1
+1 50
+cfl=lists
+cfn={lists,umergel,3}
+calls=2 1
+1 0
+cfl=lists
+cfn={lists,rumergel,3}
+calls=2 1
+1 0
+fl=io_lib
+fn={io_lib,get_option,3}
+1 61
+cfl=lists
+cfn={lists,keyfind,3}
+calls=18 1
+1 21
+fl=io
+fn={io,io_requests,4}
+1 21
+cfl=io
+cfn={io,io_request,2}
+calls=4 1
+1 60
+cfl=io
+cfn={io,io_requests,4}
+calls=2 1
+1 0
+fl=shell
+fn={shell,get_env,2}
+1 22
+cfl=application
+cfn={application,get_env,2}
+calls=4 1
+1 57
+fl=lists
+fn={lists,umerge3_1,7}
+1 11
+cfl=lists
+cfn={lists,umerge3_2,7}
+calls=2 1
+1 66
+cfl=lists
+cfn={lists,umerge3_1,7}
+calls=4 1
+1 0
+fl=io_lib
+fn={io_lib,build_text,2}
+1 5
+cfl=io_lib_format
+cfn={io_lib_format,build,2}
+calls=1 1
+1 69
+fl=erl_lint
+fn={erl_lint,vtmerge_pat,3}
+1 45
+cfl=orddict
+cfn={orddict,merge,3}
+calls=10 1
+1 15
+cfl=lists
+cfn={lists,mapfoldl,3}
+calls=10 1
+1 12
+fl=erl_eval
+fn={erl_eval,merge_bindings,2}
+1 36
+cfl=lists
+cfn={lists,foldl,3}
+calls=11 1
+1 19
+cfl=orddict
+cfn={orddict,to_list,1}
+calls=11 1
+1 15
+fl=logger_formatter
+fn={logger_formatter,add_default_config,1}
+1 17
+cfl=logger_formatter
+cfn={logger_formatter,get_offset,1}
+calls=1 1
+1 25
+cfl=logger_formatter
+cfn={logger_formatter,get_depth,1}
+calls=1 1
+1 13
+cfl=maps
+cfn={maps,get,3}
+calls=3 1
+1 6
+cfl=logger_formatter
+cfn={logger_formatter,add_default_template,1}
+calls=1 1
+1 4
+cfl=maps
+cfn={maps,merge,2}
+calls=1 1
+1 2
+cfl=logger_formatter
+cfn={logger_formatter,get_max_size,1}
+calls=1 1
+1 2
+fl=erl_lint
+fn={erl_lint,return_status,1}
+1 10
+cfl=erl_lint
+cfn={erl_lint,pack_errors,1}
+calls=2 1
+1 38
+cfl=erl_lint
+cfn={erl_lint,pack_warnings,1}
+calls=2 1
+1 21
+fl=application_controller
+fn={application_controller,get_env,2}
+1 41
+cfl=ets
+cfn={ets,lookup,2}
+calls=9 1
+1 28
+fl=io
+fn={io,io_request,2}
+1 30
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 16
+cfl=io
+cfn={io,bc_req,3}
+calls=2 1
+1 12
+cfl=unicode
+cfn={unicode,characters_to_binary,2}
+calls=2 1
+1 6
+cfl=io_lib
+cfn={io_lib,nl,0}
+calls=2 1
+1 4
+fl=lists
+fn={lists,umerge3_2,7}
+1 10
+cfl=lists
+cfn={lists,umerge3_12_3,6}
+calls=2 1
+1 56
+cfl=lists
+cfn={lists,umerge3_2,7}
+calls=4 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,cdata_to_chars,3}
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,1}
+calls=2 1
+1 60
+fl=io_lib_pretty
+fn={io_lib_pretty,print,9}
+1 6
+cfl=io_lib_pretty
+cfn={io_lib_pretty,write_atom,2}
+calls=2 1
+1 56
+fl=io_lib_format
+fn={io_lib_format,count_small,1}
+1 5
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=2 1
+1 57
+fl=gb_sets
+fn={gb_sets,from_ordset,1}
+1 13
+cfl=gb_sets
+cfn={gb_sets,balance_list,2}
+calls=4 1
+1 49
+fl=erl_anno
+fn={erl_anno,reset_simplify,1}
+1 35
+cfl=erl_anno
+cfn={erl_anno,simplify,1}
+calls=18 1
+1 26
+fl=io_lib_format
+fn={io_lib_format,cdata_to_chars,1}
+1 60
+cfl=io_lib_format
+cfn={io_lib_format,cdata_to_chars,1}
+calls=19 1
+1 0
+fl=erl_anno
+fn={erl_anno,is_settable,2}
+1 33
+cfl=erl_anno
+cfn={erl_anno,is_filename,1}
+calls=18 1
+1 26
+fl=io_lib_format
+fn={io_lib_format,count_small,2}
+1 57
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=27 1
+1 0
+fl=lists
+fn={lists,umerge3_12_3,6}
+1 38
+cfl=lists
+cfn={lists,umerge2_1,5}
+calls=2 1
+1 18
+fl=io_lib_pretty
+fn={io_lib_pretty,write_atom,2}
+1 6
+cfl=io_lib
+cfn={io_lib,write_atom,1}
+calls=2 1
+1 50
+fl=logger_formatter
+fn={logger_formatter,add_legacy_title,3}
+1 13
+cfl=string
+cfn={string,uppercase,1}
+calls=1 1
+1 33
+cfl=maps
+cfn={maps,find,2}
+calls=1 1
+1 4
+cfl=maps
+cfn={maps,get,3}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,'++',2}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,atom_to_list,1}
+calls=1 1
+1 1
+fl=logger_backend
+fn={logger_backend,apply_filters,4}
+1 9
+cfl=logger_backend
+cfn={logger_backend,do_apply_filters,4}
+calls=3 1
+1 45
+fl=lists
+fn={lists,rumerge2_1,4}
+1 23
+cfl=lists
+cfn={lists,rumerge2_2,5}
+calls=4 1
+1 38
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 3
+cfl=lists
+cfn={lists,rumerge2_1,4}
+calls=4 1
+1 0
+fl=io_lib
+fn={io_lib,write_atom,1}
+1 5
+cfl=io_lib
+cfn={io_lib,write_possibly_quoted_atom,2}
+calls=2 1
+1 45
+fl=ordsets
+fn={ordsets,is_element,2}
+1 49
+cfl=ordsets
+cfn={ordsets,is_element,2}
+calls=18 1
+1 0
+fl=gb_sets
+fn={gb_sets,balance_list,2}
+1 12
+cfl=gb_sets
+cfn={gb_sets,balance_list_1,2}
+calls=4 1
+1 37
+fl=erl_lint
+fn={erl_lint,check_module_name,3}
+1 7
+cfl=erl_lint
+cfn={erl_lint,is_latin1_name,1}
+calls=2 1
+1 40
+fl=io_lib
+fn={io_lib,scan_format,2}
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,scan,2}
+calls=1 1
+1 43
+fl=logger_backend
+fn={logger_backend,do_apply_filters,4}
+1 18
+cfl=logger_filters
+cfn={logger_filters,domain,2}
+calls=3 1
+1 21
+cfl=logger_filters
+cfn={logger_filters,remote_gl,2}
+calls=1 1
+1 6
+cfl=logger_backend
+cfn={logger_backend,do_apply_filters,4}
+calls=4 1
+1 0
+fl=io_lib
+fn={io_lib,write_possibly_quoted_atom,2}
+1 13
+cfl=io_lib
+cfn={io_lib,quote_atom,2}
+calls=2 1
+1 28
+cfl=erlang
+cfn={erlang,atom_to_list,1}
+calls=2 1
+1 4
+fl=logger_config
+fn={logger_config,get,3}
+1 14
+cfl=logger_config
+cfn={logger_config,get,2}
+calls=2 1
+1 19
+cfl=logger_config
+cfn={logger_config,less_or_equal_level,2}
+calls=2 1
+1 5
+cfl=persistent_term
+cfn={persistent_term,get,2}
+calls=2 1
+1 3
+cfl=logger_config
+cfn={logger_config,table_key,1}
+calls=2 1
+1 3
+fl=io_lib_format
+fn={io_lib_format,field_value,2}
+1 28
+cfl=io_lib_format
+cfn={io_lib_format,field_value,3}
+calls=5 1
+1 15
+fl=logger
+fn={logger,add_default_metadata,1}
+1 2
+cfl=logger
+cfn={logger,add_default_metadata,2}
+calls=1 1
+1 39
+fl=erl_lint
+fn={erl_lint,pack_warnings,1}
+1 22
+cfl=erl_lint
+cfn={erl_lint,'-pack_warnings/1-lc$^1/1-0-',2}
+calls=4 1
+1 8
+cfl=lists
+cfn={lists,usort,1}
+calls=4 1
+1 6
+cfl=erl_lint
+cfn={erl_lint,'-pack_warnings/1-lc$^0/1-2-',1}
+calls=4 1
+1 5
+fl=ets
+fn={ets,lookup,2}
+1 40
+fl=erl_lint
+fn={erl_lint,is_latin1_name,1}
+1 11
+cfl=io_lib
+cfn={io_lib,latin1_char_list,1}
+calls=2 1
+1 21
+cfl=erlang
+cfn={erlang,atom_to_list,1}
+calls=2 1
+1 8
+fl=logger
+fn={logger,add_default_metadata,2}
+1 13
+cfl=logger
+cfn={logger,default,1}
+calls=3 1
+1 26
+cfl=logger
+cfn={logger,add_default_metadata,2}
+calls=3 1
+1 0
+fl=lists
+fn={lists,rumerge2_2,5}
+1 24
+cfl=lists
+cfn={lists,rumerge2_2,5}
+calls=8 1
+1 0
+cfl=lists
+cfn={lists,rumerge2_1,4}
+calls=4 1
+1 0
+fl=erl_lint
+fn={erl_lint,pack_errors,1}
+1 11
+cfl=erl_lint
+cfn={erl_lint,pack_warnings,1}
+calls=2 1
+1 20
+cfl=lists
+cfn={lists,mapfoldl,3}
+calls=2 1
+1 5
+cfl=lists
+cfn={lists,map,2}
+calls=2 1
+1 2
+fl=erl_anno
+fn={erl_anno,default,2}
+1 38
+fl=gb_sets
+fn={gb_sets,balance_list_1,2}
+1 37
+cfl=gb_sets
+cfn={gb_sets,balance_list_1,2}
+calls=8 1
+1 0
+fl=erl_lint
+fn={erl_lint,check_remote_function,5}
+1 14
+cfl=erl_lint
+cfn={erl_lint,deprecated_function,5}
+calls=2 1
+1 10
+cfl=erl_lint
+cfn={erl_lint,format_function,5}
+calls=2 1
+1 8
+cfl=erl_lint
+cfn={erl_lint,check_qlc_hrl,5}
+calls=2 1
+1 3
+cfl=erl_lint
+cfn={erl_lint,check_load_nif,5}
+calls=2 1
+1 2
+fl=string
+fn={string,uppercase,1}
+1 3
+cfl=string
+cfn={string,uppercase_list,2}
+calls=1 1
+1 30
+fl=erl_lint
+fn={erl_lint,vtupdate,2}
+1 25
+cfl=orddict
+cfn={orddict,merge,3}
+calls=4 1
+1 6
+fl=string
+fn={string,uppercase_list,2}
+1 22
+cfl=unicode_util
+cfn={unicode_util,uppercase,1}
+calls=1 1
+1 8
+cfl=string
+cfn={string,uppercase_list,2}
+calls=6 1
+1 0
+fl=io_lib
+fn={io_lib,write1,3}
+1 21
+cfl=erlang
+cfn={erlang,integer_to_list,1}
+calls=6 1
+1 8
+fl=erl_lint
+fn={erl_lint,nowarn_function,2}
+1 8
+cfl=erl_lint
+cfn={erl_lint,'-nowarn_function/2-lc$^0/1-0-',2}
+calls=2 1
+1 15
+cfl=ordsets
+cfn={ordsets,from_list,1}
+calls=2 1
+1 6
+fl=logger_olp
+fn={logger_olp,load,2}
+1 7
+cfl=gen_server
+cfn={gen_server,cast,2}
+calls=1 1
+1 14
+cfl=logger_olp
+cfn={logger_olp,get_mode,1}
+calls=1 1
+1 7
+fl=logger_config
+fn={logger_config,get,2}
+1 12
+cfl=ets
+cfn={ets,lookup,2}
+calls=3 1
+1 12
+cfl=logger_config
+cfn={logger_config,table_key,1}
+calls=3 1
+1 4
+fl=io_lib
+fn={io_lib,quote_atom,2}
+1 10
+cfl=io_lib
+cfn={io_lib,name_chars,1}
+calls=2 1
+1 14
+cfl=erl_scan
+cfn={erl_scan,reserved_word,1}
+calls=2 1
+1 4
+fl=maps
+fn={maps,without,2}
+1 2
+cfl=lists
+cfn={lists,foldl,3}
+calls=1 1
+1 25
+fl=io
+fn={io,default_output,0}
+1 19
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=4 1
+1 8
+fl=logger
+fn={logger,default,1}
+1 6
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=1 1
+1 12
+cfl=logger
+cfn={logger,timestamp,0}
+calls=1 1
+1 8
+fl=erl_anno
+fn={erl_anno,simplify,1}
+1 26
+fl=erl_anno
+fn={erl_anno,is_filename,1}
+1 26
+fl=logger_formatter
+fn={logger_formatter,get_offset,1}
+1 3
+cfl=logger_formatter
+cfn={logger_formatter,get_utc_config,0}
+calls=1 1
+1 21
+cfl=logger_formatter
+cfn={logger_formatter,utc_to_offset,1}
+calls=1 1
+1 1
+fl=lists
+fn={lists,reverse,2}
+1 18
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 7
+fl=erl_lint
+fn={erl_lint,value_option,7}
+1 4
+cfl=lists
+cfn={lists,foldl,3}
+calls=2 1
+1 20
+fl=lists
+fn={lists,reverse,1}
+1 8
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 15
+fl=io_lib_format
+fn={io_lib_format,control_small,7}
+1 17
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 6
+fl=io_lib
+fn={io_lib,chars_length,1}
+1 15
+cfl=erlang
+cfn={erlang,iolist_size,1}
+calls=5 1
+1 8
+fl=erlang
+fn={erlang,group_leader,0}
+1 15
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+fl=erl_eval
+fn={erl_eval,ret_expr,3}
+1 23
+fl=orddict
+fn={orddict,to_list,1}
+1 22
+fl=erlang
+fn={erlang,demonitor,2}
+1 22
+fl=orddict
+fn={orddict,merge,3}
+1 21
+fl=logger_formatter
+fn={logger_formatter,get_utc_config,0}
+1 5
+cfl=application
+cfn={application,get_env,2}
+calls=2 1
+1 16
+fl=logger_filters
+fn={logger_filters,domain,2}
+1 11
+cfl=logger_filters
+cfn={logger_filters,filter_domain,4}
+calls=3 1
+1 6
+cfl=logger_filters
+cfn={logger_filters,on_match,2}
+calls=3 1
+1 4
+fl=io_lib
+fn={io_lib,latin1_char_list,1}
+1 21
+cfl=io_lib
+cfn={io_lib,latin1_char_list,1}
+calls=11 1
+1 0
+fl=erl_eval
+fn={erl_eval,bindings,1}
+1 14
+cfl=orddict
+cfn={orddict,to_list,1}
+calls=4 1
+1 7
+fl=shell
+fn={shell,local_func_handler,3}
+1 11
+cfl=shell
+cfn={shell,'-local_func_handler/3-fun-1-',4}
+calls=2 1
+1 9
+fl=lists
+fn={lists,splitwith,2}
+1 2
+cfl=lists
+cfn={lists,splitwith,3}
+calls=1 1
+1 18
+fl=io_lib_format
+fn={io_lib_format,precision,2}
+1 16
+cfl=io_lib_format
+cfn={io_lib_format,field_value,2}
+calls=4 1
+1 4
+fl=logger_config
+fn={logger_config,allow,1}
+1 9
+cfl=persistent_term
+cfn={persistent_term,get,2}
+calls=2 1
+1 7
+cfl=logger_config
+cfn={logger_config,less_or_equal_level,2}
+calls=2 1
+1 3
+fl=erl_lint
+fn={erl_lint,'-start/2-lc$^1/1-1-',1}
+1 19
+cfl=erl_lint
+cfn={erl_lint,'-start/2-lc$^1/1-1-',1}
+calls=6 1
+1 0
+fl=maps
+fn={maps,get,3}
+1 18
+fl=lists
+fn={lists,umerge2_1,5}
+1 7
+cfl=lists
+cfn={lists,umerge2_2,4}
+calls=2 1
+1 11
+fl=lists
+fn={lists,splitwith,3}
+1 11
+cfl=logger_formatter
+cfn={logger_formatter,'-format/2-fun-0-',1}
+calls=3 1
+1 6
+cfl=lists
+cfn={lists,reverse,1}
+calls=1 1
+1 1
+cfl=lists
+cfn={lists,splitwith,3}
+calls=2 1
+1 0
+fl=lists
+fn={lists,mapfoldl,3}
+1 17
+fl=erlang
+fn={erlang,monitor,2}
+1 17
+fl=logger_formatter
+fn={logger_formatter,timestamp_to_datetimemicro,2}
+1 7
+cfl=erlang
+cfn={erlang,universaltime_to_localtime,1}
+calls=1 1
+1 6
+cfl=erlang
+cfn={erlang,posixtime_to_universaltime,1}
+calls=1 1
+1 2
+cfl=logger_formatter
+cfn={logger_formatter,offset_to_utc,1}
+calls=1 1
+1 1
+fl=io_lib_format
+fn={io_lib_format,iolist_to_chars,3}
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,iolist_to_chars,1}
+calls=2 1
+1 12
+fl=shell
+fn={shell,record_defs,2}
+1 10
+cfl=lists
+cfn={lists,flatmap,2}
+calls=2 1
+1 5
+fl=logger
+fn={logger,debug,1}
+1 2
+cfl=logger
+cfn={logger,log,2}
+calls=1 1
+1 13
+fl=io_lib_format
+fn={io_lib_format,modifiers,2}
+1 15
+cfl=io_lib_format
+cfn={io_lib_format,modifiers,2}
+calls=2 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,field_value,3}
+1 15
+cfl=io_lib_format
+cfn={io_lib_format,field_value,3}
+calls=5 1
+1 0
+fl=erl_lint
+fn={erl_lint,'-nowarn_function/2-lc$^0/1-0-',2}
+1 15
+cfl=erl_lint
+cfn={erl_lint,'-nowarn_function/2-lc$^0/1-0-',2}
+calls=4 1
+1 0
+fl=epp
+fn={epp,default_encoding,0}
+1 15
+fl=persistent_term
+fn={persistent_term,get,2}
+1 14
+fl=io_lib_format
+fn={io_lib_format,field_width,3}
+1 14
+fl=io_lib
+fn={io_lib,name_chars,1}
+1 12
+cfl=io_lib
+cfn={io_lib,name_char,1}
+calls=2 1
+1 2
+cfl=io_lib
+cfn={io_lib,name_chars,1}
+calls=2 1
+1 0
+fl=gen_server
+fn={gen_server,cast,2}
+1 2
+cfl=gen_server
+cfn={gen_server,do_cast,2}
+calls=1 1
+1 12
+fl=logger_formatter
+fn={logger_formatter,get_depth,1}
+1 2
+cfl=error_logger
+cfn={error_logger,get_format_depth,0}
+calls=1 1
+1 11
+fl=io_lib_format
+fn={io_lib_format,decr_pc,2}
+1 13
+fl=gb_sets
+fn={gb_sets,empty,0}
+1 13
+fl=erlang
+fn={erlang,atom_to_list,1}
+1 13
+fl=unicode
+fn={unicode,characters_to_binary,2}
+1 12
+fl=logger_h_common
+fn={logger_h_common,string_to_binary,1}
+1 3
+cfl=unicode
+cfn={unicode,characters_to_binary,1}
+calls=1 1
+1 9
+fl=io_lib_format
+fn={io_lib_format,pad_char,2}
+1 12
+fl=io_lib_format
+fn={io_lib_format,iolist_to_chars,1}
+1 12
+cfl=io_lib_format
+cfn={io_lib_format,iolist_to_chars,1}
+calls=3 1
+1 0
+fl=io
+fn={io,bc_req,3}
+1 8
+cfl=net_kernel
+cfn={net_kernel,dflag_unicode_io,1}
+calls=2 1
+1 4
+fl=gen_server
+fn={gen_server,do_cast,2}
+1 4
+cfl=gen_server
+cfn={gen_server,do_send,2}
+calls=1 1
+1 7
+cfl=gen_server
+cfn={gen_server,cast_msg,1}
+calls=1 1
+1 1
+fl=lists
+fn={lists,umerge2_2,4}
+1 7
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 4
+fl=io_lib_format
+fn={io_lib_format,collect_cc,2}
+1 11
+fl=error_logger
+fn={error_logger,get_format_depth,0}
+1 4
+cfl=application
+cfn={application,get_env,2}
+calls=1 1
+1 7
+fl=erlang
+fn={erlang,min,2}
+1 11
+fl=erlang
+fn={erlang,is_process_alive,1}
+1 6
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 5
+fl=io_lib_format
+fn={io_lib_format,string,6}
+1 10
+fl=io_lib_format
+fn={io_lib_format,chars,2}
+1 10
+fl=erl_lint
+fn={erl_lint,keyword_warning,3}
+1 10
+fl=erl_lint
+fn={erl_lint,deprecated_function,5}
+1 7
+cfl=otp_internal
+cfn={otp_internal,obsolete,3}
+calls=2 1
+1 3
+fl=unicode
+fn={unicode,characters_to_binary,1}
+1 3
+cfl=unicode
+cfn={unicode,characters_to_binary,2}
+calls=1 1
+1 6
+fl=shell
+fn={shell,'-local_func_handler/3-fun-1-',4}
+1 9
+fl=maps
+fn={maps,merge,2}
+1 9
+fl=io_lib_format
+fn={io_lib_format,adjust,3}
+1 9
+fl=io
+fn={io,default_input,0}
+1 6
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=2 1
+1 3
+fl=erl_lint
+fn={erl_lint,pseudolocals,0}
+1 9
+fl=unicode_util
+fn={unicode_util,uppercase,1}
+1 4
+cfl=unicode_util
+cfn={unicode_util,cp,1}
+calls=1 1
+1 2
+cfl=unicode_util
+cfn={unicode_util,case_table,1}
+calls=1 1
+1 2
+fl=maps
+fn={maps,remove,2}
+1 8
+fl=logger_config
+fn={logger_config,less_or_equal_level,2}
+1 8
+fl=logger
+fn={logger,timestamp,0}
+1 6
+cfl=os
+cfn={os,system_time,1}
+calls=1 1
+1 2
+fl=io_lib_format
+fn={io_lib_format,get_option,3}
+1 6
+cfl=lists
+cfn={lists,keyfind,3}
+calls=2 1
+1 2
+fl=erlang
+fn={erlang,iolist_size,1}
+1 8
+fl=erlang
+fn={erlang,integer_to_list,1}
+1 8
+fl=erl_lint
+fn={erl_lint,format_function,5}
+1 5
+cfl=erl_lint
+cfn={erl_lint,is_format_function,2}
+calls=2 1
+1 3
+fl=erl_lint
+fn={erl_lint,'-pack_warnings/1-lc$^1/1-0-',2}
+1 8
+fl=logger_olp
+fn={logger_olp,get_mode,1}
+1 3
+cfl=persistent_term
+cfn={persistent_term,get,2}
+calls=1 1
+1 4
+fl=logger_config
+fn={logger_config,table_key,1}
+1 7
+fl=gen_server
+fn={gen_server,do_send,2}
+1 3
+cfl=erlang
+cfn={erlang,send,2}
+calls=1 1
+1 4
+fl=erlang
+fn={erlang,whereis,1}
+1 7
+fl=erl_anno
+fn={erl_anno,new,1}
+1 4
+cfl=erl_anno
+cfn={erl_anno,new_location,1}
+calls=2 1
+1 3
+fl=shell
+fn={shell,record_print_fun,1}
+1 6
+fl=orddict
+fn={orddict,from_list,1}
+1 6
+fl=logger_formatter
+fn={logger_formatter,'-format/2-fun-0-',1}
+1 6
+fl=logger_filters
+fn={logger_filters,remote_gl,2}
+1 4
+cfl=logger_filters
+cfn={logger_filters,on_match,2}
+calls=1 1
+1 1
+cfl=logger_filters
+cfn={logger_filters,filter_remote_gl,2}
+calls=1 1
+1 1
+fl=logger_filters
+fn={logger_filters,filter_domain,4}
+1 6
+fl=logger
+fn={logger,tid,0}
+1 3
+cfl=ets
+cfn={ets,whereis,1}
+calls=1 1
+1 3
+fl=erlang
+fn={erlang,universaltime_to_localtime,1}
+1 6
+fl=erlang
+fn={erlang,monitor,3}
+1 6
+fl=erl_lint
+fn={erl_lint,'-value_option/7-fun-0-',7}
+1 6
+fl=logger_formatter
+fn={logger_formatter,value,2}
+1 5
+cfl=logger_formatter
+cfn={logger_formatter,value,2}
+calls=2 1
+1 0
+fl=logger_filters
+fn={logger_filters,on_match,2}
+1 5
+fl=logger
+fn={logger,proc_meta,0}
+1 3
+cfl=logger
+cfn={logger,get_process_metadata,0}
+calls=1 1
+1 2
+fl=lists
+fn={lists,flatmap,2}
+1 5
+fl=io_lib_format
+fn={io_lib_format,limit_field,2}
+1 5
+fl=gb_sets
+fn={gb_sets,new,0}
+1 3
+cfl=gb_sets
+cfn={gb_sets,empty,0}
+calls=2 1
+1 2
+fl=erl_lint
+fn={erl_lint,'-pack_warnings/1-lc$^0/1-2-',1}
+1 5
+fl=shell
+fn={shell,record_bindings,2}
+1 4
+fl=shell
+fn={shell,expand_records,2}
+1 4
+fl=net_kernel
+fn={net_kernel,dflag_unicode_io,1}
+1 4
+fl=maps
+fn={maps,from_list,1}
+1 4
+fl=maps
+fn={maps,find,2}
+1 4
+fl=logger_formatter
+fn={logger_formatter,add_default_template,1}
+1 3
+cfl=logger_formatter
+cfn={logger_formatter,default_template,1}
+calls=1 1
+1 1
+fl=io_lib
+fn={io_lib,nl,0}
+1 4
+fl=erlang
+fn={erlang,send,2}
+1 4
+fl=erlang
+fn={erlang,get,0}
+1 4
+fl=erl_scan
+fn={erl_scan,reserved_word,1}
+1 4
+fl=shell
+fn={shell,'-exprs/7-lc$^0/1-0-',1}
+1 3
+fl=otp_internal
+fn={otp_internal,obsolete,3}
+1 3
+fl=logger_formatter
+fn={logger_formatter,chars_limit_to_opts,1}
+1 3
+fl=io_lib_format
+fn={io_lib_format,sub,2}
+1 3
+fl=ets
+fn={ets,whereis,1}
+1 3
+fl=erlang
+fn={erlang,send,3}
+1 3
+fl=erlang
+fn={erlang,demonitor,1}
+1 3
+fl=erl_lint
+fn={erl_lint,is_format_function,2}
+1 3
+fl=erl_lint
+fn={erl_lint,check_qlc_hrl,5}
+1 3
+fl=erl_anno
+fn={erl_anno,new_location,1}
+1 3
+fl=unicode_util
+fn={unicode_util,cp,1}
+1 2
+fl=unicode_util
+fn={unicode_util,case_table,1}
+1 2
+fl=os
+fn={os,system_time,1}
+1 2
+fl=logger_olp
+fn={logger_olp,get_pid,1}
+1 2
+fl=logger_formatter
+fn={logger_formatter,get_max_size,1}
+1 2
+fl=logger
+fn={logger,get_process_metadata,0}
+1 2
+fl=lists
+fn={lists,map,2}
+1 2
+fl=io_lib_format
+fn={io_lib_format,uniconv,1}
+1 2
+fl=io_lib
+fn={io_lib,name_char,1}
+1 2
+fl=io
+fn={io,printable_range,0}
+1 2
+fl=erlang
+fn={erlang,posixtime_to_universaltime,1}
+1 2
+fl=erlang
+fn={erlang,'++',2}
+1 2
+fl=erl_lint
+fn={erl_lint,check_load_nif,5}
+1 2
+fl=erl_internal
+fn={erl_internal,bif,3}
+1 2
+fl=logger_formatter
+fn={logger_formatter,utc_to_offset,1}
+1 1
+fl=logger_formatter
+fn={logger_formatter,truncate,4}
+1 1
+fl=logger_formatter
+fn={logger_formatter,reformat,3}
+1 1
+fl=logger_formatter
+fn={logger_formatter,offset_to_utc,1}
+1 1
+fl=logger_formatter
+fn={logger_formatter,month,1}
+1 1
+fl=logger_formatter
+fn={logger_formatter,default_template,1}
+1 1
+fl=logger_filters
+fn={logger_filters,filter_remote_gl,2}
+1 1
+fl=gen_server
+fn={gen_server,cast_msg,1}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=shell
+cfn={shell,exprs,7}
+calls=0 1
+1 15776588
+cfl=fprof
+cfn={fprof,just_call,2}
+calls=0 1
+1 7
+fl=user_drv
+fn={user_drv,server_loop,6}
+1 1779
+cfl=pseudo
+cfn=suspend
+calls=81 1
+1 15767851
+cfl=user_drv
+cfn={user_drv,port_bytes,7}
+calls=36 1
+1 15096593
+cfl=user_drv
+cfn={user_drv,handle_req,4}
+calls=54 1
+1 4980
+cfl=erlang
+cfn={erlang,list_to_binary,1}
+calls=36 1
+1 1213
+cfl=unicode
+cfn={unicode,characters_to_list,2}
+calls=36 1
+1 144
+cfl=user_drv
+cfn={user_drv,get_tty_geometry,1}
+calls=2 1
+1 142
+cfl=user_drv
+cfn={user_drv,get_unicode_state,1}
+calls=2 1
+1 23
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 14
+cfl=user_drv
+cfn={user_drv,server_loop,6}
+calls=58 1
+1 0
+fl=pseudo
+fn=suspend
+1 15767851
+fl=user_drv
+fn={user_drv,port_bytes,7}
+1 272
+cfl=user_drv
+cfn={user_drv,member,2}
+calls=3 1
+1 33
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 33
+cfl=user_drv
+cfn={user_drv,server_loop,6}
+calls=36 1
+1 0
+fl=user_drv
+fn={user_drv,handle_req,4}
+1 421
+cfl=user_drv
+cfn={user_drv,io_request,3}
+calls=49 1
+1 4365
+cfl=queue
+cfn={queue,peek,1}
+calls=47 1
+1 139
+cfl=queue
+cfn={queue,out,1}
+calls=5 1
+1 52
+cfl=queue
+cfn={queue,in,2}
+calls=2 1
+1 3
+fl=user_drv
+fn={user_drv,io_request,3}
+1 564
+cfl=user_drv
+cfn={user_drv,io_requests,3}
+calls=43 1
+1 4022
+cfl=erlang
+cfn={erlang,port_command,2}
+calls=58 1
+1 2964
+cfl=user_drv
+cfn={user_drv,io_command,1}
+calls=58 1
+1 429
+fl=user_drv
+fn={user_drv,io_requests,3}
+1 408
+cfl=user_drv
+cfn={user_drv,io_requests,3}
+calls=52 1
+1 0
+cfl=user_drv
+cfn={user_drv,io_request,3}
+calls=52 1
+1 0
+fl=erlang
+fn={erlang,port_command,2}
+1 407
+cfl=erts_internal
+cfn={erts_internal,port_command,3}
+calls=58 1
+1 2544
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 13
+fl=erts_internal
+fn={erts_internal,port_command,3}
+1 2504
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 40
+fl=erlang
+fn={erlang,list_to_binary,1}
+1 1193
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 28
+fl=user_drv
+fn={user_drv,io_command,1}
+1 257
+cfl=unicode
+cfn={unicode,characters_to_binary,2}
+calls=40 1
+1 142
+cfl=user_drv
+cfn={user_drv,put_int16,2}
+calls=17 1
+1 30
+fl=unicode
+fn={unicode,characters_to_list,2}
+1 144
+fl=user_drv
+fn={user_drv,get_tty_geometry,1}
+1 98
+cfl=erlang
+cfn={erlang,port_control,3}
+calls=2 1
+1 36
+cfl=erlang
+cfn={erlang,list_to_binary,1}
+calls=2 1
+1 8
+fl=unicode
+fn={unicode,characters_to_binary,2}
+1 142
+fl=queue
+fn={queue,peek,1}
+1 139
+fl=pseudo
+fn=garbage_collect
+1 128
+fl=queue
+fn={queue,out,1}
+1 52
+fl=erlang
+fn={erlang,port_control,3}
+1 21
+cfl=erts_internal
+cfn={erts_internal,port_control,3}
+calls=4 1
+1 28
+fl=user_drv
+fn={user_drv,member,2}
+1 33
+cfl=user_drv
+cfn={user_drv,member,2}
+calls=9 1
+1 0
+fl=user_drv
+fn={user_drv,put_int16,2}
+1 30
+fl=erts_internal
+fn={erts_internal,port_control,3}
+1 28
+fl=user_drv
+fn={user_drv,get_unicode_state,1}
+1 10
+cfl=erlang
+cfn={erlang,port_control,3}
+calls=2 1
+1 13
+fl=queue
+fn={queue,in,2}
+1 3
+fl=pseudo
+fn=undefined
+1 0
+cfl=user_drv
+cfn={user_drv,server_loop,6}
+calls=0 1
+1 15776484
+fl=erlang
+fn={erlang,apply,2}
+1 5
+cfl=shell
+cfn={shell,'-get_command/5-fun-0-',1}
+calls=1 1
+1 3189853
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 20
+fl=shell
+fn={shell,'-get_command/5-fun-0-',1}
+1 10
+cfl=io
+cfn={io,scan_erl_exprs,4}
+calls=1 1
+1 3186945
+cfl=erl_eval
+cfn={erl_eval,extended_parse_exprs,1}
+calls=1 1
+1 2892
+cfl=erlang
+cfn={erlang,exit,1}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=1 1
+1 2
+fl=io
+fn={io,scan_erl_exprs,4}
+1 2
+cfl=io
+cfn={io,request,2}
+calls=1 1
+1 3186943
+fl=io
+fn={io,request,2}
+1 3
+cfl=io
+cfn={io,execute_request,2}
+calls=1 1
+1 3186933
+cfl=io
+cfn={io,io_request,2}
+calls=1 1
+1 7
+fl=io
+fn={io,execute_request,2}
+1 13
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 3186889
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 29
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 2
+fl=pseudo
+fn=suspend
+1 3186909
+fl=erl_eval
+fn={erl_eval,extended_parse_exprs,1}
+1 15
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,1}
+calls=1 1
+1 1831
+cfl=erl_parse
+cfn={erl_parse,parse_exprs,1}
+calls=1 1
+1 522
+cfl=erl_eval
+cfn={erl_eval,reset_expr_anno,1}
+calls=1 1
+1 340
+cfl=erl_eval
+cfn={erl_eval,tokens_fixup,1}
+calls=1 1
+1 184
+fl=erl_eval
+fn={erl_eval,expr_fixup,1}
+1 5
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,3}
+calls=1 1
+1 1822
+cfl=erl_eval
+cfn={erl_eval,new_bindings,0}
+calls=1 1
+1 4
+fl=erl_eval
+fn={erl_eval,expr_fixup,3}
+1 1669
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=44 1
+1 67
+cfl=erlang
+cfn={erlang,tuple_to_list,1}
+calls=44 1
+1 58
+cfl=pseudo
+cfn=garbage_collect
+calls=4 1
+1 28
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,3}
+calls=474 1
+1 0
+fl=erl_parse
+fn={erl_parse,parse_exprs,1}
+1 5
+cfl=erl_parse
+cfn={erl_parse,parse,1}
+calls=1 1
+1 514
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=1 1
+1 3
+fl=erl_parse
+fn={erl_parse,parse,1}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars0,5}
+calls=1 1
+1 512
+fl=erl_parse
+fn={erl_parse,yeccpars0,5}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,5}
+calls=1 1
+1 509
+fl=erl_parse
+fn={erl_parse,yeccpars1,5}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2,7}
+calls=1 1
+1 507
+fl=erl_parse
+fn={erl_parse,yeccpars2,7}
+1 49
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_0,7}
+calls=1 1
+1 505
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_7,7}
+calls=1 1
+1 499
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_10,7}
+calls=1 1
+1 494
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_24,7}
+calls=1 1
+1 488
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_42,7}
+calls=6 1
+1 469
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_29,7}
+calls=6 1
+1 463
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_238,7}
+calls=1 1
+1 449
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_311,7}
+calls=1 1
+1 424
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_37,7}
+calls=1 1
+1 340
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_33,7}
+calls=1 1
+1 308
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_28,7}
+calls=1 1
+1 280
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_217,7}
+calls=1 1
+1 274
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_315,7}
+calls=1 1
+1 240
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_314,7}
+calls=1 1
+1 204
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_506,7}
+calls=1 1
+1 6
+fl=erl_parse
+fn={erl_parse,yeccpars2_0,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 503
+fl=erl_parse
+fn={erl_parse,yeccpars1,7}
+1 43
+cfl=erl_parse
+cfn={erl_parse,yecctoken_end_location,1}
+calls=1 1
+1 27
+cfl=erl_parse
+cfn={erl_parse,yecc_end,1}
+calls=1 1
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2,7}
+calls=24 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_7,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_10,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_24,7}
+1 5
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_pat_argument_list,7}
+calls=1 1
+1 483
+fl=erl_parse
+fn={erl_parse,yeccgoto_pat_argument_list,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_8,7}
+calls=1 1
+1 481
+fl=erl_parse
+fn={erl_parse,yeccpars2_8,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_clause_args,7}
+calls=1 1
+1 479
+fl=erl_parse
+fn={erl_parse,yeccgoto_clause_args,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_9,7}
+calls=1 1
+1 476
+fl=erl_parse
+fn={erl_parse,yeccpars2_9,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_84,7}
+calls=1 1
+1 474
+fl=erl_parse
+fn={erl_parse,yeccpars2_84,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_42,7}
+1 14
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_cont_27,7}
+calls=1 1
+1 285
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=5 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_29,7}
+1 14
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_atomic,7}
+calls=6 1
+1 461
+fl=erl_parse
+fn={erl_parse,yeccgoto_atomic,7}
+1 15
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_56,7}
+calls=7 1
+1 459
+fl=erl_parse
+fn={erl_parse,yeccpars2_56,7}
+1 12
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_max,7}
+calls=7 1
+1 457
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr_max,7}
+1 18
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_51,7}
+calls=8 1
+1 454
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_304,7}
+calls=1 1
+1 433
+fl=erl_parse
+fn={erl_parse,yeccpars2_51,7}
+1 16
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_remote,7}
+calls=7 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_238,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_304,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_remote,7}
+calls=1 1
+1 431
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr_remote,7}
+1 14
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_50,7}
+calls=8 1
+1 429
+fl=erl_parse
+fn={erl_parse,yeccpars2_50,7}
+1 13
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr,7}
+calls=7 1
+1 407
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,modify_anno1,3}
+1 123
+cfl=erl_parse
+cfn={erl_parse,'-map_anno/2-fun-0-',3}
+calls=11 1
+1 217
+cfl=erl_parse
+cfn={erl_parse,'-fold_anno/3-fun-0-',3}
+calls=3 1
+1 89
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=29 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_311,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr,7}
+1 14
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_52,7}
+calls=8 1
+1 405
+fl=erl_parse
+fn={erl_parse,yeccpars2_52,7}
+1 16
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_exprs,7}
+calls=3 1
+1 257
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=5 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_37,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_eval
+fn={erl_eval,reset_expr_anno,1}
+1 2
+cfl=erl_eval
+cfn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+calls=1 1
+1 338
+fl=erl_eval
+fn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+1 8
+cfl=erl_parse
+cfn={erl_parse,map_anno,2}
+calls=1 1
+1 328
+cfl=erl_eval
+cfn={erl_eval,reset_anno,0}
+calls=1 1
+1 2
+cfl=erl_eval
+cfn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,map_anno,2}
+1 5
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=1 1
+1 323
+fl=erl_parse
+fn={erl_parse,yeccpars2_33,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_atomic,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_cont_27,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_28,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_217,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_list,7}
+calls=1 1
+1 272
+fl=erl_parse
+fn={erl_parse,yeccgoto_list,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_45,7}
+calls=1 1
+1 269
+fl=erl_parse
+fn={erl_parse,yeccpars2_45,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_max,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccgoto_exprs,7}
+1 17
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_301,7}
+calls=5 1
+1 255
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_49,7}
+calls=1 1
+1 246
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_312,7}
+calls=1 1
+1 212
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_126,7}
+calls=1 1
+1 75
+fl=erl_parse
+fn={erl_parse,yeccpars2_301,7}
+1 8
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_exprs,7}
+calls=5 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_49,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_315,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_tuple,7}
+calls=1 1
+1 238
+fl=erl_parse
+fn={erl_parse,yeccgoto_tuple,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_38,7}
+calls=1 1
+1 236
+fl=erl_parse
+fn={erl_parse,yeccpars2_38,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_max,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,'-map_anno/2-fun-0-',3}
+1 36
+cfl=erl_eval
+cfn={erl_eval,'-reset_anno/0-fun-0-',1}
+calls=11 1
+1 172
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 9
+fl=erl_parse
+fn={erl_parse,yeccpars2_312,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_314,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_argument_list,7}
+calls=1 1
+1 202
+fl=erl_parse
+fn={erl_parse,yeccgoto_argument_list,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_310,7}
+calls=1 1
+1 200
+fl=erl_parse
+fn={erl_parse,yeccpars2_310,7}
+1 4
+cfl=erl_parse
+cfn={erl_parse,first_anno,1}
+calls=1 1
+1 112
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_call,7}
+calls=1 1
+1 84
+fl=erl_eval
+fn={erl_eval,tokens_fixup,1}
+1 95
+cfl=erl_eval
+cfn={erl_eval,token_fixup,1}
+calls=20 1
+1 89
+cfl=erl_eval
+cfn={erl_eval,tokens_fixup,1}
+calls=20 1
+1 0
+fl=erl_eval
+fn={erl_eval,'-reset_anno/0-fun-0-',1}
+1 42
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=11 1
+1 75
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=11 1
+1 42
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 13
+fl=erl_anno
+fn={erl_anno,location,1}
+1 35
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=18 1
+1 94
+fl=erl_parse
+fn={erl_parse,first_anno,1}
+1 4
+cfl=erl_parse
+cfn={erl_parse,fold_anno,3}
+calls=1 1
+1 108
+fl=erl_parse
+fn={erl_parse,fold_anno,3}
+1 2
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=1 1
+1 106
+fl=erl_anno
+fn={erl_anno,anno_info,2}
+1 65
+cfl=lists
+cfn={lists,keyfind,3}
+calls=19 1
+1 33
+fl=erl_parse
+fn={erl_parse,'-fold_anno/3-fun-0-',3}
+1 8
+cfl=erl_parse
+cfn={erl_parse,'-first_anno/1-fun-0-',2}
+calls=3 1
+1 81
+fl=erl_eval
+fn={erl_eval,token_fixup,1}
+1 43
+cfl=erl_eval
+cfn={erl_eval,unscannable,1}
+calls=20 1
+1 38
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_call,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_47,7}
+calls=1 1
+1 82
+fl=erl_parse
+fn={erl_parse,yeccpars2_47,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,'-first_anno/1-fun-0-',2}
+1 19
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=6 1
+1 49
+cfl=erl_parse
+cfn={erl_parse,loc_lte,2}
+calls=3 1
+1 8
+cfl=erlang
+cfn={erlang,throw,1}
+calls=1 1
+1 5
+fl=pseudo
+fn=garbage_collect
+1 80
+fl=erl_parse
+fn={erl_parse,yeccpars2_126,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_clause_body,7}
+calls=1 1
+1 73
+fl=erl_parse
+fn={erl_parse,yeccgoto_clause_body,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_342,7}
+calls=1 1
+1 71
+fl=erl_parse
+fn={erl_parse,yeccpars2_342,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_clause,7}
+calls=1 1
+1 69
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_clause,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_2,7}
+calls=1 1
+1 67
+fl=erlang
+fn={erlang,list_to_tuple,1}
+1 67
+fl=erl_parse
+fn={erl_parse,yeccpars2_2,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_clauses,7}
+calls=1 1
+1 65
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_clauses,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_1,7}
+calls=1 1
+1 63
+fl=erl_parse
+fn={erl_parse,yeccpars2_1,7}
+1 6
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function,7}
+calls=1 1
+1 47
+cfl=erl_parse
+cfn={erl_parse,build_function,1}
+calls=1 1
+1 10
+fl=erlang
+fn={erlang,tuple_to_list,1}
+1 58
+fl=erl_parse
+fn={erl_parse,yeccgoto_function,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_3,7}
+calls=1 1
+1 45
+fl=erl_parse
+fn={erl_parse,yeccpars2_3,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_anno
+fn={erl_anno,new,1}
+1 27
+cfl=erl_anno
+cfn={erl_anno,new_location,1}
+calls=12 1
+1 18
+fl=erl_eval
+fn={erl_eval,unscannable,1}
+1 38
+fl=lists
+fn={lists,keyfind,3}
+1 26
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 7
+fl=erlang
+fn={erlang,demonitor,2}
+1 14
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 15
+fl=erl_parse
+fn={erl_parse,yecctoken_end_location,1}
+1 4
+cfl=erl_anno
+cfn={erl_anno,end_location,1}
+calls=1 1
+1 23
+fl=erl_anno
+fn={erl_anno,end_location,1}
+1 6
+cfl=erl_anno
+cfn={erl_anno,text,1}
+calls=1 1
+1 6
+cfl=erl_anno
+cfn={erl_anno,end_location,3}
+calls=1 1
+1 6
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=1 1
+1 5
+fl=erl_anno
+fn={erl_anno,new_location,1}
+1 18
+fl=erl_parse
+fn={erl_parse,build_function,1}
+1 3
+cfl=erl_parse
+cfn={erl_parse,check_clauses,3}
+calls=1 1
+1 7
+fl=erl_parse
+fn={erl_parse,loc_lte,2}
+1 8
+fl=io
+fn={io,io_request,2}
+1 2
+cfl=io
+cfn={io,bc_req,3}
+calls=1 1
+1 5
+fl=erl_parse
+fn={erl_parse,check_clauses,3}
+1 2
+cfl=erl_parse
+cfn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+calls=1 1
+1 5
+fl=erl_parse
+fn={erl_parse,yeccpars2_506,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_form,7}
+calls=1 1
+1 4
+fl=erl_anno
+fn={erl_anno,text,1}
+1 2
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=1 1
+1 4
+fl=erl_anno
+fn={erl_anno,end_location,3}
+1 6
+cfl=erl_anno
+cfn={erl_anno,end_location,3}
+calls=2 1
+1 0
+fl=io
+fn={io,bc_req,3}
+1 3
+cfl=net_kernel
+cfn={net_kernel,dflag_unicode_io,1}
+calls=1 1
+1 2
+fl=erlang
+fn={erlang,throw,1}
+1 5
+fl=erl_parse
+fn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+1 5
+cfl=erl_parse
+cfn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+calls=1 1
+1 0
+fl=erlang
+fn={erlang,exit,1}
+1 4
+fl=erl_parse
+fn={erl_parse,yeccgoto_form,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_4,7}
+calls=1 1
+1 2
+fl=erl_eval
+fn={erl_eval,new_bindings,0}
+1 3
+cfl=orddict
+cfn={orddict,new,0}
+calls=1 1
+1 1
+fl=net_kernel
+fn={net_kernel,dflag_unicode_io,1}
+1 2
+fl=erlang
+fn={erlang,monitor,2}
+1 2
+fl=erlang
+fn={erlang,group_leader,0}
+1 2
+fl=erl_parse
+fn={erl_parse,yeccpars2_4,7}
+1 2
+fl=erl_parse
+fn={erl_parse,yecc_end,1}
+1 2
+fl=erl_eval
+fn={erl_eval,reset_anno,0}
+1 2
+fl=orddict
+fn={orddict,new,0}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=erlang
+cfn={erlang,apply,2}
+calls=1 1
+1 3189878
+fl=shell
+fn={shell,server_loop,7}
+1 41
+cfl=shell
+cfn={shell,get_command,5}
+calls=2 1
+1 15759742
+cfl=shell
+cfn={shell,shell_cmd,6}
+calls=2 1
+1 13672
+cfl=erl_eval
+cfn={erl_eval,subst_values_for_vars,2}
+calls=2 1
+1 1306
+cfl=shell
+cfn={shell,prompt,5}
+calls=2 1
+1 360
+cfl=shell
+cfn={shell,expand_hist,2}
+calls=2 1
+1 137
+cfl=shell
+cfn={shell,check_and_get_history_and_results,0}
+calls=1 1
+1 88
+cfl=shell
+cfn={shell,shell_rep,4}
+calls=0 1
+1 59
+cfl=shell
+cfn={shell,del_cmd,4}
+calls=4 1
+1 53
+cfl=shell
+cfn={shell,add_cmd,3}
+calls=2 1
+1 20
+cfl=shell
+cfn={shell,server_loop,7}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 15773321
+fl=shell
+fn={shell,get_command,5}
+1 8
+cfl=shell
+cfn={shell,get_command1,5}
+calls=2 1
+1 15759695
+cfl=erlang
+cfn={erlang,spawn_link,1}
+calls=2 1
+1 39
+fl=shell
+fn={shell,get_command1,5}
+1 19
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 15759676
+fl=shell
+fn={shell,shell_rep,4}
+1 14
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 13645
+cfl=shell
+cfn={shell,check_and_get_history_and_results,0}
+calls=1 1
+1 56
+fl=shell
+fn={shell,shell_cmd,6}
+1 16
+cfl=shell
+cfn={shell,shell_rep,4}
+calls=2 1
+1 13656
+fl=erl_eval
+fn={erl_eval,subst_values_for_vars,2}
+1 506
+cfl=erl_eval
+cfn={erl_eval,'-subst_values_for_vars/2-lc$^0/1-0-',2}
+calls=41 1
+1 1302
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=36 1
+1 69
+cfl=erlang
+cfn={erlang,tuple_to_list,1}
+calls=36 1
+1 64
+cfl=erl_eval
+cfn={erl_eval,subst_values_for_vars,2}
+calls=36 1
+1 0
+fl=erl_eval
+fn={erl_eval,'-subst_values_for_vars/2-lc$^0/1-0-',2}
+1 667
+cfl=erl_eval
+cfn={erl_eval,subst_values_for_vars,2}
+calls=103 1
+1 0
+cfl=erl_eval
+cfn={erl_eval,'-subst_values_for_vars/2-lc$^0/1-0-',2}
+calls=103 1
+1 0
+fl=shell
+fn={shell,prompt,5}
+1 10
+cfl=shell
+cfn={shell,default_prompt,1}
+calls=2 1
+1 330
+cfl=shell
+cfn={shell,get_prompt_func,0}
+calls=2 1
+1 20
+fl=shell
+fn={shell,default_prompt,1}
+1 9
+cfl=io_lib
+cfn={io_lib,format,2}
+calls=2 1
+1 317
+cfl=erlang
+cfn={erlang,is_alive,0}
+calls=2 1
+1 4
+fl=io_lib
+fn={io_lib,format,2}
+1 8
+cfl=io_lib_format
+cfn={io_lib_format,fwrite,2}
+calls=2 1
+1 309
+fl=io_lib_format
+fn={io_lib_format,fwrite,2}
+1 9
+cfl=io_lib_format
+cfn={io_lib_format,build,1}
+calls=2 1
+1 212
+cfl=io_lib_format
+cfn={io_lib_format,scan,2}
+calls=2 1
+1 88
+fl=io_lib_format
+fn={io_lib_format,build,1}
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,build,2}
+calls=2 1
+1 208
+fl=io_lib_format
+fn={io_lib_format,build,2}
+1 18
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=2 1
+1 127
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=2 1
+1 28
+cfl=io_lib_format
+cfn={io_lib_format,count_small,1}
+calls=2 1
+1 21
+cfl=io_lib_format
+cfn={io_lib_format,get_option,3}
+calls=2 1
+1 11
+cfl=io_lib_format
+cfn={io_lib_format,sub,2}
+calls=2 1
+1 3
+fl=shell
+fn={shell,check_and_get_history_and_results,0}
+1 17
+cfl=shell
+cfn={shell,check_env,1}
+calls=4 1
+1 75
+cfl=shell
+cfn={shell,get_history_and_results,0}
+calls=2 1
+1 52
+fl=shell
+fn={shell,expand_hist,2}
+1 15
+cfl=shell
+cfn={shell,expand_exprs,2}
+calls=2 1
+1 122
+fl=io_lib_format
+fn={io_lib_format,build_limited,5}
+1 29
+cfl=io_lib_format
+cfn={io_lib_format,control_limited,10}
+calls=2 1
+1 95
+cfl=io_lib_format
+cfn={io_lib_format,decr_pc,2}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,build_limited,5}
+calls=6 1
+1 0
+fl=shell
+fn={shell,expand_exprs,2}
+1 65
+cfl=shell
+cfn={shell,expand_expr,2}
+calls=10 1
+1 92
+cfl=shell
+cfn={shell,expand_exprs,2}
+calls=10 1
+1 0
+fl=application
+fn={application,get_env,2}
+1 27
+cfl=application_controller
+cfn={application_controller,get_env,2}
+calls=10 1
+1 71
+fl=io_lib_format
+fn={io_lib_format,control_limited,10}
+1 5
+cfl=io_lib
+cfn={io_lib,write,2}
+calls=2 1
+1 86
+cfl=io_lib_format
+cfn={io_lib_format,term,5}
+calls=2 1
+1 4
+fl=shell
+fn={shell,expand_expr,2}
+1 57
+cfl=shell
+cfn={shell,expand_exprs,2}
+calls=3 1
+1 0
+cfl=shell
+cfn={shell,expand_expr,2}
+calls=8 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,scan,2}
+1 12
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=2 1
+1 72
+cfl=erlang
+cfn={erlang,binary_to_list,1}
+calls=2 1
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,scan,2}
+calls=2 1
+1 0
+fl=io_lib
+fn={io_lib,write,2}
+1 19
+cfl=io_lib
+cfn={io_lib,get_option,3}
+calls=6 1
+1 52
+cfl=io_lib
+cfn={io_lib,write1,3}
+calls=2 1
+1 11
+cfl=epp
+cfn={epp,default_encoding,0}
+calls=2 1
+1 4
+fl=shell
+fn={shell,check_env,1}
+1 15
+cfl=application
+cfn={application,get_env,2}
+calls=4 1
+1 60
+fl=io_lib_format
+fn={io_lib_format,collect,2}
+1 24
+cfl=io_lib_format
+cfn={io_lib_format,collect_cseq,2}
+calls=2 1
+1 48
+cfl=io_lib_format
+cfn={io_lib_format,collect,2}
+calls=6 1
+1 0
+fl=application_controller
+fn={application_controller,get_env,2}
+1 52
+cfl=ets
+cfn={ets,lookup,2}
+calls=10 1
+1 19
+fl=erlang
+fn={erlang,list_to_tuple,1}
+1 69
+fl=erlang
+fn={erlang,tuple_to_list,1}
+1 64
+fl=shell
+fn={shell,del_cmd,4}
+1 27
+cfl=shell
+cfn={shell,has_binary,1}
+calls=4 1
+1 19
+cfl=erlang
+cfn={erlang,erase,1}
+calls=4 1
+1 7
+cfl=shell
+cfn={shell,del_cmd,4}
+calls=4 1
+1 0
+fl=shell
+fn={shell,get_history_and_results,0}
+1 12
+cfl=shell
+cfn={shell,get_env,2}
+calls=4 1
+1 38
+cfl=erlang
+cfn={erlang,min,2}
+calls=2 1
+1 2
+fl=io_lib
+fn={io_lib,get_option,3}
+1 19
+cfl=lists
+cfn={lists,keyfind,3}
+calls=6 1
+1 33
+fl=io_lib_format
+fn={io_lib_format,collect_cseq,2}
+1 25
+cfl=io_lib_format
+cfn={io_lib_format,field_width,2}
+calls=2 1
+1 14
+cfl=io_lib_format
+cfn={io_lib_format,precision,2}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,pad_char,2}
+calls=2 1
+1 2
+cfl=io_lib_format
+cfn={io_lib_format,modifiers,2}
+calls=2 1
+1 2
+cfl=io_lib_format
+cfn={io_lib_format,collect_cc,2}
+calls=2 1
+1 2
+fl=erlang
+fn={erlang,spawn_link,1}
+1 11
+cfl=erlang
+cfn={erlang,spawn_link,3}
+calls=2 1
+1 28
+fl=shell
+fn={shell,get_env,2}
+1 13
+cfl=application
+cfn={application,get_env,2}
+calls=4 1
+1 25
+fl=lists
+fn={lists,keyfind,3}
+1 18
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 18
+fl=io_lib_format
+fn={io_lib_format,build_small,1}
+1 25
+cfl=io_lib_format
+cfn={io_lib_format,control_small,7}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,build_small,1}
+calls=6 1
+1 0
+fl=erlang
+fn={erlang,spawn_link,3}
+1 28
+fl=io_lib_format
+fn={io_lib_format,count_small,1}
+1 4
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=2 1
+1 17
+fl=shell
+fn={shell,get_prompt_func,0}
+1 7
+cfl=application
+cfn={application,get_env,2}
+calls=2 1
+1 13
+fl=shell
+fn={shell,add_cmd,3}
+1 11
+cfl=erlang
+cfn={erlang,put,2}
+calls=4 1
+1 9
+fl=shell
+fn={shell,has_binary,1}
+1 10
+cfl=shell
+cfn={shell,has_bin,1}
+calls=4 1
+1 9
+fl=ets
+fn={ets,lookup,2}
+1 19
+fl=pseudo
+fn=garbage_collect
+1 18
+fl=io_lib_format
+fn={io_lib_format,count_small,2}
+1 17
+cfl=io_lib_format
+cfn={io_lib_format,count_small,2}
+calls=6 1
+1 0
+fl=io_lib_format
+fn={io_lib_format,field_width,2}
+1 8
+cfl=io_lib_format
+cfn={io_lib_format,field_width,3}
+calls=2 1
+1 3
+cfl=io_lib_format
+cfn={io_lib_format,field_value,2}
+calls=2 1
+1 3
+fl=io_lib_format
+fn={io_lib_format,get_option,3}
+1 8
+cfl=lists
+cfn={lists,keyfind,3}
+calls=2 1
+1 3
+fl=io_lib
+fn={io_lib,write1,3}
+1 7
+cfl=erlang
+cfn={erlang,integer_to_list,1}
+calls=2 1
+1 4
+fl=shell
+fn={shell,has_bin,1}
+1 9
+fl=erlang
+fn={erlang,put,2}
+1 9
+fl=erlang
+fn={erlang,erase,1}
+1 7
+fl=io_lib_format
+fn={io_lib_format,term,5}
+1 4
+fl=erlang
+fn={erlang,is_alive,0}
+1 4
+fl=erlang
+fn={erlang,integer_to_list,1}
+1 4
+fl=erlang
+fn={erlang,binary_to_list,1}
+1 4
+fl=epp
+fn={epp,default_encoding,0}
+1 4
+fl=io_lib_format
+fn={io_lib_format,sub,2}
+1 3
+fl=io_lib_format
+fn={io_lib_format,precision,2}
+1 3
+fl=io_lib_format
+fn={io_lib_format,field_width,3}
+1 3
+fl=io_lib_format
+fn={io_lib_format,field_value,2}
+1 3
+fl=io_lib_format
+fn={io_lib_format,decr_pc,2}
+1 3
+fl=io_lib_format
+fn={io_lib_format,control_small,7}
+1 3
+fl=io_lib_format
+fn={io_lib_format,pad_char,2}
+1 2
+fl=io_lib_format
+fn={io_lib_format,modifiers,2}
+1 2
+fl=io_lib_format
+fn={io_lib_format,collect_cc,2}
+1 2
+fl=erlang
+fn={erlang,min,2}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=shell
+cfn={shell,server_loop,7}
+calls=0 1
+1 15775478
+fl=erlang
+fn={erlang,apply,2}
+1 12
+cfl=shell
+cfn={shell,'-get_command/5-fun-0-',1}
+calls=1 1
+1 12569700
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 33
+fl=shell
+fn={shell,'-get_command/5-fun-0-',1}
+1 12
+cfl=io
+cfn={io,scan_erl_exprs,4}
+calls=1 1
+1 12568054
+cfl=erl_eval
+cfn={erl_eval,extended_parse_exprs,1}
+calls=1 1
+1 1629
+cfl=erlang
+cfn={erlang,exit,1}
+calls=1 1
+1 3
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=1 1
+1 2
+fl=io
+fn={io,scan_erl_exprs,4}
+1 2
+cfl=io
+cfn={io,request,2}
+calls=1 1
+1 12568052
+fl=io
+fn={io,request,2}
+1 5
+cfl=io
+cfn={io,execute_request,2}
+calls=1 1
+1 12568033
+cfl=io
+cfn={io,io_request,2}
+calls=1 1
+1 14
+fl=io
+fn={io,execute_request,2}
+1 15
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 12567978
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 37
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 3
+fl=pseudo
+fn=suspend
+1 12568011
+fl=erl_eval
+fn={erl_eval,extended_parse_exprs,1}
+1 12
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,1}
+calls=1 1
+1 977
+cfl=erl_parse
+cfn={erl_parse,parse_exprs,1}
+calls=1 1
+1 355
+cfl=erl_eval
+cfn={erl_eval,reset_expr_anno,1}
+calls=1 1
+1 196
+cfl=erl_eval
+cfn={erl_eval,tokens_fixup,1}
+calls=1 1
+1 89
+fl=erl_eval
+fn={erl_eval,expr_fixup,1}
+1 4
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,3}
+calls=1 1
+1 969
+cfl=erl_eval
+cfn={erl_eval,new_bindings,0}
+calls=1 1
+1 4
+fl=erl_eval
+fn={erl_eval,expr_fixup,3}
+1 870
+cfl=erlang
+cfn={erlang,tuple_to_list,1}
+calls=28 1
+1 47
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=28 1
+1 40
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 12
+cfl=erl_eval
+cfn={erl_eval,expr_fixup,3}
+calls=234 1
+1 0
+fl=erl_parse
+fn={erl_parse,parse_exprs,1}
+1 5
+cfl=erl_parse
+cfn={erl_parse,parse,1}
+calls=1 1
+1 347
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=1 1
+1 3
+fl=erl_parse
+fn={erl_parse,parse,1}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars0,5}
+calls=1 1
+1 345
+fl=erl_parse
+fn={erl_parse,yeccpars0,5}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,5}
+calls=1 1
+1 342
+fl=erl_parse
+fn={erl_parse,yeccpars1,5}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2,7}
+calls=1 1
+1 340
+fl=erl_parse
+fn={erl_parse,yeccpars2,7}
+1 31
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_0,7}
+calls=1 1
+1 338
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_7,7}
+calls=1 1
+1 332
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_10,7}
+calls=1 1
+1 327
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_24,7}
+calls=1 1
+1 322
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_42,7}
+calls=1 1
+1 303
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_29,7}
+calls=3 1
+1 298
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_238,7}
+calls=1 1
+1 285
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_311,7}
+calls=1 1
+1 262
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_28,7}
+calls=1 1
+1 254
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_220,7}
+calls=1 1
+1 215
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_314,7}
+calls=1 1
+1 185
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_506,7}
+calls=1 1
+1 5
+fl=erl_parse
+fn={erl_parse,yeccpars2_0,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 336
+fl=erl_parse
+fn={erl_parse,yeccpars1,7}
+1 31
+cfl=erl_parse
+cfn={erl_parse,yecctoken_end_location,1}
+calls=1 1
+1 24
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 6
+cfl=erl_parse
+cfn={erl_parse,yecc_end,1}
+calls=1 1
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars2,7}
+calls=13 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_7,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_10,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_24,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_pat_argument_list,7}
+calls=1 1
+1 319
+fl=erl_parse
+fn={erl_parse,yeccgoto_pat_argument_list,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_8,7}
+calls=1 1
+1 317
+fl=erl_parse
+fn={erl_parse,yeccpars2_8,7}
+1 4
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_clause_args,7}
+calls=1 1
+1 313
+fl=erl_parse
+fn={erl_parse,yeccgoto_clause_args,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_9,7}
+calls=1 1
+1 311
+fl=erl_parse
+fn={erl_parse,yeccpars2_9,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_84,7}
+calls=1 1
+1 309
+fl=erl_parse
+fn={erl_parse,yeccpars2_84,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_42,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_29,7}
+1 6
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_atomic,7}
+calls=3 1
+1 296
+fl=erl_parse
+fn={erl_parse,yeccgoto_atomic,7}
+1 6
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_56,7}
+calls=3 1
+1 294
+fl=erl_parse
+fn={erl_parse,yeccpars2_56,7}
+1 8
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_max,7}
+calls=3 1
+1 292
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr_max,7}
+1 7
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_51,7}
+calls=3 1
+1 290
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_304,7}
+calls=1 1
+1 271
+fl=erl_parse
+fn={erl_parse,yeccpars2_51,7}
+1 6
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_remote,7}
+calls=2 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_238,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_304,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_remote,7}
+calls=1 1
+1 269
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr_remote,7}
+1 5
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_50,7}
+calls=3 1
+1 267
+fl=erl_parse
+fn={erl_parse,modify_anno1,3}
+1 68
+cfl=erl_parse
+cfn={erl_parse,'-map_anno/2-fun-0-',3}
+calls=7 1
+1 116
+cfl=erl_parse
+cfn={erl_parse,'-fold_anno/3-fun-0-',3}
+calls=3 1
+1 72
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 12
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=14 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_50,7}
+1 8
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr,7}
+calls=2 1
+1 233
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_311,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_cont_27,7}
+calls=1 1
+1 260
+fl=erl_parse
+fn={erl_parse,yeccpars2_cont_27,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_28,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccgoto_expr,7}
+1 7
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_216,7}
+calls=1 1
+1 230
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_52,7}
+calls=2 1
+1 196
+fl=erl_parse
+fn={erl_parse,yeccpars2_216,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_220,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_tail,7}
+calls=1 1
+1 212
+fl=erl_parse
+fn={erl_parse,yeccgoto_tail,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_218,7}
+calls=1 1
+1 210
+fl=erl_parse
+fn={erl_parse,yeccpars2_218,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_list,7}
+calls=1 1
+1 208
+fl=erl_parse
+fn={erl_parse,yeccgoto_list,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_45,7}
+calls=1 1
+1 206
+fl=erl_parse
+fn={erl_parse,yeccpars2_45,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr_max,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_52,7}
+1 4
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_exprs,7}
+calls=2 1
+1 194
+fl=erl_eval
+fn={erl_eval,reset_expr_anno,1}
+1 1
+cfl=erl_eval
+cfn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+calls=1 1
+1 195
+fl=erl_eval
+fn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+1 9
+cfl=erl_parse
+cfn={erl_parse,map_anno,2}
+calls=1 1
+1 184
+cfl=erl_eval
+cfn={erl_eval,reset_anno,0}
+calls=1 1
+1 2
+cfl=erl_eval
+cfn={erl_eval,'-reset_expr_anno/1-lc$^0/1-0-',1}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccgoto_exprs,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_312,7}
+calls=1 1
+1 192
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_126,7}
+calls=1 1
+1 71
+fl=erl_parse
+fn={erl_parse,yeccpars2_312,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,yeccpars2_314,7}
+1 3
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_argument_list,7}
+calls=1 1
+1 182
+fl=erl_parse
+fn={erl_parse,map_anno,2}
+1 3
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=1 1
+1 181
+fl=erl_parse
+fn={erl_parse,yeccgoto_argument_list,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_310,7}
+calls=1 1
+1 180
+fl=erl_parse
+fn={erl_parse,yeccpars2_310,7}
+1 5
+cfl=erl_parse
+cfn={erl_parse,first_anno,1}
+calls=1 1
+1 93
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_call,7}
+calls=1 1
+1 82
+fl=erl_parse
+fn={erl_parse,'-map_anno/2-fun-0-',3}
+1 19
+cfl=erl_eval
+cfn={erl_eval,'-reset_anno/0-fun-0-',1}
+calls=7 1
+1 97
+fl=erl_eval
+fn={erl_eval,'-reset_anno/0-fun-0-',1}
+1 22
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=7 1
+1 44
+cfl=erl_anno
+cfn={erl_anno,new,1}
+calls=7 1
+1 31
+fl=erl_parse
+fn={erl_parse,first_anno,1}
+1 4
+cfl=erl_parse
+cfn={erl_parse,fold_anno,3}
+calls=1 1
+1 89
+fl=erl_parse
+fn={erl_parse,fold_anno,3}
+1 2
+cfl=erl_parse
+cfn={erl_parse,modify_anno1,3}
+calls=1 1
+1 87
+fl=erl_eval
+fn={erl_eval,tokens_fixup,1}
+1 45
+cfl=erl_eval
+cfn={erl_eval,token_fixup,1}
+calls=9 1
+1 44
+cfl=erl_eval
+cfn={erl_eval,tokens_fixup,1}
+calls=9 1
+1 0
+fl=erl_anno
+fn={erl_anno,location,1}
+1 25
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=14 1
+1 59
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_call,7}
+1 4
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_47,7}
+calls=1 1
+1 78
+fl=erl_parse
+fn={erl_parse,yeccpars2_47,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_expr,7}
+calls=1 1
+1 0
+fl=erl_parse
+fn={erl_parse,'-fold_anno/3-fun-0-',3}
+1 8
+cfl=erl_parse
+cfn={erl_parse,'-first_anno/1-fun-0-',2}
+calls=3 1
+1 64
+fl=erl_parse
+fn={erl_parse,yeccpars2_126,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_clause_body,7}
+calls=1 1
+1 69
+fl=erl_parse
+fn={erl_parse,yeccgoto_clause_body,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_342,7}
+calls=1 1
+1 67
+fl=erl_parse
+fn={erl_parse,yeccpars2_342,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_clause,7}
+calls=1 1
+1 65
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_clause,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_2,7}
+calls=1 1
+1 63
+fl=erl_parse
+fn={erl_parse,'-first_anno/1-fun-0-',2}
+1 22
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=6 1
+1 35
+cfl=erl_parse
+cfn={erl_parse,loc_lte,2}
+calls=3 1
+1 5
+cfl=erlang
+cfn={erlang,throw,1}
+calls=1 1
+1 2
+fl=erl_parse
+fn={erl_parse,yeccpars2_2,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function_clauses,7}
+calls=1 1
+1 61
+fl=erl_anno
+fn={erl_anno,anno_info,2}
+1 40
+cfl=lists
+cfn={lists,keyfind,3}
+calls=15 1
+1 23
+fl=erl_parse
+fn={erl_parse,yeccgoto_function_clauses,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_1,7}
+calls=1 1
+1 59
+fl=pseudo
+fn=garbage_collect
+1 60
+fl=erl_parse
+fn={erl_parse,yeccpars2_1,7}
+1 4
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_function,7}
+calls=1 1
+1 45
+cfl=erl_parse
+cfn={erl_parse,build_function,1}
+calls=1 1
+1 10
+fl=erlang
+fn={erlang,tuple_to_list,1}
+1 47
+fl=erl_parse
+fn={erl_parse,yeccgoto_function,7}
+1 1
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_3,7}
+calls=1 1
+1 44
+fl=erl_parse
+fn={erl_parse,yeccpars2_3,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars1,7}
+calls=1 1
+1 0
+fl=erl_eval
+fn={erl_eval,token_fixup,1}
+1 23
+cfl=erl_eval
+cfn={erl_eval,unscannable,1}
+calls=9 1
+1 14
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 7
+fl=erlang
+fn={erlang,list_to_tuple,1}
+1 40
+fl=erlang
+fn={erlang,demonitor,2}
+1 14
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 23
+fl=erl_anno
+fn={erl_anno,new,1}
+1 22
+cfl=erl_anno
+cfn={erl_anno,new_location,1}
+calls=8 1
+1 12
+fl=erl_parse
+fn={erl_parse,yecctoken_end_location,1}
+1 3
+cfl=erl_anno
+cfn={erl_anno,end_location,1}
+calls=1 1
+1 21
+fl=lists
+fn={lists,keyfind,3}
+1 23
+fl=erl_anno
+fn={erl_anno,end_location,1}
+1 6
+cfl=erl_anno
+cfn={erl_anno,text,1}
+calls=1 1
+1 6
+cfl=erl_anno
+cfn={erl_anno,location,1}
+calls=1 1
+1 5
+cfl=erl_anno
+cfn={erl_anno,end_location,3}
+calls=1 1
+1 4
+fl=io
+fn={io,io_request,2}
+1 7
+cfl=io
+cfn={io,bc_req,3}
+calls=1 1
+1 7
+fl=erl_eval
+fn={erl_eval,unscannable,1}
+1 14
+fl=erl_anno
+fn={erl_anno,new_location,1}
+1 12
+fl=erl_parse
+fn={erl_parse,build_function,1}
+1 3
+cfl=erl_parse
+cfn={erl_parse,check_clauses,3}
+calls=1 1
+1 7
+fl=io
+fn={io,bc_req,3}
+1 5
+cfl=net_kernel
+cfn={net_kernel,dflag_unicode_io,1}
+calls=1 1
+1 2
+fl=erl_parse
+fn={erl_parse,check_clauses,3}
+1 3
+cfl=erl_parse
+cfn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+calls=1 1
+1 4
+fl=erl_anno
+fn={erl_anno,text,1}
+1 2
+cfl=erl_anno
+cfn={erl_anno,anno_info,2}
+calls=1 1
+1 4
+fl=erl_parse
+fn={erl_parse,yeccpars2_506,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccgoto_form,7}
+calls=1 1
+1 3
+fl=erl_parse
+fn={erl_parse,loc_lte,2}
+1 5
+fl=erl_parse
+fn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+1 4
+cfl=erl_parse
+cfn={erl_parse,'-check_clauses/3-lc$^0/1-0-',3}
+calls=1 1
+1 0
+fl=erl_eval
+fn={erl_eval,new_bindings,0}
+1 2
+cfl=orddict
+cfn={orddict,new,0}
+calls=1 1
+1 2
+fl=erl_anno
+fn={erl_anno,end_location,3}
+1 4
+cfl=erl_anno
+cfn={erl_anno,end_location,3}
+calls=2 1
+1 0
+fl=erlang
+fn={erlang,monitor,2}
+1 3
+fl=erlang
+fn={erlang,exit,1}
+1 3
+fl=erl_parse
+fn={erl_parse,yeccgoto_form,7}
+1 2
+cfl=erl_parse
+cfn={erl_parse,yeccpars2_4,7}
+calls=1 1
+1 1
+fl=orddict
+fn={orddict,new,0}
+1 2
+fl=net_kernel
+fn={net_kernel,dflag_unicode_io,1}
+1 2
+fl=erlang
+fn={erlang,throw,1}
+1 2
+fl=erlang
+fn={erlang,group_leader,0}
+1 2
+fl=erl_eval
+fn={erl_eval,reset_anno,0}
+1 2
+fl=erl_parse
+fn={erl_parse,yeccpars2_4,7}
+1 1
+fl=erl_parse
+fn={erl_parse,yecc_end,1}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=erlang
+cfn={erlang,apply,2}
+calls=1 1
+1 12569745
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=0 1
+1 12578062
+fl=gen_server
+fn={gen_server,loop,7}
+1 22
+cfl=gen_server
+cfn={gen_server,decode_msg,9}
+calls=2 1
+1 12578050
+cfl=pseudo
+cfn=suspend
+calls=3 1
+1 12575669
+fl=gen_server
+fn={gen_server,decode_msg,9}
+1 7
+cfl=gen_server
+cfn={gen_server,handle_msg,6}
+calls=2 1
+1 12578046
+fl=gen_server
+fn={gen_server,handle_msg,6}
+1 19
+cfl=gen_server
+cfn={gen_server,handle_common_reply,8}
+calls=1 1
+1 12575554
+cfl=gen_server
+cfn={gen_server,try_handle_call,4}
+calls=1 1
+1 1197
+cfl=gen_server
+cfn={gen_server,try_dispatch,3}
+calls=1 1
+1 1141
+cfl=gen_server
+cfn={gen_server,reply,2}
+calls=1 1
+1 5
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=1 1
+1 0
+fl=pseudo
+fn=suspend
+1 12576977
+fl=gen_server
+fn={gen_server,handle_common_reply,8}
+1 2
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=1 1
+1 0
+fl=gingko_sync_server
+fn={gingko_sync_server,open_log,1}
+1 34
+cfl=filelib
+cfn={filelib,ensure_dir,1}
+calls=2 1
+1 1322
+cfl=disk_log
+cfn={disk_log,open,1}
+calls=2 1
+1 808
+cfl=gingko_sync_server
+cfn={gingko_sync_server,log_dir_base,1}
+calls=4 1
+1 58
+cfl=logger
+cfn={logger,debug,2}
+calls=2 1
+1 32
+cfl=erlang
+cfn={erlang,'++',2}
+calls=2 1
+1 3
+fl=gen_server
+fn={gen_server,call,3}
+1 18
+cfl=gen
+cfn={gen,call,4}
+calls=4 1
+1 1477
+fl=gen
+fn={gen,call,4}
+1 10
+cfl=gen
+cfn={gen,do_for_proc,2}
+calls=4 1
+1 1467
+fl=gen
+fn={gen,do_for_proc,2}
+1 20
+cfl=gen
+cfn={gen,'-call/4-fun-0-',4}
+calls=4 1
+1 1440
+cfl=erlang
+cfn={erlang,whereis,1}
+calls=4 1
+1 7
+fl=gen
+fn={gen,'-call/4-fun-0-',4}
+1 8
+cfl=gen
+cfn={gen,do_call,4}
+calls=4 1
+1 1432
+fl=gen
+fn={gen,do_call,4}
+1 83
+cfl=pseudo
+cfn=suspend
+calls=4 1
+1 1308
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=4 1
+1 28
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=4 1
+1 13
+fl=filelib
+fn={filelib,ensure_dir,1}
+1 17
+cfl=filelib
+cfn={filelib,do_is_dir,2}
+calls=2 1
+1 988
+cfl=filename
+cfn={filename,dirname,1}
+calls=2 1
+1 317
+fl=gen_server
+fn={gen_server,try_handle_call,4}
+1 4
+cfl=gingko_sync_server
+cfn={gingko_sync_server,handle_call,3}
+calls=1 1
+1 1193
+fl=gingko_sync_server
+fn={gingko_sync_server,handle_call,3}
+1 6
+cfl=gingko_sync_server
+cfn={gingko_sync_server,open_log,1}
+calls=1 1
+1 1169
+cfl=logger
+cfn={logger,debug,1}
+calls=1 1
+1 18
+fl=gen_server
+fn={gen_server,try_dispatch,3}
+1 3
+cfl=gen_server
+cfn={gen_server,try_dispatch,4}
+calls=1 1
+1 1138
+fl=gen_server
+fn={gen_server,try_dispatch,4}
+1 9
+cfl=gingko_sync_server
+cfn={gingko_sync_server,handle_cast,2}
+calls=1 1
+1 1129
+fl=gingko_sync_server
+fn={gingko_sync_server,handle_cast,2}
+1 10
+cfl=gingko_sync_server
+cfn={gingko_sync_server,open_log,1}
+calls=1 1
+1 1088
+cfl=logger
+cfn={logger,debug,1}
+calls=1 1
+1 19
+cfl=disk_log
+cfn={disk_log,sync,1}
+calls=1 1
+1 12
+fl=filelib
+fn={filelib,do_is_dir,2}
+1 7
+cfl=filelib
+cfn={filelib,eval_read_file_info,2}
+calls=2 1
+1 981
+fl=filelib
+fn={filelib,eval_read_file_info,2}
+1 6
+cfl=file
+cfn={file,read_file_info,1}
+calls=2 1
+1 975
+fl=file
+fn={file,read_file_info,1}
+1 8
+cfl=file
+cfn={file,check_and_call,2}
+calls=2 1
+1 805
+cfl=file
+cfn={file,file_name,1}
+calls=2 1
+1 162
+fl=disk_log
+fn={disk_log,open,1}
+1 10
+cfl=disk_log_server
+cfn={disk_log_server,open,1}
+calls=2 1
+1 765
+cfl=disk_log
+cfn={disk_log,check_arg,2}
+calls=2 1
+1 33
+fl=file
+fn={file,check_and_call,2}
+1 9
+cfl=file
+cfn={file,call,2}
+calls=2 1
+1 790
+cfl=file
+cfn={file,check_args,1}
+calls=2 1
+1 6
+fl=file
+fn={file,call,2}
+1 25
+cfl=gen_server
+cfn={gen_server,call,3}
+calls=2 1
+1 753
+cfl=erlang
+cfn={erlang,dt_restore_tag,1}
+calls=2 1
+1 5
+cfl=erlang
+cfn={erlang,list_to_tuple,1}
+calls=2 1
+1 4
+cfl=erlang
+cfn={erlang,dt_spread_tag,1}
+calls=2 1
+1 3
+fl=disk_log_server
+fn={disk_log_server,open,1}
+1 10
+cfl=gen_server
+cfn={gen_server,call,3}
+calls=2 1
+1 742
+cfl=disk_log_server
+cfn={disk_log_server,ensure_started,0}
+calls=2 1
+1 13
+fl=filename
+fn={filename,dirname,1}
+1 12
+cfl=filename
+cfn={filename,flatten,1}
+calls=2 1
+1 137
+cfl=filename
+cfn={filename,dirname,4}
+calls=2 1
+1 132
+cfl=filename
+cfn={filename,separators,0}
+calls=2 1
+1 36
+fl=file
+fn={file,file_name,1}
+1 11
+cfl=file
+cfn={file,file_name_1,2}
+calls=2 1
+1 148
+cfl=file
+cfn={file,native_name_encoding,0}
+calls=2 1
+1 3
+fl=file
+fn={file,file_name_1,2}
+1 148
+cfl=file
+cfn={file,file_name_1,2}
+calls=40 1
+1 0
+fl=filename
+fn={filename,flatten,1}
+1 6
+cfl=filename
+cfn={filename,do_flatten,2}
+calls=2 1
+1 131
+fl=filename
+fn={filename,dirname,4}
+1 103
+cfl=lists
+cfn={lists,reverse,1}
+calls=2 1
+1 11
+cfl=erlang
+cfn={erlang,'++',2}
+calls=6 1
+1 10
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+cfl=filename
+cfn={filename,dirname,4}
+calls=42 1
+1 0
+fl=filename
+fn={filename,do_flatten,2}
+1 131
+cfl=filename
+cfn={filename,do_flatten,2}
+calls=42 1
+1 0
+fl=gingko_sync_server
+fn={gingko_sync_server,log_dir_base,1}
+1 31
+cfl=erlang
+cfn={erlang,'++',2}
+calls=8 1
+1 15
+cfl=os
+cfn={os,getenv,1}
+calls=4 1
+1 12
+fl=logger
+fn={logger,do_log,3}
+1 15
+cfl=logger_config
+cfn={logger_config,allow,1}
+calls=4 1
+1 36
+fl=logger
+fn={logger,debug,1}
+1 5
+cfl=logger
+cfn={logger,log,2}
+calls=2 1
+1 32
+fl=logger_config
+fn={logger_config,allow,1}
+1 18
+cfl=persistent_term
+cfn={persistent_term,get,2}
+calls=4 1
+1 11
+cfl=logger_config
+cfn={logger_config,less_or_equal_level,2}
+calls=4 1
+1 7
+fl=filename
+fn={filename,separators,0}
+1 8
+cfl=os
+cfn={os,type,0}
+calls=2 1
+1 28
+fl=disk_log
+fn={disk_log,check_arg,2}
+1 27
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=4 1
+1 6
+cfl=disk_log
+cfn={disk_log,check_arg,2}
+calls=4 1
+1 0
+fl=logger
+fn={logger,log,2}
+1 4
+cfl=logger
+cfn={logger,do_log,3}
+calls=2 1
+1 28
+fl=logger
+fn={logger,debug,2}
+1 5
+cfl=logger
+cfn={logger,log,3}
+calls=2 1
+1 27
+fl=os
+fn={os,type,0}
+1 12
+cfl=erlang
+cfn={erlang,system_info,1}
+calls=2 1
+1 16
+fl=erlang
+fn={erlang,monitor,2}
+1 28
+fl=erlang
+fn={erlang,'++',2}
+1 28
+fl=logger
+fn={logger,log,3}
+1 4
+cfl=logger
+cfn={logger,do_log,3}
+calls=2 1
+1 23
+fl=erlang
+fn={erlang,system_info,1}
+1 10
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 6
+fl=pseudo
+fn=garbage_collect
+1 14
+fl=erlang
+fn={erlang,whereis,1}
+1 13
+fl=erlang
+fn={erlang,demonitor,2}
+1 13
+fl=disk_log_server
+fn={disk_log_server,ensure_started,0}
+1 7
+cfl=erlang
+cfn={erlang,whereis,1}
+calls=2 1
+1 6
+fl=os
+fn={os,getenv,1}
+1 12
+fl=disk_log
+fn={disk_log,sync,1}
+1 2
+cfl=disk_log
+cfn={disk_log,req,2}
+calls=1 1
+1 10
+fl=persistent_term
+fn={persistent_term,get,2}
+1 11
+fl=lists
+fn={lists,reverse,1}
+1 8
+cfl=lists
+cfn={lists,reverse,2}
+calls=2 1
+1 3
+fl=disk_log
+fn={disk_log,req,2}
+1 4
+cfl=disk_log_server
+cfn={disk_log_server,get_log_pid,1}
+calls=1 1
+1 6
+fl=logger_config
+fn={logger_config,less_or_equal_level,2}
+1 7
+fl=file
+fn={file,check_args,1}
+1 6
+cfl=file
+cfn={file,check_args,1}
+calls=2 1
+1 0
+fl=erlang
+fn={erlang,setelement,3}
+1 6
+fl=disk_log_server
+fn={disk_log_server,get_log_pid,1}
+1 4
+cfl=ets
+cfn={ets,lookup,2}
+calls=1 1
+1 2
+fl=gen_server
+fn={gen_server,reply,2}
+1 2
+cfl=gen
+cfn={gen,reply,2}
+calls=1 1
+1 3
+fl=erlang
+fn={erlang,dt_restore_tag,1}
+1 5
+fl=erlang
+fn={erlang,list_to_tuple,1}
+1 4
+fl=lists
+fn={lists,reverse,2}
+1 3
+fl=gen
+fn={gen,reply,2}
+1 3
+fl=file
+fn={file,native_name_encoding,0}
+1 3
+fl=erlang
+fn={erlang,dt_spread_tag,1}
+1 3
+fl=ets
+fn={ets,lookup,2}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12578062
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=disk_log
+cfn={disk_log,loop,1}
+calls=0 1
+1 12577015
+fl=disk_log
+fn={disk_log,loop,1}
+1 64
+cfl=disk_log
+cfn={disk_log,handle,2}
+calls=4 1
+1 12577010
+cfl=pseudo
+cfn=suspend
+calls=6 1
+1 12576222
+fl=disk_log
+fn={disk_log,handle,2}
+1 53
+cfl=disk_log
+cfn={disk_log,reply,3}
+calls=2 1
+1 12576961
+cfl=disk_log
+cfn={disk_log,do_write_cache,1}
+calls=1 1
+1 488
+cfl=disk_log
+cfn={disk_log,log_end,5}
+calls=1 1
+1 81
+cfl=disk_log
+cfn={disk_log,compare_arg,4}
+calls=2 1
+1 73
+cfl=disk_log
+cfn={disk_log,add_pid,3}
+calls=2 1
+1 17
+cfl=disk_log
+cfn={disk_log,mk_head,2}
+calls=2 1
+1 5
+cfl=erlang
+cfn={erlang,put,2}
+calls=2 1
+1 4
+cfl=erlang
+cfn={erlang,iolist_size,1}
+calls=1 1
+1 2
+cfl=disk_log
+cfn={disk_log,loop,1}
+calls=2 1
+1 0
+fl=disk_log
+fn={disk_log,reply,3}
+1 6
+cfl=disk_log
+cfn={disk_log,loop,1}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12576458
+fl=disk_log
+fn={disk_log,do_write_cache,1}
+1 32
+cfl=disk_log_1
+cfn={disk_log_1,write_cache,2}
+calls=1 1
+1 437
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=2 1
+1 13
+cfl=erlang
+cfn={erlang,put,2}
+calls=1 1
+1 6
+fl=disk_log_1
+fn={disk_log_1,write_cache,2}
+1 14
+cfl=disk_log_1
+cfn={disk_log_1,write_cache,3}
+calls=1 1
+1 416
+cfl=erlang
+cfn={erlang,erase,1}
+calls=1 1
+1 7
+fl=disk_log_1
+fn={disk_log_1,write_cache,3}
+1 14
+cfl=file
+cfn={file,write,2}
+calls=1 1
+1 402
+fl=file
+fn={file,write,2}
+1 9
+cfl=prim_file
+cfn={prim_file,write,2}
+calls=1 1
+1 393
+fl=prim_file
+fn={prim_file,write,2}
+1 32
+cfl=prim_file
+cfn={prim_file,write_1,2}
+calls=1 1
+1 326
+cfl=prim_file
+cfn={prim_file,reset_write_position,1}
+calls=1 1
+1 17
+cfl=erlang
+cfn={erlang,iolist_to_iovec,1}
+calls=1 1
+1 12
+cfl=prim_file
+cfn={prim_file,get_fd_data,1}
+calls=1 1
+1 6
+fl=prim_file
+fn={prim_file,write_1,2}
+1 12
+cfl=prim_file
+cfn={prim_file,write_nif,2}
+calls=1 1
+1 314
+fl=prim_file
+fn={prim_file,write_nif,2}
+1 93
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 221
+fl=disk_log
+fn={disk_log,log_end,5}
+1 13
+cfl=disk_log
+cfn={disk_log,do_log,3}
+calls=1 1
+1 59
+cfl=disk_log
+cfn={disk_log,state_ok,1}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=1 1
+1 3
+cfl=disk_log
+cfn={disk_log,send_reply,2}
+calls=1 1
+1 2
+fl=disk_log
+fn={disk_log,compare_arg,4}
+1 38
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 15
+cfl=disk_log
+cfn={disk_log,compare_arg,3}
+calls=4 1
+1 12
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+cfl=disk_log
+cfn={disk_log,compare_arg,4}
+calls=4 1
+1 0
+fl=disk_log
+fn={disk_log,do_log,3}
+1 4
+cfl=disk_log
+cfn={disk_log,halt_write,5}
+calls=1 1
+1 42
+cfl=disk_log
+cfn={disk_log,logl,3}
+calls=1 1
+1 13
+fl=disk_log
+fn={disk_log,halt_write,5}
+1 8
+cfl=disk_log_1
+cfn={disk_log_1,fwrite,4}
+calls=1 1
+1 30
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,put,2}
+calls=1 1
+1 2
+fl=disk_log_1
+fn={disk_log_1,fwrite,4}
+1 12
+cfl=disk_log_1
+cfn={disk_log_1,maybe_start_timer,1}
+calls=1 1
+1 15
+cfl=disk_log_1
+cfn={disk_log_1,cache_append,2}
+calls=1 1
+1 3
+fl=erlang
+fn={erlang,setelement,3}
+1 18
+fl=prim_file
+fn={prim_file,reset_write_position,1}
+1 11
+cfl=prim_buffer
+cfn={prim_buffer,size,1}
+calls=1 1
+1 6
+fl=disk_log
+fn={disk_log,add_pid,3}
+1 6
+cfl=disk_log
+cfn={disk_log,is_owner,2}
+calls=2 1
+1 11
+fl=disk_log_1
+fn={disk_log_1,maybe_start_timer,1}
+1 9
+cfl=erlang
+cfn={erlang,send_after,3}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,put,2}
+calls=1 1
+1 2
+fl=erlang
+fn={erlang,put,2}
+1 14
+fl=disk_log
+fn={disk_log,logl,3}
+1 3
+cfl=disk_log_1
+cfn={disk_log_1,logl,1}
+calls=1 1
+1 10
+fl=erlang
+fn={erlang,iolist_to_iovec,1}
+1 12
+fl=disk_log
+fn={disk_log,compare_arg,3}
+1 12
+fl=disk_log
+fn={disk_log,is_owner,2}
+1 8
+cfl=lists
+cfn={lists,keysearch,3}
+calls=2 1
+1 3
+fl=disk_log_1
+fn={disk_log_1,logl,1}
+1 6
+cfl=disk_log_1
+cfn={disk_log_1,logl,3}
+calls=1 1
+1 4
+fl=pseudo
+fn=garbage_collect
+1 8
+fl=erlang
+fn={erlang,erase,1}
+1 7
+fl=prim_file
+fn={prim_file,get_fd_data,1}
+1 6
+fl=prim_buffer
+fn={prim_buffer,size,1}
+1 6
+fl=disk_log
+fn={disk_log,mk_head,2}
+1 5
+fl=erlang
+fn={erlang,send_after,3}
+1 4
+fl=disk_log_1
+fn={disk_log_1,logl,3}
+1 4
+cfl=disk_log_1
+cfn={disk_log_1,logl,3}
+calls=1 1
+1 0
+fl=disk_log
+fn={disk_log,state_ok,1}
+1 3
+cfl=disk_log
+cfn={disk_log,state_err,2}
+calls=1 1
+1 1
+fl=lists
+fn={lists,keysearch,3}
+1 3
+fl=disk_log_1
+fn={disk_log_1,cache_append,2}
+1 3
+fl=erlang
+fn={erlang,iolist_size,1}
+1 2
+fl=disk_log
+fn={disk_log,send_reply,2}
+1 2
+fl=disk_log
+fn={disk_log,state_err,2}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12577015
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=0 1
+1 12577633
+fl=gen_server
+fn={gen_server,loop,7}
+1 23
+cfl=gen_server
+cfn={gen_server,decode_msg,9}
+calls=2 1
+1 12577628
+cfl=pseudo
+cfn=suspend
+calls=4 1
+1 12577062
+fl=gen_server
+fn={gen_server,decode_msg,9}
+1 6
+cfl=gen_server
+cfn={gen_server,handle_msg,6}
+calls=2 1
+1 12577625
+fl=gen_server
+fn={gen_server,handle_msg,6}
+1 18
+cfl=gen_server
+cfn={gen_server,try_handle_call,4}
+calls=2 1
+1 508
+cfl=gen_server
+cfn={gen_server,reply,2}
+calls=2 1
+1 16
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12577144
+fl=gen_server
+fn={gen_server,try_handle_call,4}
+1 13
+cfl=file_server
+cfn={file_server,handle_call,3}
+calls=2 1
+1 495
+fl=file_server
+fn={file_server,handle_call,3}
+1 10
+cfl=prim_file
+cfn={prim_file,read_file_info,1}
+calls=2 1
+1 485
+fl=prim_file
+fn={prim_file,read_file_info,1}
+1 5
+cfl=prim_file
+cfn={prim_file,read_info_1,3}
+calls=2 1
+1 480
+fl=prim_file
+fn={prim_file,read_info_1,3}
+1 34
+cfl=prim_file
+cfn={prim_file,read_info_nif,2}
+calls=2 1
+1 267
+cfl=prim_file
+cfn={prim_file,adjust_times,2}
+calls=2 1
+1 156
+cfl=prim_file
+cfn={prim_file,encode_path,1}
+calls=2 1
+1 23
+fl=prim_file
+fn={prim_file,read_info_nif,2}
+1 185
+cfl=pseudo
+cfn=suspend
+calls=4 1
+1 82
+fl=prim_file
+fn={prim_file,adjust_times,2}
+1 27
+cfl=prim_file
+cfn={prim_file,from_posix_seconds,2}
+calls=6 1
+1 123
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=2 1
+1 6
+fl=prim_file
+fn={prim_file,from_posix_seconds,2}
+1 51
+cfl=erlang
+cfn={erlang,universaltime_to_localtime,1}
+calls=6 1
+1 55
+cfl=erlang
+cfn={erlang,posixtime_to_universaltime,1}
+calls=6 1
+1 17
+fl=erlang
+fn={erlang,universaltime_to_localtime,1}
+1 43
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 12
+fl=prim_file
+fn={prim_file,encode_path,1}
+1 8
+cfl=prim_file
+cfn={prim_file,internal_name2native,1}
+calls=2 1
+1 15
+fl=pseudo
+fn=garbage_collect
+1 18
+fl=erlang
+fn={erlang,posixtime_to_universaltime,1}
+1 17
+fl=gen_server
+fn={gen_server,reply,2}
+1 6
+cfl=gen
+cfn={gen,reply,2}
+calls=2 1
+1 10
+fl=prim_file
+fn={prim_file,internal_name2native,1}
+1 9
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 6
+fl=gen
+fn={gen,reply,2}
+1 10
+fl=erlang
+fn={erlang,setelement,3}
+1 6
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12577633
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=0 1
+1 12578286
+fl=gen_server
+fn={gen_server,loop,7}
+1 41
+cfl=gen_server
+cfn={gen_server,decode_msg,9}
+calls=2 1
+1 12578283
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 12577978
+fl=gen_server
+fn={gen_server,decode_msg,9}
+1 18
+cfl=gen_server
+cfn={gen_server,handle_msg,6}
+calls=2 1
+1 12578277
+fl=gen_server
+fn={gen_server,handle_msg,6}
+1 19
+cfl=gen_server
+cfn={gen_server,handle_common_reply,8}
+calls=2 1
+1 12578184
+cfl=gen_server
+cfn={gen_server,try_dispatch,3}
+calls=2 1
+1 220
+fl=gen_server
+fn={gen_server,handle_common_reply,8}
+1 10
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12577978
+fl=gen_server
+fn={gen_server,try_dispatch,3}
+1 6
+cfl=gen_server
+cfn={gen_server,try_dispatch,4}
+calls=2 1
+1 214
+fl=gen_server
+fn={gen_server,try_dispatch,4}
+1 15
+cfl=logger_olp
+cfn={logger_olp,handle_info,2}
+calls=1 1
+1 118
+cfl=logger_olp
+cfn={logger_olp,handle_cast,2}
+calls=1 1
+1 81
+fl=logger_olp
+fn={logger_olp,handle_info,2}
+1 25
+cfl=logger_olp
+cfn={logger_olp,notify,2}
+calls=1 1
+1 66
+cfl=logger_olp
+cfn={logger_olp,set_mode,2}
+calls=1 1
+1 22
+cfl=logger_olp
+cfn={logger_olp,maybe_notify_mode_change,2}
+calls=1 1
+1 5
+fl=logger_olp
+fn={logger_olp,handle_cast,2}
+1 5
+cfl=logger_olp
+cfn={logger_olp,do_load,3}
+calls=1 1
+1 74
+cfl=logger_olp
+cfn={logger_olp,noreply_return,1}
+calls=1 1
+1 2
+fl=logger_olp
+fn={logger_olp,do_load,3}
+1 9
+cfl=logger_olp
+cfn={logger_olp,handle_load,5}
+calls=1 1
+1 39
+cfl=logger_olp
+cfn={logger_olp,check_load,1}
+calls=1 1
+1 23
+cfl=erlang
+cfn={erlang,monotonic_time,1}
+calls=1 1
+1 2
+cfl=logger_olp
+cfn={logger_olp,kill_if_choked,3}
+calls=1 1
+1 1
+fl=logger_olp
+fn={logger_olp,try_callback_call,4}
+1 18
+cfl=logger_h_common
+cfn={logger_h_common,notify,2}
+calls=1 1
+1 43
+cfl=logger_h_common
+cfn={logger_h_common,handle_load,2}
+calls=1 1
+1 10
+fl=logger_olp
+fn={logger_olp,notify,2}
+1 11
+cfl=logger_olp
+cfn={logger_olp,try_callback_call,4}
+calls=1 1
+1 55
+fl=logger_h_common
+fn={logger_h_common,notify,2}
+1 12
+cfl=logger_std_h
+cfn={logger_std_h,filesync,3}
+calls=1 1
+1 31
+fl=logger_olp
+fn={logger_olp,handle_load,5}
+1 12
+cfl=logger_olp
+cfn={logger_olp,try_callback_call,3}
+calls=1 1
+1 17
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 8
+cfl=logger_olp
+cfn={logger_olp,limit_burst,1}
+calls=1 1
+1 1
+cfl=erlang
+cfn={erlang,process_info,2}
+calls=1 1
+1 1
+fl=logger_std_h
+fn={logger_std_h,filesync,3}
+1 11
+cfl=logger_std_h
+cfn={logger_std_h,file_ctrl_filesync,2}
+calls=1 1
+1 20
+fl=logger_olp
+fn={logger_olp,set_mode,2}
+1 16
+cfl=persistent_term
+cfn={persistent_term,put,2}
+calls=2 1
+1 11
+fl=logger_olp
+fn={logger_olp,check_load,1}
+1 11
+cfl=erlang
+cfn={erlang,process_info,2}
+calls=2 1
+1 6
+cfl=logger_olp
+cfn={logger_olp,set_mode,2}
+calls=1 1
+1 5
+cfl=logger_olp
+cfn={logger_olp,maybe_notify_mode_change,2}
+calls=1 1
+1 1
+fl=logger_std_h
+fn={logger_std_h,file_ctrl_filesync,2}
+1 20
+fl=logger_olp
+fn={logger_olp,try_callback_call,3}
+1 1
+cfl=logger_olp
+cfn={logger_olp,try_callback_call,4}
+calls=1 1
+1 16
+fl=persistent_term
+fn={persistent_term,put,2}
+1 11
+fl=logger_h_common
+fn={logger_h_common,handle_load,2}
+1 4
+cfl=logger_std_h
+cfn={logger_std_h,write,4}
+calls=1 1
+1 6
+fl=pseudo
+fn=garbage_collect
+1 8
+fl=erlang
+fn={erlang,process_info,2}
+1 7
+fl=logger_std_h
+fn={logger_std_h,write,4}
+1 4
+cfl=logger_std_h
+cfn={logger_std_h,file_write,3}
+calls=1 1
+1 2
+fl=logger_olp
+fn={logger_olp,maybe_notify_mode_change,2}
+1 6
+fl=logger_std_h
+fn={logger_std_h,file_write,3}
+1 2
+fl=logger_olp
+fn={logger_olp,noreply_return,1}
+1 2
+fl=erlang
+fn={erlang,monotonic_time,1}
+1 2
+fl=logger_olp
+fn={logger_olp,limit_burst,1}
+1 1
+fl=logger_olp
+fn={logger_olp,kill_if_choked,3}
+1 1
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12578286
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=0 1
+1 12577159
+fl=gen_server
+fn={gen_server,loop,7}
+1 35
+cfl=gen_server
+cfn={gen_server,decode_msg,9}
+calls=4 1
+1 12577157
+cfl=pseudo
+cfn=suspend
+calls=5 1
+1 12576865
+fl=gen_server
+fn={gen_server,decode_msg,9}
+1 12
+cfl=gen_server
+cfn={gen_server,handle_msg,6}
+calls=4 1
+1 12577154
+fl=gen_server
+fn={gen_server,handle_msg,6}
+1 23
+cfl=gen_server
+cfn={gen_server,handle_common_reply,8}
+calls=2 1
+1 12576866
+cfl=gen_server
+cfn={gen_server,try_handle_call,4}
+calls=2 1
+1 145
+cfl=gen_server
+cfn={gen_server,try_dispatch,3}
+calls=2 1
+1 74
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=2 1
+1 0
+fl=gen_server
+fn={gen_server,handle_common_reply,8}
+1 5
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12576865
+fl=gen_server
+fn={gen_server,try_handle_call,4}
+1 10
+cfl=disk_log_server
+cfn={disk_log_server,handle_call,3}
+calls=2 1
+1 135
+fl=disk_log_server
+fn={disk_log_server,open,2}
+1 21
+cfl=disk_log_server
+cfn={disk_log_server,do_open,3}
+calls=2 1
+1 114
+cfl=disk_log_server
+cfn={disk_log_server,open,2}
+calls=2 1
+1 0
+fl=disk_log_server
+fn={disk_log_server,handle_call,3}
+1 4
+cfl=disk_log_server
+cfn={disk_log_server,open,2}
+calls=2 1
+1 131
+fl=disk_log_server
+fn={disk_log_server,do_open,3}
+1 11
+cfl=disk_log_server
+cfn={disk_log_server,do_internal_open,6}
+calls=2 1
+1 80
+cfl=disk_log_server
+cfn={disk_log_server,check_pending,4}
+calls=2 1
+1 15
+cfl=ets
+cfn={ets,lookup,2}
+calls=2 1
+1 8
+fl=disk_log_server
+fn={disk_log_server,do_internal_open,6}
+1 39
+cfl=erlang
+cfn={erlang,spawn,1}
+calls=2 1
+1 41
+fl=gen_server
+fn={gen_server,try_dispatch,3}
+1 4
+cfl=gen_server
+cfn={gen_server,try_dispatch,4}
+calls=2 1
+1 70
+fl=gen_server
+fn={gen_server,try_dispatch,4}
+1 7
+cfl=disk_log_server
+cfn={disk_log_server,handle_info,2}
+calls=2 1
+1 63
+fl=disk_log_server
+fn={disk_log_server,handle_info,2}
+1 31
+cfl=gen_server
+cfn={gen_server,reply,2}
+calls=2 1
+1 10
+cfl=lists
+cfn={lists,keydelete,3}
+calls=2 1
+1 8
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 7
+cfl=disk_log_server
+cfn={disk_log_server,open,2}
+calls=2 1
+1 4
+cfl=lists
+cfn={lists,keysearch,3}
+calls=2 1
+1 3
+fl=erlang
+fn={erlang,spawn,1}
+1 8
+cfl=erlang
+cfn={erlang,spawn,3}
+calls=2 1
+1 33
+fl=erlang
+fn={erlang,spawn,3}
+1 33
+fl=disk_log_server
+fn={disk_log_server,check_pending,4}
+1 10
+cfl=lists
+cfn={lists,keysearch,3}
+calls=2 1
+1 5
+fl=gen_server
+fn={gen_server,reply,2}
+1 4
+cfl=gen
+cfn={gen,reply,2}
+calls=2 1
+1 6
+fl=lists
+fn={lists,keysearch,3}
+1 8
+fl=lists
+fn={lists,keydelete,3}
+1 4
+cfl=lists
+cfn={lists,keydelete3,3}
+calls=2 1
+1 4
+fl=ets
+fn={ets,lookup,2}
+1 8
+fl=pseudo
+fn=garbage_collect
+1 7
+fl=gen
+fn={gen,reply,2}
+1 6
+fl=lists
+fn={lists,keydelete3,3}
+1 4
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12577159
+fl=proc_lib
+fn={proc_lib,init_p_do_apply,3}
+1 0
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=0 1
+1 12578172
+fl=gen_server
+fn={gen_server,loop,7}
+1 6
+cfl=gen_server
+cfn={gen_server,decode_msg,9}
+calls=1 1
+1 12578169
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 12575489
+fl=gen_server
+fn={gen_server,decode_msg,9}
+1 2
+cfl=gen_server
+cfn={gen_server,handle_msg,6}
+calls=1 1
+1 12578167
+fl=gen_server
+fn={gen_server,handle_msg,6}
+1 7
+cfl=gen_server
+cfn={gen_server,try_handle_call,4}
+calls=1 1
+1 2659
+cfl=gen_server
+cfn={gen_server,reply,2}
+calls=1 1
+1 9
+cfl=gen_server
+cfn={gen_server,loop,7}
+calls=1 1
+1 0
+fl=pseudo
+fn=suspend
+1 12577958
+fl=gen_server
+fn={gen_server,try_handle_call,4}
+1 3
+cfl=gingko_op_log
+cfn={gingko_op_log,handle_call,3}
+calls=1 1
+1 2656
+fl=gingko_op_log
+fn={gingko_op_log,handle_call,3}
+1 21
+cfl=gen_server
+cfn={gen_server,call,2}
+calls=1 1
+1 1326
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 1178
+cfl=disk_log
+cfn={disk_log,alog,2}
+calls=1 1
+1 50
+cfl=logger
+cfn={logger,debug,1}
+calls=2 1
+1 34
+cfl=logger
+cfn={logger,debug,2}
+calls=1 1
+1 23
+cfl=gen_server
+cfn={gen_server,cast,2}
+calls=1 1
+1 16
+cfl=gingko_op_log
+cfn={gingko_op_log,reply_retry_to_waiting,1}
+calls=1 1
+1 6
+cfl=erlang
+cfn={erlang,setelement,3}
+calls=1 1
+1 2
+fl=gen_server
+fn={gen_server,call,2}
+1 4
+cfl=gen
+cfn={gen,call,3}
+calls=1 1
+1 1322
+fl=gen
+fn={gen,call,3}
+1 2
+cfl=gen
+cfn={gen,call,4}
+calls=1 1
+1 1320
+fl=gen
+fn={gen,call,4}
+1 1
+cfl=gen
+cfn={gen,do_call,4}
+calls=1 1
+1 1319
+fl=gen
+fn={gen,do_call,4}
+1 20
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 1291
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,send,3}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,monitor,3}
+calls=1 1
+1 2
+fl=disk_log
+fn={disk_log,alog,2}
+1 5
+cfl=disk_log
+cfn={disk_log,notify,2}
+calls=1 1
+1 40
+cfl=erlang
+cfn={erlang,term_to_binary,1}
+calls=1 1
+1 5
+fl=logger
+fn={logger,do_log,3}
+1 11
+cfl=logger_config
+cfn={logger_config,allow,1}
+calls=3 1
+1 30
+fl=disk_log
+fn={disk_log,notify,2}
+1 6
+cfl=disk_log_server
+cfn={disk_log_server,get_log_pid,1}
+calls=1 1
+1 34
+fl=logger
+fn={logger,debug,1}
+1 4
+cfl=logger
+cfn={logger,log,2}
+calls=2 1
+1 30
+fl=disk_log_server
+fn={disk_log_server,get_log_pid,1}
+1 4
+cfl=ets
+cfn={ets,lookup,2}
+calls=1 1
+1 30
+fl=logger_config
+fn={logger_config,allow,1}
+1 14
+cfl=persistent_term
+cfn={persistent_term,get,2}
+calls=3 1
+1 9
+cfl=logger_config
+cfn={logger_config,less_or_equal_level,2}
+calls=3 1
+1 7
+fl=logger
+fn={logger,log,2}
+1 5
+cfl=logger
+cfn={logger,do_log,3}
+calls=2 1
+1 25
+fl=ets
+fn={ets,lookup,2}
+1 15
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 15
+fl=logger
+fn={logger,debug,2}
+1 4
+cfl=logger
+cfn={logger,log,3}
+calls=1 1
+1 19
+fl=logger
+fn={logger,log,3}
+1 3
+cfl=logger
+cfn={logger,do_log,3}
+calls=1 1
+1 16
+fl=gen_server
+fn={gen_server,cast,2}
+1 3
+cfl=gen_server
+cfn={gen_server,do_cast,2}
+calls=1 1
+1 13
+fl=pseudo
+fn=garbage_collect
+1 15
+fl=gen_server
+fn={gen_server,do_cast,2}
+1 4
+cfl=gen_server
+cfn={gen_server,do_send,2}
+calls=1 1
+1 7
+cfl=gen_server
+cfn={gen_server,cast_msg,1}
+calls=1 1
+1 2
+fl=persistent_term
+fn={persistent_term,get,2}
+1 9
+fl=gen_server
+fn={gen_server,reply,2}
+1 2
+cfl=gen
+cfn={gen,reply,2}
+calls=1 1
+1 7
+fl=logger_config
+fn={logger_config,less_or_equal_level,2}
+1 7
+fl=gen_server
+fn={gen_server,do_send,2}
+1 4
+cfl=erlang
+cfn={erlang,send,2}
+calls=1 1
+1 3
+fl=gen
+fn={gen,reply,2}
+1 7
+fl=gingko_op_log
+fn={gingko_op_log,reply_retry_to_waiting,1}
+1 4
+cfl=lists
+cfn={lists,foldl,3}
+calls=1 1
+1 2
+fl=erlang
+fn={erlang,term_to_binary,1}
+1 5
+fl=erlang
+fn={erlang,demonitor,2}
+1 4
+fl=erlang
+fn={erlang,send,2}
+1 3
+fl=lists
+fn={lists,foldl,3}
+1 2
+fl=gen_server
+fn={gen_server,cast_msg,1}
+1 2
+fl=erlang
+fn={erlang,setelement,3}
+1 2
+fl=erlang
+fn={erlang,send,3}
+1 2
+fl=erlang
+fn={erlang,monitor,3}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=proc_lib
+cfn={proc_lib,init_p_do_apply,3}
+calls=0 1
+1 12578172
+fl=fprof
+fn={fprof,handle_req,3}
+1 11
+cfl=fprof
+cfn={fprof,server_loop,1}
+calls=1 1
+1 15776606
+cfl=fprof
+cfn={fprof,trace_off,0}
+calls=1 1
+1 217
+cfl=fprof
+cfn={fprof,trace_on,3}
+calls=0 1
+1 8
+cfl=fprof
+cfn={fprof,reply,2}
+calls=1 1
+1 4
+cfl=erlang
+cfn={erlang,put,2}
+calls=2 1
+1 3
+fl=fprof
+fn={fprof,server_loop,1}
+1 10
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 15776376
+cfl=fprof
+cfn={fprof,handle_req,3}
+calls=1 1
+1 0
+fl=pseudo
+fn=suspend
+1 15776485
+fl=fprof
+fn={fprof,trace_off,0}
+1 17
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 109
+cfl=erlang
+cfn={erlang,trace,3}
+calls=2 1
+1 57
+cfl=erlang
+cfn={erlang,trace_delivered,1}
+calls=1 1
+1 34
+fl=erlang
+fn={erlang,trace,3}
+1 28
+cfl=erlang
+cfn={erlang,ensure_tracer_module_loaded,2}
+calls=2 1
+1 18
+cfl=erts_internal
+cfn={erts_internal,trace,3}
+calls=2 1
+1 4
+cfl=erlang
+cfn={erlang,error,3}
+calls=1 1
+1 4
+cfl=lists
+cfn={lists,keyfind,3}
+calls=1 1
+1 3
+fl=erlang
+fn={erlang,trace_delivered,1}
+1 34
+fl=fprof
+fn={fprof,trace_on,3}
+1 4
+cfl=lists
+cfn={lists,foreach,2}
+calls=1 1
+1 14
+cfl=erlang
+cfn={erlang,put,2}
+calls=1 1
+1 4
+fl=erlang
+fn={erlang,ensure_tracer_module_loaded,2}
+1 12
+cfl=lists
+cfn={lists,keyfind,3}
+calls=2 1
+1 6
+fl=lists
+fn={lists,foreach,2}
+1 14
+fl=lists
+fn={lists,keyfind,3}
+1 9
+fl=erlang
+fn={erlang,put,2}
+1 7
+fl=fprof
+fn={fprof,reply,2}
+1 4
+fl=erts_internal
+fn={erts_internal,trace,3}
+1 4
+fl=erlang
+fn={erlang,error,3}
+1 4
+fl=pseudo
+fn=undefined
+1 0
+cfl=fprof
+cfn={fprof,handle_req,3}
+calls=0 1
+1 15776629
+cfl=fprof
+cfn={fprof,trace_on,3}
+calls=0 1
+1 14
+fl=logger_std_h
+fn={logger_std_h,file_ctrl_loop,1}
+1 45
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 12577442
+cfl=logger_std_h
+cfn={logger_std_h,write_to_dev,2}
+calls=1 1
+1 604
+cfl=logger_std_h
+cfn={logger_std_h,sync_dev,1}
+calls=1 1
+1 7
+cfl=logger_std_h
+cfn={logger_std_h,file_ctrl_loop,1}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12577995
+fl=logger_std_h
+fn={logger_std_h,write_to_dev,2}
+1 3
+cfl=io
+cfn={io,put_chars,2}
+calls=1 1
+1 601
+fl=io
+fn={io,put_chars,2}
+1 2
+cfl=io
+cfn={io,put_chars,3}
+calls=1 1
+1 599
+fl=io
+fn={io,put_chars,3}
+1 2
+cfl=io
+cfn={io,o_request,3}
+calls=1 1
+1 597
+fl=io
+fn={io,o_request,3}
+1 4
+cfl=io
+cfn={io,request,2}
+calls=1 1
+1 593
+fl=io
+fn={io,request,2}
+1 7
+cfl=io
+cfn={io,execute_request,2}
+calls=1 1
+1 582
+cfl=io
+cfn={io,io_request,2}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,group_leader,0}
+calls=1 1
+1 2
+cfl=io
+cfn={io,request,2}
+calls=1 1
+1 0
+fl=io
+fn={io,execute_request,2}
+1 22
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 553
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 5
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 2
+fl=logger_std_h
+fn={logger_std_h,sync_dev,1}
+1 7
+fl=erlang
+fn={erlang,demonitor,2}
+1 5
+fl=io
+fn={io,io_request,2}
+1 2
+fl=erlang
+fn={erlang,monitor,2}
+1 2
+fl=erlang
+fn={erlang,group_leader,0}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=logger_std_h
+cfn={logger_std_h,file_ctrl_loop,1}
+calls=0 1
+1 12578098
+fl=init
+fn={init,loop,1}
+1 20
+cfl=pseudo
+cfn=suspend
+calls=2 1
+1 12589649
+cfl=init
+cfn={init,handle_msg,2}
+calls=2 1
+1 42
+cfl=init
+cfn={init,loop,1}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12589649
+fl=init
+fn={init,handle_msg,2}
+1 14
+cfl=init
+cfn={init,do_handle_msg,2}
+calls=2 1
+1 28
+fl=init
+fn={init,do_handle_msg,2}
+1 28
+fl=pseudo
+fn=undefined
+1 0
+cfl=init
+cfn={init,loop,1}
+calls=0 1
+1 12589711
+fl=group
+fn={group,server_loop,3}
+1 23
+cfl=pseudo
+cfn=suspend
+calls=3 1
+1 12577604
+cfl=group
+cfn={group,io_request,6}
+calls=1 1
+1 37
+cfl=group
+cfn={group,io_reply,3}
+calls=1 1
+1 3
+cfl=group
+cfn={group,server_loop,3}
+calls=2 1
+1 0
+fl=pseudo
+fn=suspend
+1 12577606
+fl=group
+fn={group,io_request,6}
+1 6
+cfl=group
+cfn={group,io_request,5}
+calls=1 1
+1 31
+fl=group
+fn={group,io_request,5}
+1 11
+cfl=pseudo
+cfn=garbage_collect
+calls=1 1
+1 12
+cfl=group
+cfn={group,send_drv,2}
+calls=1 1
+1 6
+cfl=unicode
+cfn={unicode,characters_to_binary,2}
+calls=1 1
+1 2
+fl=pseudo
+fn=garbage_collect
+1 12
+fl=group
+fn={group,send_drv,2}
+1 4
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 2
+fl=group
+fn={group,io_reply,3}
+1 3
+fl=unicode
+fn={unicode,characters_to_binary,2}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=group
+cfn={group,server_loop,3}
+calls=0 1
+1 12577667
+fl=erlang
+fn={erlang,apply,2}
+1 6
+cfl=disk_log_server
+cfn={disk_log_server,'-do_internal_open/6-fun-0-',3}
+calls=1 1
+1 169
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 27
+fl=disk_log_server
+fn={disk_log_server,'-do_internal_open/6-fun-0-',3}
+1 5
+cfl=disk_log
+cfn={disk_log,internal_open,2}
+calls=1 1
+1 164
+fl=disk_log
+fn={disk_log,internal_open,2}
+1 15
+cfl=disk_log
+cfn={disk_log,req2,2}
+calls=1 1
+1 139
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 10
+fl=pseudo
+fn=suspend
+1 143
+fl=disk_log
+fn={disk_log,req2,2}
+1 3
+cfl=disk_log
+cfn={disk_log,monitor_request,2}
+calls=1 1
+1 136
+fl=disk_log
+fn={disk_log,monitor_request,2}
+1 11
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 116
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 7
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 2
+fl=pseudo
+fn=garbage_collect
+1 10
+fl=erlang
+fn={erlang,demonitor,2}
+1 7
+fl=erlang
+fn={erlang,monitor,2}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=erlang
+cfn={erlang,apply,2}
+calls=1 1
+1 202
+fl=erlang
+fn={erlang,apply,2}
+1 6
+cfl=disk_log_server
+cfn={disk_log_server,'-do_internal_open/6-fun-0-',3}
+calls=1 1
+1 117
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 47
+fl=disk_log_server
+fn={disk_log_server,'-do_internal_open/6-fun-0-',3}
+1 6
+cfl=disk_log
+cfn={disk_log,internal_open,2}
+calls=1 1
+1 111
+fl=pseudo
+fn=suspend
+1 114
+fl=disk_log
+fn={disk_log,internal_open,2}
+1 11
+cfl=disk_log
+cfn={disk_log,req2,2}
+calls=1 1
+1 90
+cfl=pseudo
+cfn=garbage_collect
+calls=2 1
+1 10
+fl=disk_log
+fn={disk_log,req2,2}
+1 2
+cfl=disk_log
+cfn={disk_log,monitor_request,2}
+calls=1 1
+1 88
+fl=disk_log
+fn={disk_log,monitor_request,2}
+1 17
+cfl=pseudo
+cfn=suspend
+calls=1 1
+1 67
+cfl=erlang
+cfn={erlang,monitor,2}
+calls=1 1
+1 2
+cfl=erlang
+cfn={erlang,demonitor,2}
+calls=1 1
+1 2
+fl=pseudo
+fn=garbage_collect
+1 10
+fl=erlang
+fn={erlang,monitor,2}
+1 2
+fl=erlang
+fn={erlang,demonitor,2}
+1 2
+fl=pseudo
+fn=undefined
+1 0
+cfl=erlang
+cfn={erlang,apply,2}
+calls=1 1
+1 170
