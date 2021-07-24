@@ -12,7 +12,7 @@
 
 mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 3}.
+concurrent_workers() -> {ok, 1}.
 %% Test duration (minutes)
 duration() -> {ok, 5}.
 %% Operations (and associated mix)
@@ -27,7 +27,7 @@ test_dir() -> {ok, "tests"}.
 
 %% Key generators
 %% {uniform_int, N} - Choose a uniformly distributed integer between 0 and N
-key_generator() -> {ok, {uniform_int, 1000}}.
+key_generator() -> {ok, {uniform_int, 100000}}.
 
 %% Value generators
 %% {fixed_bin, N} - Fixed size binary blob of N bytes
@@ -52,7 +52,7 @@ new(Id) ->
 run(get_version, KeyGen, _ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
   Key = KeyGen(),
   Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn]),
-  %io:format("RPC Result: ~p ~n",[Result]),
+  io:format("RPC Result: ~p ~n",[Result]),
   {ok, State};
 
 run(update, KeyGen, ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
