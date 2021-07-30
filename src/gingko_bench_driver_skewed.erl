@@ -12,14 +12,14 @@
 
 mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 100}.
+concurrent_workers() -> {ok, 1}.
 %% Test duration (minutes)
-duration() -> {ok, 1}.
+duration() -> {ok, 2}.
 %% Operations (and associated mix)
 operations() ->
-    {ok, [{get_version, 1},
-      {update, 1},
-      {commit, 1}
+    {ok, [{get_version, 5},
+      {update, 5},
+      {commit, 5}
     ]}.
 
 %% Base test output directory
@@ -52,22 +52,16 @@ new(Id) ->
 
 run(get_version, KeyGen, _ValueGen, State = #state{node =Node,id = Id, module =Mod, clock = Clock}) ->
   UpdatedClock = Clock+1,
-  Key = Clock,
-  Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn, vectorclock:set(mydc,Clock,vectorclock:new()), vectorclock:set(mydc,UpdatedClock,vectorclock:new())]),
-  %io:format("Worker: ~p Clock: ~p RPC Result: ~p ~n",[Id, Clock, Result]),
+  Result = rpc:call(Node,Mod,get_version,[dummy_key, antidote_crdt_counter_pn, vectorclock:set(mydc,UpdatedClock,vectorclock:new()), vectorclock:set(mydc,UpdatedClock+1,vectorclock:new())]),
   {ok, State#state{clock = UpdatedClock}};
 
 run(update, KeyGen, ValueGen, State = #state{node =Node, id = Id, module =Mod, clock = Clock}) ->
-  %io:format("Worker: ~p Clock: ~p Update ~n",[Id, Clock]),
-  Key = Clock,
-  Result = rpc:call(Node,Mod,update,[Key, antidote_crdt_counter_pn,txnId, 1]),
-
-  {ok, State};
+  UpdatedClock = Clock+1,
+  Result = rpc:call(Node,Mod,update,[dummy_key, antidote_crdt_counter_pn,txnId, 1]),
+  {ok, State#state{clock= UpdatedClock}};
 run(commit, KeyGen, ValueGen, State = #state{node =Node,id = Id,  module =Mod, clock = Clock}) ->
-  %io:format("Worker: ~p Clock: ~p Commit ~n",[Id, Clock]),
-  UpdatedClock = Clock,
-  Key = Clock,
-  Result = rpc:call(Node,Mod,commit,[[Key],txnId,{1, 1234}, vectorclock:set(mydc,Clock, vectorclock:new())]),
+  UpdatedClock = Clock+1,
+  Result = rpc:call(Node,Mod,commit,[[dummy_key],txnId,{1, 1234}, vectorclock:set(mydc,UpdatedClock, vectorclock:new())]),
   {ok, State#state{clock = UpdatedClock}}.
 
 terminate(_, _) -> ok.

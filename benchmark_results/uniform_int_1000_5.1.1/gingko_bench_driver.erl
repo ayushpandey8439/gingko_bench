@@ -12,14 +12,14 @@
 
 mode() -> {ok, {rate, max}}.
 %% Number of concurrent workers
-concurrent_workers() -> {ok, 100 }.
+concurrent_workers() -> {ok, 100}.
 %% Test duration (minutes)
 duration() -> {ok, 5}.
 %% Operations (and associated mix)
 operations() ->
-    {ok, [{get_version, 5},
-      {update, 1},
-      {commit, 1}
+    {ok, [{get_version, 95},
+      {update, 5},
+      {commit, 5}
     ]}.
 
 %% Base test output directory
@@ -27,7 +27,7 @@ test_dir() -> {ok, "tests"}.
 
 %% Key generators
 %% {uniform_int, N} - Choose a uniformly distributed integer between 0 and N
-key_generator() -> {ok, {pareto_int, 1000}}.
+key_generator() -> {ok, {uniform_int, 500}}.
 
 %% Value generators
 %% {fixed_bin, N} - Fixed size binary blob of N bytes
@@ -50,20 +50,19 @@ new(Id) ->
     {ok, State}.
 
 run(get_version, KeyGen, _ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
-  Key = KeyGen(),
-  Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn]),
-  %io:format("RPC Result: ~p ~n",[Result]),
+  Key = KeyGen() +1,
+  Clock = rand:uniform(Key),
+  Result = rpc:call(Node,Mod,get_version,[Key, antidote_crdt_counter_pn, ignore, vectorclock:set(mydc,Clock,vectorclock:new())]),
   {ok, State};
 
 run(update, KeyGen, ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
-  Key = KeyGen(),
+  Key = KeyGen()+1,
   Result = rpc:call(Node,Mod,update,[Key, antidote_crdt_counter_pn,txnId, 1]),
-  %io:format("RPC Result: ~p ~n",[Result]),
   {ok, State};
 run(commit, KeyGen, ValueGen, #{node:=Node, id:=Id, module:=Mod} = State) ->
-  Key = KeyGen(),
-  Result = rpc:call(Node,Mod,commit,[[Key],txnId,{1, 1234}]),
-  %io:format("RPC Result: ~p ~n",[Result]),
+  Key = KeyGen()+1,
+  Clock = rand:uniform(Key),
+  Result = rpc:call(Node,Mod,commit,[[Key],txnId,{1, 1234}, vectorclock:set(mydc, Clock, vectorclock:new())]),
   {ok, State}.
 
 terminate(_, _) -> ok.
